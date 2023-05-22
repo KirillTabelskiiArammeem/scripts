@@ -1,0 +1,49 @@
+Issue type: Bug
+ERP-9032
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-9054
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-9027
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-9070
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-9058
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8805
+Priority: Medium
+
+
+RESOLVED
+
+Issue type: Task
+ERP-9022
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+

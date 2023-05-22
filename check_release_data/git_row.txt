@@ -1,0 +1,33 @@
+@VladyslavMykhailovskyiArammeem
+@KirillTabelskiiArammeem
+ERP-8805 aram_helpdesk 
+6c51e69
+@VladyslavMykhailovskyiArammeem
+@KirillTabelskiiArammeem
+ERP-9054 aram_helpdesk 
+977ef80
+@NikitaRyzhenkovArammeem
+@KirillTabelskiiArammeem
+ERP-9058 order | added getting effective_order_cohort and premium fro… 
+5b83716
+@VladyslavMykhailovskyiArammeem
+@KirillTabelskiiArammeem
+ERP-9032 aram_helpdesk 
+ca723b3
+@NikitaRyzhenkovArammeem
+@KirillTabelskiiArammeem
+ERP-9022 order | fixed getting initiator chat
+b27917c
+@NikitaRyzhenkovArammeem
+@KirillTabelskiiArammeem
+ERP-9058 order | fixed mapping keys
+fa8aea7
+@KirillTabelskiiArammeem
+ERP-9070 An assign job should run for user's team on a ticket closing
+556a3fc
+@KirillTabelskiiArammeem
+ERP-9070 An assign job should run for user's team on a ticket closing
+71c9691
+@NikitaRyzhenkovArammeem
+@KirillTabelskiiArammeem
+ERP-9091 temporary fix for premium team

@@ -1,0 +1,8 @@
+load-dotenv
+pandas
+postgres
+cachetools
+python-dotenv
+psycopg2-binary
+redis
+

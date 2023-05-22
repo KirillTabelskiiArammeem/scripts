@@ -1,0 +1,1 @@
+celery -b redis://redis:6379/1 --result-backend db+postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME} result
