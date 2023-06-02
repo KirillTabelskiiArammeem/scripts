@@ -32,7 +32,7 @@ def print_report(title: str, erp_set: set):
 def main():
     jira = process_data_file('jira_row.txt')
     git = process_data_file('git_row.txt')
-    #print_report('', jira)
+    print_report('Stated tasks in jira:', jira)
     jira_minus_git = jira - git
     git_minus_jira = git - jira
 
