@@ -1,0 +1,133 @@
+@EugeneAndreevArammeem
+ERP-5734 aram_mcp
+e72a6b9
+@EugeneAndreevArammeem
+Merge pull request #237 from arammeem/fix/ERP-5734
+d6fd8d7
+@NikitaRyzhenkovArammeem
+fix/ERP-6084
+2759200
+@NikitaRyzhenkovArammeem
+Merge pull request #239 from arammeem/fix/ERP-6084
+182352b
+@NikitaRyzhenkovArammeem
+Revert "fix/ERP-6084"
+fee0217
+@NikitaRyzhenkovArammeem
+Merge pull request #241 from arammeem/fix/ERP-6084-revert
+867cc89
+@DinarGabbasovArammeem
+ERP_6133 aram_mcp | Ticket type should be required
+1e1d069
+@DinarGabbasovArammeem
+Merge pull request #242 from arammeem/feature/ERP-6133-required-ticke…
+53c8592
+@NikitaRyzhenkovArammeem
+Revert "Revert "fix/ERP-6084""
+70fc43a
+@NikitaRyzhenkovArammeem
+Merge pull request #243 from arammeem/fix/ERP-6084-revert-of-revert
+e299396
+@DinarGabbasovArammeem
+ERP-6133 aram_mcp | Fix domain on form view for type of ticket
+f751544
+@DinarGabbasovArammeem
+Merge pull request #244 from arammeem/fix/ERP-6133-required-ticket-type
+3c261f1
+@AgustinWiskyArammeem
+BIN-9323 chore (Dockerfile) upgrade core
+1208aa9
+@AgustinWiskyArammeem
+Merge pull request #248 from arammeem/fix/BIN-9323-odoo-12-reset-queu…
+852a371
+@DinarGabbasovArammeem
+ERP-6133 aram_mcp | highlight required field Ticket Type when move ti…
+35aee7d
+@DinarGabbasovArammeem
+Merge pull request #247 from arammeem/fix/ERP-6133-required-ticket-ty…
+c283549
+@NikitaRyzhenkovArammeem
+ERP-6084 Disabled odoo auto mails
+9d34085
+@NikitaRyzhenkovArammeem
+Merge branch 'develop' into fix/ERP-6084-disabled-odoo-notification
+6a4c636
+@NikitaRyzhenkovArammeem
+Merge pull request #246 from arammeem/fix/ERP-6084-disabled-odoo-noti…
+3ef28dc
+@NikitaRyzhenkovArammeem
+ERP-5969 changed default stage for POS_EVENTS
+bd9ea6a
+@NikitaRyzhenkovArammeem
+Merge pull request #240 from arammeem/feature/ERP-5969
+86becc2
+@DinarGabbasovArammeem
+ERP-6328 helpdesk_mgmt | Restore original version of the module
+c07f9eb
+@DinarGabbasovArammeem
+ERP-6328 helpdesk_mgmt_aram | New module to extend helpdesk_mgmt module
+955c8b8
+@DinarGabbasovArammeem
+ERP-6328 helpdesk_motive | Restore original version of the module
+21dab98
+@DinarGabbasovArammeem
+ERP-6328 helpdesk_motive_aram | New module to extend helpdesk_motive …
+aedb360
+@DinarGabbasovArammeem
+ERP-6328 helpdesk_type | Restore original version of the module
+7fc2b10
+@DinarGabbasovArammeem
+ERP-6328 helpdesk_type_aram | New module to extend helpdesk_type module
+b90540f
+@DinarGabbasovArammeem
+ERP-6328 aram_agent_status | Fix depends after refactoring
+26448b7
+@DinarGabbasovArammeem
+ERP-6328 kafka_mcp | Fix group ref after refactoring
+f91fbd0
+@DinarGabbasovArammeem
+ERP-6328 users_dashboard | Fix depends after refactoring
+1b1d627
+DinarGabbasovArammeem and others added 14 commits last week
+@DinarGabbasovArammeem
+ERP-6328 aram_mcp | Fix errors after refactoring
+0877a7d
+@DinarGabbasovArammeem
+ERP-6328 aram_mcp_assign_ticket | Fix depends after refactoring
+8077f52
+@DinarGabbasovArammeem
+Merge pull request #250 from arammeem/feature/ERP-6328-refactoring-mo…
+02ed9a6
+@NikitaRyzhenkovArammeem
+ERP-6195 Migration allow to update old tickets for Backend
+1ced639
+@NikitaRyzhenkovArammeem
+Merge pull request #245 from arammeem/feature/ERP-6195
+e0447cc
+@DinarGabbasovArammeem
+ERP-6356 users_dashboard | Fix missing channel
+446e458
+@DinarGabbasovArammeem
+Merge pull request #251 from arammeem/fix/ERP-6356-fix-job-without-ch…
+251e090
+@KirillTabelskiiArammeem
+Revert "Feature/erp 6328 refactoring modules"
+1dcd4ad
+@KirillTabelskiiArammeem
+Merge pull request #252 from arammeem/feature/ERP-6328-refactoring-mo…
+740fcdb
+@KirillTabelskiiArammeem
+ERP-6356 force channel root.set_user_offline
+1053804
+@KirillTabelskiiArammeem
+Merge pull request #253 from arammeem/fix/ERP-6356-force-channel
+b4cbe1d
+@NikitaRyzhenkovArammeem
+ERP-5969 fixed check
+7c6753d
+@NikitaRyzhenkovArammeem
+Merge pull request #254 from arammeem/fix/ERP-5969-fix
+5bb83d1
+@KirillTabelskiiArammeem
+Merge branch 'develop' into feature/RM-9351
+96ee265

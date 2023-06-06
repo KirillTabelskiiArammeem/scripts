@@ -1,0 +1,30 @@
+Linked issues
+
+contains implementation
+Issue type: Tech Debt
+ERP-5734
+Priority: Medium
+
+VERIFIED ON SANDBOX
+Issue type: Incident
+ERP-6084
+Priority: Medium
+
+VERIFIED ON SANDBOX
+Issue type: Task
+ERP-6133
+Priority: Medium
+
+VERIFIED ON SANDBOX
+Issue type: Sub-task
+ERP-6195
+Priority: Medium
+
+VERIFIED ON SANDBOX
+Issue type: Bug
+ERP-6356
+Priority: Medium
+
+VERIFIED ON SANDBOX
+Issue type: Task
+ERP-5969

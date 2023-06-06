@@ -160,3 +160,4 @@ cython_debug/
 .idea/
 check_release_data/git_row.txt
 check_release_data/jira_row.txt
+csv/.*/.*csv
