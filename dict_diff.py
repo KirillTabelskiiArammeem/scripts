@@ -15,6 +15,8 @@ load_dotenv()
 DB_HOST = os.getenv("DB_HOST")
 DB_MCP_PROD_DATABASE = os.getenv("DB_MCP_PROD_DATABASE")
 DB_MCP_SAND_DATABASE = os.getenv("DB_MCP_SAND_DATABASE")
+DB_CRM_PROD_DATABASE = os.getenv("DB_CRM_PROD_DATABASE")
+DB_CRM_SAND_DATABASE = os.getenv("DB_CRM_SAND_DATABASE")
 DB_USERNAME = os.getenv("DB_USERNAME")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 
@@ -24,14 +26,23 @@ PG_DSN_PROD_MCP = (
 PG_DSN_SAND_MCP = (
     f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_MCP_SAND_DATABASE}"
 )
+PG_DSN_PROD_CRM = (
+    f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_CRM_PROD_DATABASE}"
+)
+PG_DSN_SAND_CRM = (
+    f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_CRM_SAND_DATABASE}"
+)
 
 MAX_REF_ROWS = 30
 
 DSN_MAP = MappingProxyType(
-    {"mcp": MappingProxyType({"prod": PG_DSN_PROD_MCP, "sand": PG_DSN_SAND_MCP})}
+    {
+        "mcp": MappingProxyType({"prod": PG_DSN_PROD_MCP, "sand": PG_DSN_SAND_MCP}),
+        "crm": MappingProxyType({"prod": PG_DSN_PROD_CRM, "sand": PG_DSN_SAND_CRM}),
+    }
 )
 
-SERVICES_TYPE = Literal["mcp",]
+SERVICES_TYPE = Literal["mcp", "crm"]
 ENVS_TYPE = Literal["sand", "prod"]
 
 
@@ -88,7 +99,7 @@ def get_models(service: SERVICES_TYPE) -> Iterable[str]:
             "ir.actions.act_window.view",
             "ir.config_parameter",
             "ir.cron",
-            "ir.actions.server"
+            "ir.actions.server",
         }
     ]
 
@@ -112,7 +123,7 @@ def get_records_df(
     return pandas.DataFrame(get_records(get_conn(service, env), model))
 
 
-SERVICE: SERVICES_TYPE = "mcp"
+SERVICE: SERVICES_TYPE = "crm"
 
 
 def main():
@@ -137,9 +148,11 @@ def main():
         if not diff_name.empty or not diff_xml_id.empty:
             print(model)
             if not diff_name.empty:
-                diff_name.to_csv(os.path.join('csv', SERVICE, f'diff_name_{model}.csv'))
+                diff_name.to_csv(os.path.join("csv", SERVICE, f"diff_name_{model}.csv"))
             if not diff_xml_id.empty:
-                diff_xml_id.to_csv(os.path.join('csv', SERVICE, f'diff_xml_id_{model}.csv'))
+                diff_xml_id.to_csv(
+                    os.path.join("csv", SERVICE, f"diff_xml_id_{model}.csv")
+                )
 
 
 if __name__ == "__main__":
