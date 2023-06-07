@@ -17,6 +17,8 @@ DB_MCP_PROD_DATABASE = os.getenv("DB_MCP_PROD_DATABASE")
 DB_MCP_SAND_DATABASE = os.getenv("DB_MCP_SAND_DATABASE")
 DB_CRM_PROD_DATABASE = os.getenv("DB_CRM_PROD_DATABASE")
 DB_CRM_SAND_DATABASE = os.getenv("DB_CRM_SAND_DATABASE")
+DB_DP_PROD_DATABASE = os.getenv("DB_DP_PROD_DATABASE")
+DB_DP_SAND_DATABASE = os.getenv("DB_DP_SAND_DATABASE")
 DB_USERNAME = os.getenv("DB_USERNAME")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 
@@ -32,6 +34,12 @@ PG_DSN_PROD_CRM = (
 PG_DSN_SAND_CRM = (
     f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_CRM_SAND_DATABASE}"
 )
+PG_DSN_PROD_DP = (
+    f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_DP_PROD_DATABASE}"
+)
+PG_DSN_SAND_DP = (
+    f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_DP_SAND_DATABASE}"
+)
 
 MAX_REF_ROWS = 30
 
@@ -39,10 +47,11 @@ DSN_MAP = MappingProxyType(
     {
         "mcp": MappingProxyType({"prod": PG_DSN_PROD_MCP, "sand": PG_DSN_SAND_MCP}),
         "crm": MappingProxyType({"prod": PG_DSN_PROD_CRM, "sand": PG_DSN_SAND_CRM}),
+        "dp": MappingProxyType({"prod": PG_DSN_PROD_DP, "sand": PG_DSN_SAND_DP}),
     }
 )
 
-SERVICES_TYPE = Literal["mcp", "crm"]
+SERVICES_TYPE = Literal["mcp", "crm", "dp"]
 ENVS_TYPE = Literal["sand", "prod"]
 
 
@@ -100,6 +109,22 @@ def get_models(service: SERVICES_TYPE) -> Iterable[str]:
             "ir.config_parameter",
             "ir.cron",
             "ir.actions.server",
+            "amc.pricing.table",
+            "survey.survey",
+            "maintenance.team",
+            "amc.slot",
+            "survey.page",
+            "amc.charges.section",
+            "auth.oauth.provider",
+            "maintenance.stage",
+            "amc.res.partner.role",
+            "amc.res.patner.role",
+            "amc.category.price.group",
+            "amc.operation.area.price.group",
+            "survey.question",
+            "account.fiscal.position.tax.template",
+            "amc.partner.charge.type",
+            "survey.label",
         }
     ]
 
@@ -123,7 +148,7 @@ def get_records_df(
     return pandas.DataFrame(get_records(get_conn(service, env), model))
 
 
-SERVICE: SERVICES_TYPE = "crm"
+SERVICE: SERVICES_TYPE = "dp"
 
 
 def main():
