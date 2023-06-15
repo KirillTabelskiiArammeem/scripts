@@ -42,12 +42,8 @@ PG_DSN_SAND_DP = (
     f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_DP_SAND_DATABASE}"
 )
 
-PG_DSN_PROD_HELPDESK = (
-    f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_HELPDESK_PROD_DATABASE}"
-)
-PG_DSN_SAND_HELPDESK = (
-    f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_HELPDESK_SAND_DATABASE}"
-)
+PG_DSN_PROD_HELPDESK = f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_HELPDESK_PROD_DATABASE}"
+PG_DSN_SAND_HELPDESK = f"postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_HELPDESK_SAND_DATABASE}"
 
 MAX_REF_ROWS = 30
 
@@ -60,7 +56,7 @@ DSN_MAP = MappingProxyType(
     }
 )
 
-SERVICES_TYPE = Literal["mcp", "crm", "dp", 'helpdesk']
+SERVICES_TYPE = Literal["mcp", "crm", "dp", "helpdesk"]
 ENVS_TYPE = Literal["sand", "prod"]
 
 
@@ -115,7 +111,8 @@ where imd.model = %(model)s
 """
 
 
-FORCE_NO_MAME = ('ir.cron', 'website.page', 'amc.pricing.table', 'amc.slot')
+FORCE_NO_MAME = ("ir.cron", "website.page", "amc.pricing.table", "amc.slot")
+
 
 def get_models(service: SERVICES_TYPE) -> Iterable[str]:
     models = get_conn(service, "sand").all(GET_MODELS, max_ref_rows=MAX_REF_ROWS)
@@ -167,7 +164,7 @@ def main():
     for model in models:
         print(model)
         if model not in fields:
-            print(f'{model=} not in fields')
+            print(f"{model=} not in fields")
             continue
         names = "name" in fields[model]
         sand_df = get_records_df(SERVICE, "sand", model, names)

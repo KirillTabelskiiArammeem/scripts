@@ -1,30 +1,105 @@
-Linked issues
-
-contains implementation
-Issue type: Tech Debt
-ERP-5734
+Issue type: Task
+ERP-5772
 Priority: Medium
+Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
-Issue type: Incident
-ERP-6084
+
+Issue type: Task
+ERP-5767
 Priority: Medium
+Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 Issue type: Task
-ERP-6133
+ERP-6366
 Priority: Medium
+Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
-Issue type: Sub-task
-ERP-6195
+Issue type: Task
+ERP-5768
 Priority: Medium
+Dmitriy Pasichko
+
+QA PENDING
+Issue type: Task
+ERP-6334
+Priority: Medium
+Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
 Issue type: Bug
-ERP-6356
-Priority: Medium
+ERP-6277
+Priority: Low
+Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
 Issue type: Task
-ERP-5969
+ERP-5704
+Priority: Medium
+Oleksandr Zubenko
+
+QA PENDING
+Issue type: Bug
+ERP-6418
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+Issue type: Task
+ERP-5745
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+Issue type: Bug
+ERP-6376
+Priority: Medium
+Vladimir Sorokin
+
+VERIFIED ON SANDBOX
+Issue type: Task
+ERP-5738
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+Issue type: Task
+ERP-6282
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+Issue type: Task
+ERP-5743
+Priority: Medium
+
+REOPENED
+Issue type: Bug
+ERP-6426
+Priority: Medium
+Artem Demidov
+
+REOPENED
+Issue type: Task
+ERP-6365
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+Issue type: Task
+ERP-5737
+Priority: Medium
+Dmitriy Pasichko
+
+VERIFIED ON SANDBOX
+Issue type: Bug
+ERP-6431
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+Activity
+Show:
+
