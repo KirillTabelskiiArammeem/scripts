@@ -1,5 +1,5 @@
 
-path="/home/kirill/Downloads/odoo_am_helpdesk_12_sand_2023-04-19_06-08-41.zip"
+path="/home/kirill/Downloads/odoo_am_helpdesk_12_sand_2023-07-10_06-06-17.zip"
 
 rm -rf /tmp/db
 mkdir -p /tmp/db
