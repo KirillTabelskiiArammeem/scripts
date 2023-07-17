@@ -14,7 +14,7 @@ TABLES_TO_DROP = ['account_analytic_account', 'account_analytic_distribution', '
 @lru_cache(10)
 def get_connection():
     conn = connect(
-        host='db', port=5432, user='odoo', password='odoo', database='helpdesk'
+        host="db", port=5432, user="odoo", password="odoo", database="helpdesk"
     )
     atexit.register(conn.close)
     return conn
@@ -37,21 +37,24 @@ def get_all_tables():
     return [
         item[0]
         for item in run_query(
-            "SELECT tablename FROM pg_catalog.pg_tables where schemaname = 'public' ",
+            "SELECT tablename FROM pg_catalog.pg_tables WHERE schemaname = 'public' ",
         )
     ]
+
+
 def clean_tables():
     tables = ", ".join(TABLES_TO_DROP)
     return run_query(f"TRUNCATE TABLE {tables}")
 
 
 def thin_out_ir_model_data():
-    models = ', '.join(f"'{item.replace('_', '.')}'" for item in TABLES_TO_DROP)
+    models = ", ".join(f"'{item.replace('_', '.')}'" for item in TABLES_TO_DROP)
     query = f"""
     DELETE FROM ir_model_data
-    where model in ({models})
+    WHERE model IN ({models})
     """
     run_query(query)
+
 
 def thin_out_ir_attachments():
     # query = """
@@ -77,38 +80,54 @@ def clean_view():
 
 
 def thin_out_users():
-    users_partners = run_query("SELECT id, partner_id FROM res_users WHERE write_date <= '2023-07-01' and id not in (1, 2, 212) ")
+    users_partners = run_query(
+        "SELECT id, partner_id FROM res_users WHERE write_date <= '2023-07-01' and id not in (1, 2, 212) "
+    )
     users = set(str(item[0]) for item in users_partners)
-    users = ', '.join(users) or '999999999'
+    users = ", ".join(users) or "999999999"
     partners = set(str(item[1]) for item in users_partners)
-    partners = ', '.join(partners) or '999999999'
-    run_query(f"""
-    DELETE FROM amh_team where supervisor_id in ({users});
-    DELETE FROM ir_cron where user_id in ({users});
-    DELETE FROM website where user_id in ({users});
-    DELETE FROM aram_autoassign_config where agent in ({users});
-    DELETE FROM res_users where id in ({users});
-    DELETE FROM res_partner where id in ({partners});
-    DELETE FROM ir_model_data where res_id  in ({users}) AND model = 'res_users';
-    DELETE FROM ir_model_data where res_id  in ({partners}) AND model = 'res_partner';
-    """)
-
-    run_query(f"DELETE FROM res_company WHERE id not in (SELECT company_id FROM res_users);")
-    partners = run_query("SELECT id FROM res_partner WHERE id NOT IN (SELECT partner_id FROM res_users) and id NOT IN (SELECT partner_id FROM  res_company) and user_id IS NULL")
-    partners = set(str(item[0]) for item in partners)
-    partners = ', '.join(partners) or '999999999'
-    run_query(f"""
+    partners = ", ".join(partners) or "999999999"
+    run_query(
+        f"""
+    DELETE FROM amh_team WHERE supervisor_id IN ({users});
+    DELETE FROM ir_cron WHERE user_id IN ({users});
+    DELETE FROM website WHERE user_id IN ({users});
+    DELETE FROM aram_autoassign_config WHERE agent IN ({users});
+    DELETE FROM res_users WHERE id IN ({users});
     DELETE FROM res_partner WHERE id in ({partners});
-    DELETE FROM ir_model_data WHERE res_id in ({partners}) AND model = 'res_partner';
-""")
+    DELETE FROM ir_model_data WHERE res_id  IN ({users}) AND model = 'res_users';
+    DELETE FROM ir_model_data WHERE res_id  IN ({partners}) AND model = 'res_partner';
+    """
+    )
+
+    run_query(
+        f"DELETE FROM res_company WHERE id NOT IN (SELECT company_id FROM res_users);"
+    )
+    partners = run_query(
+        "SELECT id FROM res_partner WHERE id NOT IN (SELECT partner_id FROM res_users) AND id NOT IN (SELECT partner_id FROM  res_company) AND user_id IS NULL"
+    )
+    partners = set(str(item[0]) for item in partners)
+    partners = ", ".join(partners) or "999999999"
+    run_query(
+        f"""
+    DELETE FROM res_partner WHERE id IN ({partners});
+    DELETE FROM ir_model_data WHERE res_id IN ({partners}) AND model = 'res_partner';
+"""
+    )
 
 
 def backup(path="fixture.sql"):
-    os.environ["PGPASSWORD"] = 'odoo'
-    check_call(f"pg_dump --file '{path}' --host '127.0.0.1' --port '5432' --username 'odoo' --format=p 'helpdesk'", shell=True)
-    with ZipFile(f'{path}.zip', 'w', compresslevel=9, compression=zipfile.ZIP_BZIP2) as file:
+    os.environ["PGPASSWORD"] = "odoo"
+    check_call(
+        f"pg_dump --file '{path}' --host '127.0.0.1' --port '5432' --username 'odoo' --format=p 'helpdesk'",
+        shell=True,
+    )
+    with ZipFile(
+        f"{path}.zip", "w", compresslevel=9, compression=zipfile.ZIP_BZIP2
+    ) as file:
         file.write(path)
     os.remove(path)
+
 
 def main():
     clean_tables()
