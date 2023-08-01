@@ -1,251 +1,393 @@
 
-ERP-6289 Temporary fix for naming channels
-14adb33
-@NikitaRyzhenkovArammeem
-Merge pull request #1740 from arammeem/fix/ERP-6289 
-08c1632
-@NikitaRyzhenkovArammeem
-Revert "ERP-6289 Temporary fix for naming channels" 
-1eb57c1
-@NikitaRyzhenkovArammeem
-Merge pull request #1741 from arammeem/fix/ERP-6289-revert 
-58edf5e
-@NikitaRyzhenkovArammeem
-ERP-6277 changed event for combobox
-06d3c1e
-@NikitaRyzhenkovArammeem
-Merge pull request #1742 from arammeem/fix/ERP-6277 
-4d1ba61
-@EvgeniaKotovaArammeem
-ERP-5704 aram_helpdesk_compensation_nontime 
-a2de38c
+ERP-6259 |New reps can't receive confirmation code.
+aff8a08
+@DmitryPasichkoArammeem
+Merge pull request #736 from arammeem/fix/ERP-6259 
+b927f60
+@AgustinWiskyArammeem
+BIN-9326 chore (Dockerfile) upgrade core
+5168966
+@AgustinWiskyArammeem
+Merge pull request #738 from arammeem/fix/BIN-9326-odoo-12-reset-queu… 
+8e7882b
+@OlegAgafonovArammeem
+@DmitryPasichkoArammeem
+ERP-6213 add constrain name+city for fleets like on reppayment dbase
+cf7b29b
+@DmitryPasichkoArammeem
+ERP-6213 aram_drivers | Add unit tests
+50ef6bb
+@DmitryPasichkoArammeem
+Merge pull request #734 from arammeem/fix/ERP-6213 
+8349147
+@VladyslavMykhailovskyiArammeem
+ERP-5759 kafka_dp, aram_drivers 
+4f93d85
+@VladyslavMykhailovskyiArammeem
+ERP-5759 kafka_dp 
+68d80a8
+@VladyslavMykhailovskyiArammeem
+Merge pull request #741 from arammeem/fix/ERP-5759 
+b780cd3
+@OlegAgafonovArammeem
+ERP-0000 add module cleanup db
+b3c5c6e
+@OlegAgafonovArammeem
+Merge pull request #744 from arammeem/fix/ERP-0000-cleanup-db 
+b1beaef
 @DinarGabbasovArammeem
-@EvgeniaKotovaArammeem
-ERP-5745 aram_helpdesk_compensation_nontime | update HelpDeskTransact… 
-d95f18f
-@DinarGabbasovArammeem
-@EvgeniaKotovaArammeem
-ERP-5743 order | Subscribe to new Kafka topic OrderCompensationResult… 
-e2fcac9
-@EvgeniaKotovaArammeem
-ERP-5746 aram_helpdesk 
-394fdf7
-@EvgeniaKotovaArammeem
-ERP-5746 aram_helpdesk_compensation_nontime 
-6bf775e
-@EvgeniaKotovaArammeem
-ERP-5746 kafka_hd 
-541b95b
-@EvgeniaKotovaArammeem
-ERP-5746 kafka_hd | update logs 
-738e9b1
-@EvgeniaKotovaArammeem
-Merge pull request #1730 from arammeem/feature/TPD-8547 
-f750602
-ERP-5737 aram_helpdesk aram_helpdesk_compensation_nontime kafka_hd we… 
-a58f3f3
-ERP-5767 aram_helpdesk | Migration of "Configuration -> Ticket type (… 
-8dfc172
-ERP-5738 aram_helpdesk | Migration of existing tickets to new HD Team
-a39c347
-@DmitryPasichkoArammeem
-Merge pull request #1728 from arammeem/feature/ERP-5719 
-df38e7d
-ERP-5738 aram_helpdesk | fix
-1f5b133
-@DmitryPasichkoArammeem
-Merge pull request #1743 from arammeem/feature/ERP-5719 
-e2bae82
-@DmitryPasichkoArammeem
-ERP-5772 WCI | [CR] Stop creating of new tickets to "Supervisor" team… 
-b56df71
-@DmitryPasichkoArammeem
-Merge pull request #1729 from arammeem/feature/ERP-5772 
-89f82a6
-@DinarGabbasovArammeem
-ERP-6361 aram_digital_product | Add new module scheme
-ac7591a
-@DinarGabbasovArammeem
-Merge pull request #1744 from arammeem/feature/ERP-6361-digital-produ… 
-768b4c7
-@EvgeniaKotovaArammeem
-ERP-6376 kafka_hd | autorefund case should not be mandatory 
-130adce
-@EvgeniaKotovaArammeem
-Merge pull request #1749 from arammeem/fix/ERP-6376 
-5d3ce19
-@DmitryPasichkoArammeem
-ERP-5951 ADP | Uploading of Digital orders from Kafka topic BEDigital… 
-f3410cc
-@DmitryPasichkoArammeem
-ERP-5951 ADP | tests
-0cc41c4
-@DmitryPasichkoArammeem
-Merge pull request #1747 from arammeem/feature/ERP-5951 
-e36eb0b
+@OlegAgafonovArammeem
+TPD-9355 helpdesk_mgmt | Add new module
+c98e723
+@OlegAgafonovArammeem
+Merge pull request #740 from arammeem/feature/ERP-6330-add-new-helpde… 
+daa32c6
+@EduardAlekseievArammeem
+ERP-6288 aram_driver_expiration_document 
+99b020e
+@EduardAlekseievArammeem
+Merge pull request #742 from arammeem/feature/ERP-6288 
+56c189f
+@EduardAlekseievArammeem
+ERP-6274 ERP-6226 aram_driver_expiration_document 
+b0ac4bf
+@EduardAlekseievArammeem
+Merge pull request #743 from arammeem/feature/ERP-6226 
+6871d74
+@VladyslavMykhailovskyiArammeem
+ERP-5730 aram_drivers 
+4b231e0
+@VladyslavMykhailovskyiArammeem
+Merge pull request #745 from arammeem/feature/ERP-5730 
+7f0590a
+@NikitaRyzhenkovArammeem
+ERP-6253 Added driver_referral_report
+c6af418
+@NikitaRyzhenkovArammeem
+Merge pull request #747 from arammeem/feature/ERP-6253 
+9c1b7c1
+@VladyslavMykhailovskyiArammeem
+ERP-6313 kafka_dp 
+df75bab
+@VladyslavMykhailovskyiArammeem
+Merge pull request #748 from arammeem/feature/ERP-6313 
+d7f6c87
+@EduardAlekseievArammeem
+ERP-6225 aram_driver_expiration_document 
+4e27e22
+@EduardAlekseievArammeem
+Merge pull request #749 from arammeem/feature/ERP-6225 
+da01a1f
+@VladyslavMykhailovskyiArammeem
+ERP-5758 aram_drivers 
+9a0263c
+@VladyslavMykhailovskyiArammeem
+Merge pull request #746 from arammeem/feature/ERP-5758 
+4725fa2
+@EduardAlekseievArammeem
+ERP-6337 aram_driver_expiration_document 
+5a8c009
+@EduardAlekseievArammeem
+Merge pull request #750 from arammeem/feature/ERP-6337 
+6f6bb7f
+VladyslavMykhailovskyiArammeem and others added 60 commits last month
+@VladyslavMykhailovskyiArammeem
+ERP-5759 kafka_dp 
+349b741
+@VladyslavMykhailovskyiArammeem
+Merge pull request #751 from arammeem/fix/ERP-5759-schema 
+d0b3f4f
+@VladyslavMykhailovskyiArammeem
+ERP-4886 kafka_dp 
+8f7b226
+@VladyslavMykhailovskyiArammeem
+Merge pull request #752 from arammeem/fix/ERP-4684 
+392aa62
+@VladyslavMykhailovskyiArammeem
+ERP-5758 kafka_dp 
+fdba3db
+@VladyslavMykhailovskyiArammeem
+Merge pull request #753 from arammeem/fix/ERP-5758 
+b736015
+@VladyslavMykhailovskyiArammeem
+ERP-5758 kafka_dp 
+bd6a452
+@VladyslavMykhailovskyiArammeem
+Merge pull request #754 from arammeem/fix/ERP-5758 
+6e7fa53
+@VladyslavMykhailovskyiArammeem
+ERP-6257 kafka_dp, webhook_chat_incoming 
+9baf9ba
+@VladyslavMykhailovskyiArammeem
+ERP-6262 kafka_dp 
+8e9bd0c
+@VladyslavMykhailovskyiArammeem
+Merge pull request #755 from arammeem/feature/ERP-6257 
+1e415f0
+@VladyslavMykhailovskyiArammeem
+ERP-6438 kafka_dp 
+92c6c0d
+@VladyslavMykhailovskyiArammeem
+Merge pull request #756 from arammeem/feature/ERP-6438 
+315f481
+@VladyslavMykhailovskyiArammeem
+ERP-6438 kafka_dp 
+de1b915
+@EduardAlekseievArammeem
+Merge pull request #757 from arammeem/feature/ERP-6438 
+87adaee
+@VladyslavMykhailovskyiArammeem
+ERP-6438 kafka_dp 
+acd9f8e
+@VladyslavMykhailovskyiArammeem
+Merge pull request #759 from arammeem/feature/ERP-6438 
+7584e54
+@EduardAlekseievArammeem
+ERP-6225 aram_driver_expiration_document 
+9b0a607
+@EduardAlekseievArammeem
+Merge pull request #758 from arammeem/feature/ERP-6225 
+748652a
+@VladyslavMykhailovskyiArammeem
+ERP-6457 
+ce76380
+@VladyslavMykhailovskyiArammeem
+Merge pull request #761 from arammeem/feature/ERP-6457 
+558afaf
+@PavelSavastseikaArammeem
+ERP-6320 change field name 
+15b54b4
+@PavelSavastseikaArammeem
+Merge pull request #762 from arammeem/feature/ERP-6320-change-field-name 
+b191286
+@PavelSavastseikaArammeem
+ERP-6474 remove old sms notification
+5064791
+@PavelSavastseikaArammeem
+Merge pull request #765 from arammeem/feature/ERP-6474-remove-old-code 
+3ecaf64
+@PavelSavastseikaArammeem
+ERP-6291 make 'is_training_done' field Optional
+fea9a12
+@PavelSavastseikaArammeem
+Merge pull request #763 from arammeem/feature/ERP-6291 
+5d071de
+@VladyslavMykhailovskyiArammeem
+ERP-6437 kafka_dp, webhook_citc_incoming 
+420972e
+@VladyslavMykhailovskyiArammeem
+Merge pull request #760 from arammeem/feature/ERP-6437 
+b37471d
 @DenisShalaevSetronica
 BIN-9435 feature (Dockerfile, queue_job_ext) parse json in message … 
-602e997
-DenisShalaevSetronica and others added 25 commits 2 weeks ago
+6d43da5
 @DenisShalaevSetronica
-Merge pull request #1750 from arammeem/feature/BIN-9435-odoo-env-Pars… 
-96abef5
-@AgustinWiskyArammeem
-BIN-9470 feature (supervisor) set env vars to control with erp-release
-7924fa2
-@AgustinWiskyArammeem
-Merge pull request #1754 from arammeem/feature/BIN-9470-supervisor-en… 
-8d6c356
-@DinarGabbasovArammeem
-ERP-5952 aram_digital_product | add new records to exist dicts
-26ef182
-@DinarGabbasovArammeem
-Merge pull request #1748 from arammeem/feature/ERP-5952-change-exist-… 
-29eb07d
-@DinarGabbasovArammeem
-ERP-5956 aram_digital_product | Add new fields to helpdesk ticket
-e3c2465
-@DinarGabbasovArammeem
-Merge pull request #1745 from arammeem/feature/ERP-5956-new-ticket-fi… 
-dcf9613
-@DinarGabbasovArammeem
-ERP-6127 aram_digital_product | Hide cancel button from heldesk ticke… 
-c6c3c0a
-@DinarGabbasovArammeem
-Merge pull request #1746 from arammeem/feature/ERP-6127-hide-cancel-o… 
-9c761ea
-ERP-5943 ADO | View list of Digital orders in Helpdesk
-3425fd8
-@DmitryPasichkoArammeem
-Merge pull request #1757 from arammeem/feature/ERP-5943 
-eabade7
-@DinarGabbasovArammeem
-ERP-5944 aram_digital_product | Add form view for digital order
-9a2b155
-@DmitryPasichkoArammeem
-Merge pull request #1758 from arammeem/feature/ERP-5944-view-digital-… 
-12c7915
-@ArtemDemidovAramMeem
-ERP-6365 aram_helpdesk_compensation_nontime
-0480ff6
-@ArtemDemidovAramMeem
-Merge pull request #1759 from arammeem/feature/ERP-6365 
-b346e63
-@EvgeniaKotovaArammeem
-ERP-6418 aram_helpdesk | AutorefundCaseIsNotSupportedException except… 
-126a504
-@EvgeniaKotovaArammeem
-ERP-6418 kafka_hd 
-c8fb603
-@EvgeniaKotovaArammeem
-Merge pull request #1762 from arammeem/fix/ERP-6418 
-9ea3dfa
-@DmitryPasichkoArammeem
-ERP-6329 ADP | View "State history" for Digital order
-47071ce
-@DmitryPasichkoArammeem
-Merge pull request #1760 from arammeem/feature/ERP-6329 
-a23d914
-@DmitryPasichkoArammeem
-ERP-5772 aram_helpdesk WCI | heck that value from odoo:reason was sav… 
-8e4f230
-@DmitryPasichkoArammeem
-Merge pull request #1756 from arammeem/feature/ERP-5772 
-1b50353
-@DmitryPasichkoArammeem
-ERP-6282 kafka_hd | [HD] Modify BotHelpdeskTicketRequest topic - add … 
-e6e6014
-@DmitryPasichkoArammeem
-Merge pull request #1761 from arammeem/feature/ERP-6282 
-ff14eb9
-@ArtemDemidovAramMeem
-ERP-6366 aram_helpdesk_compensation_nontime 
-a5f138a
-ArtemDemidovAramMeem and others added 30 commits 5 days ago
-@ArtemDemidovAramMeem
-Merge pull request #1765 from arammeem/feature/ERP-6366 
-5a6025b
-@DinarGabbasovArammeem
-ERP-5743 order | fix cache problem of ticket updating by Compensation… 
-d7d34dc
-@DinarGabbasovArammeem
-Merge pull request #1766 from arammeem/fix/ERP-5743-invalidate-cache 
-e535ccf
-@DinarGabbasovArammeem
-ERP-6345 order | Fix view external id and link search view to action
-7e0c7de
-@DinarGabbasovArammeem
-Merge pull request #1763 from arammeem/feature/ERP-6345-quick-search 
-36ade71
+Merge pull request #768 from arammeem/feature/BIN-9435-odoo-env-Parse… 
+3d66080
 @KirillTabelskiiArammeem
-ERP-6431 move customer tier/flag update after ticket creation
-1c20046
+ERP-6509 new cursor for each message
+55a6ab2
+@OlegAgafonovArammeem
+ERP-6509 sf
+2017f2b
 @KirillTabelskiiArammeem
-Merge pull request #1769 from arammeem/feature/ERP-6431 
-6f60bd9
-@ArtemDemidovAramMeem
-ERP-6365 add hard check for min_amount
-a35b536
-@ArtemDemidovAramMeem
-Merge pull request #1770 from arammeem/fix/ERP-6365 
-5deb34f
-@EvgeniaKotovaArammeem
-ERP-6334 aram_helpdesk_compensation_nontime | changed kafka body for … 
-28e52c7
-@EvgeniaKotovaArammeem
-Merge pull request #1771 from arammeem/feature/ERP-6334 
-1e39ead
-@ArtemDemidovAramMeem
-ERP-6426 refund policy msg fix
-6a16568
-@ArtemDemidovAramMeem
-Merge pull request #1773 from arammeem/fix/ERP-6426 
-3a6d34a
-@ArtemDemidovAramMeem
-ERP-6365 text update
-54c0a7c
-@ArtemDemidovAramMeem
-Merge pull request #1775 from arammeem/fix/ERP-6365-text 
-456fb5c
-@EvgeniaKotovaArammeem
-ERP-5704 aram_helpdesk_compensation_nontime | filter pay_for_order is… 
-11572fe
-@EvgeniaKotovaArammeem
-Merge pull request #1774 from arammeem/fix/ERP-5704 
-efbed9d
-@NikitaRyzhenkovArammeem
+ERP-6509 new cursor for each message
+73c816a
+@OlegAgafonovArammeem
+ERP-6503 add citc update workers
+e9b83a4
+@OlegAgafonovArammeem
+Merge pull request #773 from arammeem/feature/ERP-6509 
+a9ccaa0
+@PavelSavastseikaArammeem
+ERP-6269 add attachment fields to "Add custom filter" tab on search p… 
+f777e0c
+@PavelSavastseikaArammeem
+Merge pull request #771 from arammeem/feature/ERP-6269-add-new-filters 
+af3166f
 @VladyslavMykhailovskyiArammeem
-ERP-6427 fixed timestamp date and added migration
-538917b
+ERP-6494 aram_driver_onboarding 
+2c9151c
 @VladyslavMykhailovskyiArammeem
-Merge pull request #1772 from arammeem/fix/ERP-6427 
-2577aaa
-@ArtemDemidovAramMeem
-ERP-6366 min_amount with compensation fix
-bf5ba9e
-@ArtemDemidovAramMeem
-Merge pull request #1777 from arammeem/fix/ERP-6366 
-4192b85
-@ArtemDemidovAramMeem
-ERP-6365 fix for new compensation lists
-bd8a0b1
-@ArtemDemidovAramMeem
-Merge pull request #1780 from arammeem/fix/ERP-6365-new-comp-list 
-94716c3
-@DmitryPasichkoArammeem
-ERP-6414 ADP | Create mock to emulate new message to BEDigitalOrders
-e8ad2ce
-@DmitryPasichkoArammeem
-Merge pull request #1764 from arammeem/feature/ERP-6414 
-e2f6a6f
-@NikitaRyzhenkovArammeem
-ERP-6427 fixed extra cases for converting to timestamp date and added… 
-9d13708
-@NikitaRyzhenkovArammeem
-Merge pull request #1779 from arammeem/fix/ERP-6427-fixed-some-cases 
-547a4df
-@NikitaRyzhenkovArammeem
-ERP-5767 change versions for migration
-25c967e
-@NikitaRyzhenkovArammeem
-Merge pull request #1783 from arammeem/fix/ERP-5767-move-migration
+Merge pull request #778 from arammeem/feature/ERP-6494 
+88666dc
+@VladyslavMykhailovskyiArammeem
+ERP-6253 aram_driver 
+aad017b
+@VladyslavMykhailovskyiArammeem
+Merge pull request #780 from arammeem/fix/ERP-6253 
+b0981fa
+@VladyslavMykhailovskyiArammeem
+ERP-6270 aram_driver_onboarding 
+318846a
+@DinarGabbasovArammeem
+ERP-6330 helpdesk_type | Add new module
+9ac19a1
+@DinarGabbasovArammeem
+ERP-6330 helpdesk_motive | Add new module
+7195053
+@DinarGabbasovArammeem
+Merge pull request #781 from arammeem/feature/ERP-6330-add-new-heldes… 
+0bff67e
+@VladyslavMykhailovskyiArammeem
+Merge branch 'develop' into feature/ERP-6270
+af04e1b
+@VladyslavMykhailovskyiArammeem
+Merge pull request #779 from arammeem/feature/ERP-6270 
+6fbb918
+@EduardAlekseievArammeem
+ERP-6470 aram_driver_expiration_document 
+92b2bb2
+@EduardAlekseievArammeem
+Merge pull request #770 from arammeem/fix/ERP-6470 
+6089f10
+@DinarGabbasovArammeem
+ERP-6330 aram_drivers | Fix depends problems
+77f7356
+@DinarGabbasovArammeem
+Merge pull request #786 from arammeem/fix/ERP-6330-fix-depends-problems 
+7c3af6d
+@EduardAlekseievArammeem
+@VladyslavMykhailovskyiArammeem
+ERP-6537 aram_driver_onboarding 
+f9460db
+@VladyslavMykhailovskyiArammeem
+Merge pull request #785 from arammeem/fix/ERP-6537 
+3031a64
+@DinarGabbasovArammeem
+ERP-6330 aram_drivers | Fix missing name
+b90ff92
+@DinarGabbasovArammeem
+Merge pull request #787 from arammeem/fix/ERP-6330-fix-missing-name 
+b9893d3
+@EduardAlekseievArammeem
+ERP-6513 aram_driver_onboarding kafka_dp 
+d1fa262
+@EduardAlekseievArammeem
+Merge pull request #788 from arammeem/feature/ERP-6513 
+16506e0
+@VladyslavMykhailovskyiArammeem
+ERP-6290 aram_driver_onboarding 
+dd376a9
+@VladyslavMykhailovskyiArammeem
+ERP-6290 kafka_dp 
+3ae2ad0
+VladyslavMykhailovskyiArammeem and others added 9 commits last month
+@VladyslavMykhailovskyiArammeem
+ERP-6290 aram_driver_onboarding 
+dd376a9
+@VladyslavMykhailovskyiArammeem
+ERP-6290 aram_driver_onboarding 
+7eedbc2
+@VladyslavMykhailovskyiArammeem
+Merge pull request #784 from arammeem/feature/ERP-6290 
+7002709
+@VladyslavMykhailovskyiArammeem
+RM-10053 
+4723cc0
+@VladyslavMykhailovskyiArammeem
+RM-10053 
+445d80e
+@VladyslavMykhailovskyiArammeem
+Merge pull request #789 from arammeem/feature/RM-10053-backmerge 
+0d885f9
+@VladyslavMykhailovskyiArammeem
+RM-10053 
+5aa908b
+@VladyslavMykhailovskyiArammeem
+Merge pull request #790 from arammeem/feature/RM-10053-backmerge 
+8e1daa1
+@VladyslavMykhailovskyiArammeem
+RM-10053 
+4a9e5fa
+VladyslavMykhailovskyiArammeem and others added 30 commits last month
+@VladyslavMykhailovskyiArammeem
+Merge pull request #791 from arammeem/feature/RM-10053-backmerge 
+262d82e
+@VladyslavMykhailovskyiArammeem
+ERP-6518 aram_drivers 
+257b750
+@VladyslavMykhailovskyiArammeem
+Merge pull request #793 from arammeem/fix/ERP-6518 
+c013177
+@VladyslavMykhailovskyiArammeem
+ERP-6290 aram_driver_onboarding 
+dedd631
+@EduardAlekseievArammeem
+Merge pull request #794 from arammeem/feature/ERP-6290 
+a8eeca4
+@DinarGabbasovArammeem
+ERP-6628 Add new requirement lib
+5a2c025
+@DinarGabbasovArammeem
+Merge pull request #796 from arammeem/feature/ERP-6628-new-required-lib 
+1f99ad6
+@EduardAlekseievArammeem
+ERP-6537 aram_driver_onboarding 
+f0dec88
+@EduardAlekseievArammeem
+Merge pull request #797 from arammeem/fix/ERP-6537-fix 
+06c52c8
+@VladyslavMykhailovskyiArammeem
+ERP-6574 aram_drivers 
+91a1cf2
+@VladyslavMykhailovskyiArammeem
+ERP-6574 aram_drivers 
+416ba5b
+@VladyslavMykhailovskyiArammeem
+Merge pull request #792 from arammeem/feature/ERP-6574 
+7c9190c
+@EduardAlekseievArammeem
+ERP-6188 kafka_dp 
+49b6003
+@EduardAlekseievArammeem
+Merge pull request #798 from arammeem/feature/ERP-6188 
+2061920
+@EduardAlekseievArammeem
+ERP-6360 kafka_dp aram_driver_expiration_document 
+79697b3
+@EduardAlekseievArammeem
+Merge pull request #799 from arammeem/feature/ERP-6360 
+e68a19d
+@EduardAlekseievArammeem
+ERP-6695 aram_drivers 
+2256f83
+@EduardAlekseievArammeem
+Merge pull request #801 from arammeem/feature/ERP-6695 
+40f881e
+@EduardAlekseievArammeem
+ERP-6695 aram_crm dp_fleet_user 
+02de75d
+@EduardAlekseievArammeem
+Merge pull request #802 from arammeem/feature/ERP-6695 
+49b9395
+@VladyslavMykhailovskyiArammeem
+ERP-6554 aram_driver_onboarding 
+bae16e6
+@VladyslavMykhailovskyiArammeem
+Merge pull request #800 from arammeem/feature/ERP-6554 
+2937ce3
+@VladyslavMykhailovskyiArammeem
+ERP-6717 kafka_dp 
+88a69fb
+@VladyslavMykhailovskyiArammeem
+Merge pull request #805 from arammeem/feature/ERP-6717
+70eead4
+@VladyslavMykhailovskyiArammeem
+ERP-6702 AH 
+366ae7e
+@VladyslavMykhailovskyiArammeem
+ERP-6702 AH 
+b024be9
+@VladyslavMykhailovskyiArammeem
+Merge pull request #803 from arammeem/feature/ERP-6702 
+f166463
+@VladyslavMykhailovskyiArammeem
+ERP-6843 aram_helpdesk 
+70b61bf
+@VladyslavMykhailovskyiArammeem
+Merge pull request #807 from arammeem/fix/ERP-6843 
+be5a0c3
+@VladyslavMykhailovskyiArammeem
+Merge develop in master
+9371bea

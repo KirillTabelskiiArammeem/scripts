@@ -1,105 +1,283 @@
+contains implementation
 Issue type: Task
-ERP-5772
+ERP-5730
 Priority: Medium
 Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
 
-Issue type: Task
-ERP-5767
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-Issue type: Task
-ERP-6366
-Priority: Medium
-Oleksandr Zubenko
-
-VERIFIED ON SANDBOX
-Issue type: Task
-ERP-5768
-Priority: Medium
-Dmitriy Pasichko
-
-QA PENDING
-Issue type: Task
-ERP-6334
-Priority: Medium
-Oleksandr Zubenko
-
-VERIFIED ON SANDBOX
 Issue type: Bug
-ERP-6277
+ERP-5759
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6270
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Incident
+ERP-6213
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-5758
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6225
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6226
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6269
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6288
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6274
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6364
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6290
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6337
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6574
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6320
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6367
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6360
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6313
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6330
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Tech Debt
+ERP-6437
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6807
+Priority: Medium
+Oleg Agafonov
+
+IN PROGRESS
+
+Issue type: Task
+ERP-6537
+Priority: Medium
+Eduard Alekseiev
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6291
+Priority: Medium
+Oleksandr Zubenko
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-6470
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-6518
 Priority: Low
-Oleksandr Zubenko
+Mikhail Denisov
 
 VERIFIED ON SANDBOX
-Issue type: Task
-ERP-5704
-Priority: Medium
-Oleksandr Zubenko
 
-QA PENDING
-Issue type: Bug
-ERP-6418
+Issue type: Task
+ERP-6513
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6474
+Priority: Medium
+Mikhail Denisov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6695
 Priority: Medium
 Vladislav Shmakov
 
+RESOLVED
+
+Issue type: Bug
+ERP-6865
+Priority: Medium
+Vladyslav Mykhailovskyi
+
+IN REVIEW
+
+Issue type: Tech Debt
+ERP-6457
+Priority: Medium
+Mikhail Denisov
+
 VERIFIED ON SANDBOX
+
 Issue type: Task
-ERP-5745
+ERP-6778
+Priority: Medium
+Vladyslav Mykhailovskyi
+
+RESOLVED
+
+Issue type: Task
+ERP-6717
 Priority: Medium
 Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
-Issue type: Bug
-ERP-6376
+
+Issue type: Task
+ERP-6554
+Priority: Medium
+Vladyslav Mykhailovskyi
+
+VERIFIED ON SANDBOX
+
+is enabled by
+Issue type: Test
+ERP-6811
 Priority: Medium
 Vladimir Sorokin
 
 VERIFIED ON SANDBOX
+
+partial implementation of
 Issue type: Task
-ERP-5738
+ERP-6807
+Priority: Medium
+Oleg Agafonov
+
+IN PROGRESS
+
+Issue type: Task
+ERP-6701
+Priority: Medium
+Vladyslav Mykhailovskyi
+
+REOPENED
+
+Issue type: Task
+ERP-6703
+Priority: Medium
+Vladyslav Mykhailovskyi
+
+REOPENED
+
+Issue type: Task
+ERP-6856
+Priority: Medium
+Vladyslav Mykhailovskyi
+
+TO DO
+
+Issue type: Sub-bug
+ERP-6843
 Priority: Medium
 Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
-Issue type: Task
-ERP-6282
-Priority: Medium
-Vladislav Shmakov
 
-VERIFIED ON SANDBOX
 Issue type: Task
-ERP-5743
-Priority: Medium
-
-REOPENED
-Issue type: Bug
-ERP-6426
-Priority: Medium
-Artem Demidov
-
-REOPENED
-Issue type: Task
-ERP-6365
+ERP-6702
 Priority: Medium
 Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
-Issue type: Task
-ERP-5737
-Priority: Medium
-Dmitriy Pasichko
-
-VERIFIED ON SANDBOX
-Issue type: Bug
-ERP-6431
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-Activity
-Show:
 
