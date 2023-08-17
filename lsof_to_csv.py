@@ -1,19 +1,18 @@
 import re
 import pandas
 
-spaces = re.compile(r'\s+')
-numbers = re.compile(r'\d+')
-device_regex = re.compile(r'(\d+\,?\d+)|([0x]+)')
-type_regex = re.compile(r'([A-Z]+)|(unknown)|(unix)')
-size_of_regex = re.compile(r'(\d+)|(0t0)')
+spaces = re.compile(r"\s+")
+numbers = re.compile(r"\d+")
+device_regex = re.compile(r"(\d+\,?\d+)|([0x]+)")
+type_regex = re.compile(r"([A-Z]+)|(unknown)|(unix)")
+size_of_regex = re.compile(r"(\d+)|(0t0)")
 
 data = []
-with open('lsof_good.txt') as file:
+with open("lsof_good.txt") as file:
     lines = iter(file)
     head: str = next(lines)
 
-    name_start = head.find('NAME')
-
+    name_start = head.find("NAME")
 
     for i, line in enumerate(lines):
         line = line.strip()
@@ -72,19 +71,36 @@ with open('lsof_good.txt') as file:
 
         data.append(
             {
-                'command': command, 'pid': pid, 'tid': tid, 'user': user, 'fd': fd, 'type': type_, 'device': device,
-                'size_of': size_of, 'node': node, 'name': name
-             }
+                "command": command,
+                "pid": pid,
+                "tid": tid,
+                "user": user,
+                "fd": fd,
+                "type": type_,
+                "device": device,
+                "size_of": size_of,
+                "node": node,
+                "name": name,
+            }
         )
 
 
 data = pandas.DataFrame(
-    data=data, columns=['command', 'pid', 'tid', 'user', 'fd', 'type', 'device', 'size_of', 'node', 'name']
+    data=data,
+    columns=[
+        "command",
+        "pid",
+        "tid",
+        "user",
+        "fd",
+        "type",
+        "device",
+        "size_of",
+        "node",
+        "name",
+    ],
 )
 
 
-data.to_csv('data_good.csv')
+data.to_csv("data_good.csv")
 print(data)
-
-
-
