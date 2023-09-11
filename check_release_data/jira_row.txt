@@ -1,56 +1,58 @@
 Issue type: Task
-ERP-6142
+ERP-6642
 Priority: Medium
 Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
-Issue type: Task
-ERP-6508
+Issue type: User Story
+ERP-6864
 Priority: Medium
-Oleksandr Zubenko
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6527
-Priority: Medium
-Oleksandr Zubenko
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6658
-Priority: Medium
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6328
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6722
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6455
-Priority: Medium
-Mikhail Denisov
+Vladimir Sorokin
 
 VERIFIED ON SANDBOX
 
 Issue type: Bug
-ERP-6422
-Priority: Medium
-Oleksandr Zubenko
+ERP-7101
+Priority: High
+Vladimir Kolotov
 
 VERIFIED ON SANDBOX
 
-is blocked by
+Issue type: Task
+ERP-6747
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-6966
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-6643
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Gap
+ERP-7099
+Priority: Medium
+Mikhail Denisov
+
+QA IN PROGRESS
+
+Issue type: Incident
+ERP-7137
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-6526

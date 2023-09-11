@@ -1,139 +1,114 @@
-Merge pull request #263 from arammeem/feature/RM-9351-hotfix 
-
+@OlegAgafonovArammeem
+ERP-6526 log current state of job
+cc868d1
+@OlegAgafonovArammeem
+Merge pull request #1994 from arammeem/fix/ERP-6526 
+7b79c9e
+@ArtemDemidovAramMeem
+ERP-7015 - parameter for merchant penalization
+d898af2
+@ArtemDemidovAramMeem
+Merge pull request #1990 from arammeem/feature/ERP-7015 
+8f45b19
+@DinarGabbasovArammeem
+ERP-7066 aram_digital_product | Allow set url to open order
+5b9ae78
+@DinarGabbasovArammeem
+ERP-7066 aram_helpdesk | Move 'open order' button changes to order mo… 
+2775f2f
+@DinarGabbasovArammeem
+ERP-7066 order | Move 'open order' button changes to order module
+392f678
+@DinarGabbasovArammeem
+Merge pull request #1989 from arammeem/feature/ERP-7066-refacting-go-… 
+6a5ff51
+@OlegAgafonovArammeem
+ERP-6526 arrange with CRM and common
+a4f696b
+@OlegAgafonovArammeem
+Merge pull request #1996 from arammeem/fix/ERP-6526 
+173c042
+@NikitaRyzhenkovArammeem
+ERP-7099 added _rec_name for ArammeemWebhookChatConversations
+46796f0
+@NikitaRyzhenkovArammeem
+Merge pull request #1995 from arammeem/feature/ERP-7099 
+8642e18
+@ArtemDemidovAramMeem
+ERP-6970 - added ticket types
+b491c0f
+@ArtemDemidovAramMeem
+Merge pull request #1997 from arammeem/feature/ERP-6970 
+d69d184
+@ArtemDemidovAramMeem
+ERP-7101 - fix timestamp interpretation
+c1ad153
+@ArtemDemidovAramMeem
+Merge pull request #1998 from arammeem/fix/ERP-7101 
+02eba0d
+@ArtemDemidovAramMeem
+ERP-6970 - fix for double-naming ticket types
+05ccc86
+@ArtemDemidovAramMeem
+Merge pull request #2001 from arammeem/fix/ERP-6970 
+b8cb650
+@ArtemDemidovAramMeem
+ERP-6970 - fix external id in refund reason
+64c33c0
+@ArtemDemidovAramMeem
+Merge pull request #2002 from arammeem/fix/ERP-6970 
+4858c2b
+@EduardAlekseievArammeem
+ERP-6864 aram_api_client_backend aram_digital_product order 
+45d1bdf
+@EduardAlekseievArammeem
+Merge pull request #1999 from arammeem/feature/ERP-6864 
+cc05a7f
+@NikitaRyzhenkovArammeem
+ERP-5639 ERP-7090 aram_helpdesk_cancel_order_return | fixed view and … 
+dcb38b0
+@NikitaRyzhenkovArammeem
+Merge pull request #2003 from arammeem/fix/ERP-7090 
+2770c65
+@VladyslavMykhailovskyiArammeem
+ERP-7137 aram_digital_product 
+ee3132f
+@VladyslavMykhailovskyiArammeem
+ERP-7137 aram_digital_product 
+eae4793
+@VladyslavMykhailovskyiArammeem
+Merge pull request #2000 from arammeem/feature/ERP-7137 
+9ae8f16
+@ArtemDemidovAramMeem
+ERP-7015 penalty_from fix
+844771e
+@ArtemDemidovAramMeem
+Merge pull request #2004 from arammeem/fix/ERP-7015 
+807e9ce
+@ArtemDemidovAramMeem
+ERP-7101 removed pre-processing of case_start
+6995106
+ArtemDemidovAramMeem and others added 8 commits 4 hours ago
+@ArtemDemidovAramMeem
+Merge pull request #2008 from arammeem/fix/ERP-7101-upd 
+296a421
+@DinarGabbasovArammeem
+Revert "ERP-7066 aram_hd,order,aram_digital_product | Refactoring "Op… 
+c4ba578
+@DinarGabbasovArammeem
+Merge pull request #2007 from arammeem/fix/ERP-7066-revert-go-to-orde… 
+fad700e
+@DinarGabbasovArammeem
+ERP-7111 order | Save rep type from RepresentativesToHD topic
+ea4570b
+@DinarGabbasovArammeem
+Merge pull request #2005 from arammeem/feature/ERP-7111-save-rep-type 
+61da670
+@EduardAlekseievArammeem
+ERP-6864 ERP-7155 order aram_digital_product 
+e0e9ea6
+@EduardAlekseievArammeem
+Merge pull request #2009 from arammeem/fix/ERP-6864 
+1de9dfc
 @KirillTabelskiiArammeem
-KirillTabelskiiArammeem committed on Jun 6
-ERP-6422 kafka_mcp | Fix key error for create account owner process
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed on Jun 6
-Merge pull request #264 from arammeem/fix/ERP-6422-fix-failed-dlq-pro… 
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed on Jun 6
-ERP-6422 kafka_mcp | Add info log
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed on Jun 6
-Merge pull request #265 from arammeem/fix/ERP-6422-fix-failed-dlq-pro… 
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed on Jun 6
-Commits on Jun 15, 2023
-Revert "Revert "Feature/erp 6328 refactoring modules""
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed on Jun 15
-Merge pull request #267 from arammeem/feature/ERP-6328-refactoring-mo… 
-
-@KirillTabelskiiArammeem
-KirillTabelskiiArammeem committed on Jun 15
-ERP-6328 helpdesk_mgmt_aram | Fix double message post after assign ti… 
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed on Jun 15
-Merge pull request #268 from arammeem/fix/ERP-6328-fix-double-message… 
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed on Jun 15
-Commits on Jun 28, 2023
-Added link to a mail
-
-@ArtemDemidovAramMeem
-ArtemDemidovAramMeem committed on Jun 28
-Merge pull request #270 from arammeem/feature/ERP-6527 
-
-@ArtemDemidovAramMeem
-ArtemDemidovAramMeem committed on Jun 28
-Commits on Jul 4, 2023
-ERP-6628 Add new requiremen lib
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed on Jul 4
-Commits on Jul 7, 2023
-Merge pull request #272 from arammeem/feature/ERP-6628-new-required-lib 
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed on Jul 7
-Commits on Jul 13, 2023
-ERP-6658 kafka_mcp | No send email notifications for BECatalogEvents … 
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed last month
-Commits on Jul 14, 2023
-Merge pull request #273 from arammeem/fix/ERP-6658-not-send-pos-statu… 
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed last month
-Commits on Jul 18, 2023
-ERP-6527 - moved changes from OCA module to Aram module
-
-@ArtemDemidovAramMeem
-ArtemDemidovAramMeem committed 3 weeks ago
-Merge pull request #275 from arammeem/fix/ERP-6527-moved-changes 
-
-@ArtemDemidovAramMeem
-ArtemDemidovAramMeem committed 3 weeks ago
-Commits on Jul 20, 2023
-ERP-6508 aram_mcp 
-
-@EduardAlekseievArammeem
-EduardAlekseievArammeem committed 3 weeks ago
-Commits on Jul 24, 2023
-Merge pull request #276 from arammeem/fix/ERP-6508 
-
-@EduardAlekseievArammeem
-EduardAlekseievArammeem committed 2 weeks ago
-ERP-6455 helpdesk_mgmt_aram 
-
-@EduardAlekseievArammeem
-EduardAlekseievArammeem committed 2 weeks ago
-Merge pull request #269 from arammeem/feature/ERP-6455 
-
-@EduardAlekseievArammeem
-EduardAlekseievArammeem committed 2 weeks ago
-ERP-6527 - fix template ticket url
-
-@ArtemDemidovAramMeem
-ArtemDemidovAramMeem committed 2 weeks ago
-Commits on Jul 25, 2023
-Merge pull request #277 from arammeem/fix/ERP-6527-template-upd 
-
-@ArtemDemidovAramMeem
-ArtemDemidovAramMeem committed 2 weeks ago
-ERP-6527 - fix template ticket url
-
-@ArtemDemidovAramMeem
-ArtemDemidovAramMeem committed 2 weeks ago
-Merge pull request #278 from arammeem/fix/ERP-6527-template-update 
-
-@ArtemDemidovAramMeem
-ArtemDemidovAramMeem committed 2 weeks ago
-Commits on Jul 26, 2023
-ERP-6142 
-
-@PavelSavastseikaArammeem
-@KirillTabelskiiArammeem
-PavelSavastseikaArammeem authored and KirillTabelskiiArammeem committed 2 weeks ago
-Merge pull request #279 from arammeem/feature/ERP-6142-notify-ticket-… 
-
-@PavelSavastseikaArammeem
-PavelSavastseikaArammeem committed 2 weeks ago
-Commits on Jul 28, 2023
-ERP-6722 helpdesk_mgmt | Remove kanban view
-
-@DmitryPasichkoArammeem
-DmitryPasichkoArammeem authored and DmitryPasichkoArammeem committed 2 weeks ago
-Commits on Jul 31, 2023
-Merge pull request #280 from arammeem/feature/ERP-6722 
-
-@DmitryPasichkoArammeem
-DmitryPasichkoArammeem committed last week
-Commits on Aug 7, 2023
-ERP-6924 kafka_mcp | No notify user assignment to ticket after was di… 
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed yesterday
-Merge pull request #281 from arammeem/fix/ERP-6924-fix-no-email-notif… 
-
-@DinarGabbasovArammeem
-DinarGabbasovArammeem committed yesterday
+Merge branch 'develop' into feature/RM-11057
