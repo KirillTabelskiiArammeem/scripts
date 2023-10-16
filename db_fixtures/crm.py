@@ -7,16 +7,30 @@ from functools import lru_cache
 from zipfile import ZipFile
 
 # fmt: off
-TABLES_TO_DROP = ['account_analytic_account', 'account_analytic_distribution', 'account_analytic_line', 'account_analytic_line', 'account_analytic_line_tag_rel', 'amh_agent_idle', 'amh_chat_conversations', 'amh_nontime_refund_missed_item_quantity', 'amh_nontime_refund_missed_item_quantity', 'amh_nontime_refund_missed_item_quantity_mixin', 'amh_rating', 'amh_refund_transaction', 'amh_refund_transaction_aram_send_transaction_to_be_wizard_rel', 'amh_ticket_reassign_from_to_users_count', 'amh_ticket_time_between_stages', 'amh_transaction', 'amh_user_assign_history', 'amh_users_time_online', 'aram_cancel_order_wizard', 'aram_cancel_order_wizard_aram_cancel_reason_rel', 'aram_confirmation_pos_off', 'aram_helpdesk_ticket_amt_helpdesk_ticket_rel', 'aram_helpdesk_ticket_helpdesk_ticket_rel', 'aram_send_transaction_to_be_wizard', 'helpdesk_tag_helpdesk_ticket_rel', 'helpdesk_ticket', 'helpdesk_ticket_missing_items', 'helpdesk_ticket_missing_options', 'ir_logging',
-'mail_activity', 'mail_channel_partner', 'mail_compose_message', 'mail_compose_message_ir_attachments_rel', 'mail_compose_message_res_partner_rel', 'mail_followers', 'mail_followers_mail_message_subtype_rel', 'mail_mail', 'mail_mail_res_partner_rel', 'mail_message', 'mail_message_mail_channel_rel', 'mail_message_res_partner_needaction_rel', 'mail_message_res_partner_needaction_rel_mail_resend_message_rel', 'mail_message_res_partner_rel', 'mail_message_res_partner_starred_rel', 'mail_resend_message', 'mail_resend_partner', 'mail_tracking_value', 'message_attachment_rel',
-'project_favorite_user_rel', 'project_project', 'project_tags_project_task_rel', 'project_task', 'project_task_type_rel', 'queue_job', 'queue_job_queue_jobs_to_done_rel', 'queue_job_queue_requeue_job_rel', 'rating_rating', 'recommended_action', 'recv_customer', 'recv_digital_order', 'recv_digital_order_line', 'recv_digital_order_state_history', 'recv_digital_product', 'recv_order', 'recv_order_ext', 'recv_order_line', 'recv_order_line_refund', 'recv_order_recv_representative_rel', 'recv_order_state_history', 'recv_product_attribute_value_transaction', 'recv_product_attribute_value_transaction_refund', 'recv_representative', 's3_files', "recv_subscription", "recv_customer_subscription", "aram_unhold_transaction_to_be_wizard", "amh_refund_transaction_aram_unhold_transaction_to_be_wizard_rel"]
+TABLES_TO_DROP = [
+'amh_rating', 'amc_branch', 'amc_branch_complete', 'amc_branch_res_users_rel', 'amc_digital_signature_popup', 'branch_stage_assignee',
+'amc_paid_ad', 'amc_paid_ad_amc_promo_rel', 'amc_paid_ad_stage_assignee', 'amc_slot', 'amc_operation_area_amc_slot_rel',
+'queue_job', 'queue_job_queue_jobs_to_done_rel', 'queue_job_queue_requeue_job_rel',
+#'mail_activity', 'mail_channel_partner', 'mail_compose_message', 'mail_compose_message_ir_attachments_rel', 'mail_compose_message_res_partner_rel', 'mail_followers', 'mail_followers_mail_message_subtype_rel', 'mail_mail', 'mail_mail_res_partner_rel', 'mail_message', 'mail_message_mail_channel_rel', 'mail_message_res_partner_needaction_rel', 'mail_message_res_partner_needaction_rel_mail_resend_message_rel', 'mail_message_res_partner_rel', 'mail_message_res_partner_starred_rel', 'mail_resend_message', 'mail_resend_partner', 'mail_tracking_value', 'message_attachment_rel',
+]
+
+MAIL_TABLES_TO_DROP = ['mail_activity', "mail_mail", "mail_mail_res_partner_rel",
+"mail_message_res_partner_needaction_rel", 'mail_message_res_partner_needaction_rel_mail_resend_message_rel', 'mail_message_mail_channel_rel', 'mail_message_res_partner_rel',
+'mail_followers_mail_message_subtype_rel', 'mail_message', 'mail_tracking_value', 'mail_channel_partner', 'mail_compose_message', "mail_message_res_partner_starred_rel", "mail_resend_message", "message_attachment_rel",
+"survey_mail_compose_message", 'mail_followers']
+
+AMC_TABLES_TO_DROP = [
+    'amc_document_submission', 'amc_invoice_report', 'amc_promo', 'amc_category_amc_document_submission_rel', 'amc_commission_fee', 'amc_contact', 'amc_promo_assigned_state', 'crm_lead', 'amc_promo_type', 'amc_promo_type_amc_service_group_rel',
+    'aram_crm_payments'
+
+]
+
+
 # fmt: on
-
-
 @lru_cache(10)
 def get_connection():
     conn = connect(
-        host="db", port=5432, user="odoo", password="odoo", database="helpdesk"
+        host="db", port=5432, user="odoo", password="odoo", database="crm"
     )
     atexit.register(conn.close)
     return conn
@@ -48,6 +62,16 @@ def clean_tables():
     tables = ", ".join(TABLES_TO_DROP)
     return run_query(f"TRUNCATE TABLE {tables}")
 
+
+def delete_from_tables(tables_list):
+    query = ';\n'.join([f'DELETE FROM {table}' for table in tables_list])
+    return run_query(query)
+
+def clean_mail_tables():
+    return delete_from_tables(MAIL_TABLES_TO_DROP)
+
+def clean_amc_tables():
+    return delete_from_tables(AMC_TABLES_TO_DROP)
 
 def thin_out_ir_model_data():
     models = ", ".join(f"'{item.replace('_', '.')}'" for item in TABLES_TO_DROP)
@@ -91,14 +115,14 @@ def thin_out_users():
     partners = ", ".join(partners) or "999999999"
     run_query(
         f"""
-    DELETE FROM amh_team WHERE supervisor_id IN ({users});
     DELETE FROM ir_cron WHERE user_id IN ({users});
     DELETE FROM website WHERE user_id IN ({users});
-    DELETE FROM aram_autoassign_config WHERE agent IN ({users});
     DELETE FROM res_users WHERE id IN ({users});
+    DELETE FROM account_invoice WHERE id in ({partners});
     DELETE FROM res_partner WHERE id in ({partners});
     DELETE FROM ir_model_data WHERE res_id  IN ({users}) AND model = 'res.users';
     DELETE FROM ir_model_data WHERE res_id  IN ({partners}) AND model = 'res.partner';
+    DELETE FROM ir_model_data WHERE  model = 'amc.invoice.bank.info';
     """
     )
 
@@ -113,7 +137,7 @@ def thin_out_users():
     run_query(
         f"""
     DELETE FROM res_partner WHERE id IN ({partners});
-    DELETE FROM ir_model_data WHERE res_id IN ({partners}) AND model = 'res_partner';
+    DELETE FROM ir_model_data WHERE res_id IN ({partners}) AND model = 'res.partner';
 """
     )
 
@@ -121,7 +145,7 @@ def thin_out_users():
 def backup(path="fixture.sql"):
     os.environ["PGPASSWORD"] = "odoo"
     check_call(
-        f"pg_dump --file '{path}' --host '127.0.0.1' --port '5432' --username 'odoo' --format=p 'helpdesk'",
+        f"pg_dump --file '{path}' --host '127.0.0.1' --port '5432' --username 'odoo' --format=p 'crm'",
         shell=True,
     )
     with ZipFile(
@@ -133,6 +157,8 @@ def backup(path="fixture.sql"):
 
 def main():
     clean_tables()
+    clean_mail_tables()
+    clean_amc_tables()
     thin_out_ir_model_data()
     thin_out_ir_attachments()
     thin_out_users()

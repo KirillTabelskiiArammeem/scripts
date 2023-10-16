@@ -1,114 +1,141 @@
-@OlegAgafonovArammeem
-ERP-6526 log current state of job
-cc868d1
-@OlegAgafonovArammeem
-Merge pull request #1994 from arammeem/fix/ERP-6526 
-7b79c9e
 @ArtemDemidovAramMeem
-ERP-7015 - parameter for merchant penalization
-d898af2
+ERP-7303 - tests and fixes for unhold transaction
+356b91b
 @ArtemDemidovAramMeem
-Merge pull request #1990 from arammeem/feature/ERP-7015 
-8f45b19
-@DinarGabbasovArammeem
-ERP-7066 aram_digital_product | Allow set url to open order
-5b9ae78
-@DinarGabbasovArammeem
-ERP-7066 aram_helpdesk | Move 'open order' button changes to order mo… 
-2775f2f
-@DinarGabbasovArammeem
-ERP-7066 order | Move 'open order' button changes to order module
-392f678
-@DinarGabbasovArammeem
-Merge pull request #1989 from arammeem/feature/ERP-7066-refacting-go-… 
-6a5ff51
-@OlegAgafonovArammeem
-ERP-6526 arrange with CRM and common
-a4f696b
-@OlegAgafonovArammeem
-Merge pull request #1996 from arammeem/fix/ERP-6526 
-173c042
-@NikitaRyzhenkovArammeem
-ERP-7099 added _rec_name for ArammeemWebhookChatConversations
-46796f0
-@NikitaRyzhenkovArammeem
-Merge pull request #1995 from arammeem/feature/ERP-7099 
-8642e18
+ERP-7421 - bugfix for Unhold transaction creation
+25be475
 @ArtemDemidovAramMeem
-ERP-6970 - added ticket types
-b491c0f
-@ArtemDemidovAramMeem
-Merge pull request #1997 from arammeem/feature/ERP-6970 
-d69d184
-@ArtemDemidovAramMeem
-ERP-7101 - fix timestamp interpretation
-c1ad153
-@ArtemDemidovAramMeem
-Merge pull request #1998 from arammeem/fix/ERP-7101 
-02eba0d
-@ArtemDemidovAramMeem
-ERP-6970 - fix for double-naming ticket types
-05ccc86
-@ArtemDemidovAramMeem
-Merge pull request #2001 from arammeem/fix/ERP-6970 
-b8cb650
-@ArtemDemidovAramMeem
-ERP-6970 - fix external id in refund reason
-64c33c0
-@ArtemDemidovAramMeem
-Merge pull request #2002 from arammeem/fix/ERP-6970 
-4858c2b
-@EduardAlekseievArammeem
-ERP-6864 aram_api_client_backend aram_digital_product order 
-45d1bdf
-@EduardAlekseievArammeem
-Merge pull request #1999 from arammeem/feature/ERP-6864 
-cc05a7f
-@NikitaRyzhenkovArammeem
-ERP-5639 ERP-7090 aram_helpdesk_cancel_order_return | fixed view and … 
-dcb38b0
-@NikitaRyzhenkovArammeem
-Merge pull request #2003 from arammeem/fix/ERP-7090 
-2770c65
-@VladyslavMykhailovskyiArammeem
-ERP-7137 aram_digital_product 
-ee3132f
-@VladyslavMykhailovskyiArammeem
-ERP-7137 aram_digital_product 
-eae4793
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2000 from arammeem/feature/ERP-7137 
-9ae8f16
-@ArtemDemidovAramMeem
-ERP-7015 penalty_from fix
-844771e
-@ArtemDemidovAramMeem
-Merge pull request #2004 from arammeem/fix/ERP-7015 
-807e9ce
-@ArtemDemidovAramMeem
-ERP-7101 removed pre-processing of case_start
-6995106
-ArtemDemidovAramMeem and others added 8 commits 4 hours ago
-@ArtemDemidovAramMeem
-Merge pull request #2008 from arammeem/fix/ERP-7101-upd 
-296a421
-@DinarGabbasovArammeem
-Revert "ERP-7066 aram_hd,order,aram_digital_product | Refactoring "Op… 
-c4ba578
-@DinarGabbasovArammeem
-Merge pull request #2007 from arammeem/fix/ERP-7066-revert-go-to-orde… 
-fad700e
-@DinarGabbasovArammeem
-ERP-7111 order | Save rep type from RepresentativesToHD topic
-ea4570b
-@DinarGabbasovArammeem
-Merge pull request #2005 from arammeem/feature/ERP-7111-save-rep-type 
-61da670
-@EduardAlekseievArammeem
-ERP-6864 ERP-7155 order aram_digital_product 
-e0e9ea6
-@EduardAlekseievArammeem
-Merge pull request #2009 from arammeem/fix/ERP-6864 
-1de9dfc
+Merge pull request #2100 from arammeem/fix/ERP-7421
+f902715
+@EvgeniaKotovaArammeem
+ERP-7383 subbug_ERP-7418 order | fixed error and test
+ebf957b
+@EvgeniaKotovaArammeem
+Merge pull request #2101 from arammeem/feature/ERP-7383
+c097da1
 @KirillTabelskiiArammeem
-Merge branch 'develop' into feature/RM-11057
+ERP-7427 commit idle select
+487fe30
+@KirillTabelskiiArammeem
+Merge pull request #2103 from arammeem/fix/ERP-7427
+53f6063
+@KirillTabelskiiArammeem
+ERP-7429 memory consumption fix
+8c4bc3a
+@KirillTabelskiiArammeem
+Merge pull request #2104 from arammeem/feature/ERP-7429
+d8a389c
+@KirillTabelskiiArammeem
+ERP-7426 cut log string
+2227a3c
+@KirillTabelskiiArammeem
+Merge pull request #2102 from arammeem/fix/ERP-7426
+7cfd08f
+@EvgeniaKotovaArammeem
+ERP-7393 order | fixed tests
+4f26b84
+@EvgeniaKotovaArammeem
+Merge pull request #2106 from arammeem/feature/ERP-7383
+b0a7080
+@EvgeniaKotovaArammeem
+ERP-7451 kafka_hd | place commit before send_success_response to kafka
+f233f75
+@EvgeniaKotovaArammeem
+Merge pull request #2109 from arammeem/fix/ERP-7451
+9ab3174
+@AgustinWiskyArammeem
+BIN-10266 feature (Dockerfile) change image to support Heimdall
+6f0cb25
+@AgustinWiskyArammeem
+Merge pull request #2110 from arammeem/feature/BIN-10266-docker-heimd…
+939dbc8
+@PavelSavastseikaArammeem
+ERP-7409 aram_helpdesk_compensation_nontime --use empty string instea…
+788e92a
+@PavelSavastseikaArammeem
+Merge pull request #2111 from arammeem/fix/ERP-7409-type-error
+602084a
+@AgustinWiskyArammeem
+BIN-10266 feature (Dockerfile) change image to support Heimdall
+96f62aa
+@AgustinWiskyArammeem
+Merge pull request #2112 from arammeem/feature/BIN-10266-docker-heimd…
+8ee3869
+@AgustinWiskyArammeem
+BIN-10266 feature (files/odoo.d) run odoo process with Heimdall support
+e5b0656
+@AgustinWiskyArammeem
+Merge pull request #2113 from arammeem/feature/BIN-10266-docker-heimd…
+86a5e64
+@PavelSavastseikaArammeem
+ERP-6759 aram_helpdesk_compensation_nontime --add unittests
+a33ac89
+@PavelSavastseikaArammeem
+Merge pull request #2114 from arammeem/feature/ERP-6759-create-unittest
+d64974d
+@KirillTabelskiiArammeem
+@OlegAgafonovArammeem
+ERP-7479 unpredictable behavior of queye_job after unexpected error
+07b0be9
+@KirillTabelskiiArammeem
+Merge pull request #2115 from arammeem/feature/ERP-7479
+7996ef3
+@NikitaRyzhenkovArammeem
+@KirillTabelskiiArammeem
+ERP-6832 Added negative amount test
+661a622
+@KirillTabelskiiArammeem
+ERP-6832 fix tests
+ef880ad
+@KirillTabelskiiArammeem
+Merge pull request #2107 from arammeem/feature/ERP-6832
+01f10e7
+ArtemDemidovAramMeem and others added 17 commits last week
+@ArtemDemidovAramMeem
+@KirillTabelskiiArammeem
+ERP-7387 rep_id as string
+55c7f6c
+@ArtemDemidovAramMeem
+Merge pull request #2086 from arammeem/fix/ERP-7387
+80d89da
+@ArtemDemidovAramMeem
+ERP-7508 - empty initiator_id fix for various tickets
+4ddea5f
+@ArtemDemidovAramMeem
+Merge pull request #2116 from arammeem/fix/ERP-7508
+b94e035
+@ArtemDemidovAramMeem
+additional fix for kafka messages empty initiator_id
+63abd8a
+@ArtemDemidovAramMeem
+Merge pull request #2117 from arammeem/fix/ERP-7508
+6247839
+@ArtemDemidovAramMeem
+ERP-7533 - updating assign_date when reassigning agent or self
+2973b20
+@ArtemDemidovAramMeem
+Merge pull request #2119 from arammeem/fix/ERP-7533
+814752c
+@DmitryPasichkoArammeem
+ERP-6338 kafka_hd | Transition from webhook to Kafka topic (for ticke…
+ac7f2f7
+@DmitryPasichkoArammeem
+Merge pull request #2073 from arammeem/feature/ERP-6338
+b97915d
+@EvgeniaKotovaArammeem
+ERP-7463 delete assign ticket logic from res.users model
+0be138c
+@EvgeniaKotovaArammeem
+Merge pull request #2121 from arammeem/fix/ERP-7463
+2e7561b
+@ArtemDemidovAramMeem
+ERP-7564 - aram_helpdesk
+077f578
+@ArtemDemidovAramMeem
+Merge pull request #2122 from arammeem/feature/ERP-7564
+16ba594
+@EvgeniaKotovaArammeem
+ERP-7484 dont search amh.order.state if order:effectiveStatus is None
+cc17603
+@OlegAgafonovArammeem
+Merge pull request #2123 from arammeem/fix/ERP-7484

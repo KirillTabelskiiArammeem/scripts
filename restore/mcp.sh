@@ -1,10 +1,15 @@
 
-path="/home/kirill/Downloads/odoo_am_mcp_12_sand_2023-05-29_06-07-05.zip"
+
+path=( $ls /home/${USER}/Downloads/odoo_am_mcp_12_sand*)
+path=${path[-1]}
+
+ls ${path}
 
 rm -rf /tmp/db
 mkdir -p /tmp/db
 
 unzip ${path} -d /tmp/db
+
 
 export PGPASSWORD=odoo
 psql --host 127.0.0.1 -U odoo  -d postgres -c "drop database mcp"

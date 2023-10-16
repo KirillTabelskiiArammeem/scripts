@@ -1,5 +1,9 @@
 
-path="/home/kirill/Downloads/odoo_am_dp_12_sand_2023-09-06_06-07-39.zip"
+path=( $ls /home/kirill/Downloads/odoo_am_dp_12_sand*)
+
+path=${path[-1]}
+
+ls ${path}
 
 rm -rf /tmp/db
 mkdir -p /tmp/db
