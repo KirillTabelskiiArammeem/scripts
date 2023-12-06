@@ -1,4 +1,16 @@
 #!/usr/bin/env python3
+
+"""
+Tool to parse lsof output and group by fields
+example: lsof | python3 lsofa.py -g COMMAND,TASCMD,NAME -t 10
+example: python3 lsofa.py lsof_output.txt -g COMMAND,TASCMD,NAME -t 10
+
+requirements:
+    pandas
+    numpy
+    tabulate
+"""
+
 import atexit
 import argparse
 import sys
