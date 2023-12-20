@@ -3,6 +3,7 @@ import os
 import zipfile
 from subprocess import check_call
 from psycopg2 import connect, sql, ProgrammingError
+from psycopg2.extras import RealDictCursor
 from functools import lru_cache
 from zipfile import ZipFile
 
@@ -27,7 +28,7 @@ def get_connection():
 def run_query(query):
     print(query)
     conn = get_connection()
-    with conn.cursor() as cursor:
+    with conn.cursor(cursor_factory=RealDictCursor) as cursor:
         query = sql.SQL(query)
         cursor.execute(query)
         conn.commit()
