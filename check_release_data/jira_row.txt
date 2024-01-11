@@ -1,140 +1,119 @@
 Issue type: Task
-ERP-6759
+ERP-7885
 Priority: Medium
-Pavel Savastseika
+Oleksandr Zubenko
 
-RESOLVED
+VERIFIED ON SANDBOX
 
-Issue type: Task
-ERP-6553
+Issue type: Bug
+ERP-7979
 Priority: Medium
-Mikhail Denisov
+Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
 Issue type: Task
-ERP-6904
+ERP-7718
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-7720
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-7810
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-7968
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: User Story
+ERP-8029
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-7735
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-7719
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-7967
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-7683
 Priority: Medium
 Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
 
 Issue type: Task
-ERP-6879
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6559
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7479
-Priority: Medium
-Kirill Tabelskiy
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6840
+ERP-8045
 Priority: Medium
 Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
 Issue type: Bug
-ERP-7451
+ERP-7872
 Priority: Medium
-Mikhail Denisov
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-7741
+Priority: Medium
+Vladislav Shmakov
+
+READY FOR QA
+
+Issue type: Task
+ERP-7676
+Priority: Medium
+Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
 
 Issue type: Bug
-ERP-7427
+ERP-7836
 Priority: Medium
-Kirill Tabelskiy
-
-RESOLVED
-
-Issue type: Bug
-ERP-7409
-Priority: Medium
-Mikhail Denisov
-
-VERIFIED ON SANDBOX
-
-Issue type: Bug
-ERP-7421
-Priority: Medium
-Mikhail Denisov
+Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
 
 Issue type: Task
-ERP-7303
+ERP-8156
 Priority: Medium
-Artem Demidov
+Oleksandr Zubenko
 
 VERIFIED ON SANDBOX
 
-Issue type: Bug
-ERP-7296
-Priority: Medium
-Mikhail Denisov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6718
-Priority: Medium
-Mikhail Denisov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6832
-Priority: Medium
-
-RESOLVED
-
-Issue type: Tech Debt
-ERP-7393
-Priority: Medium
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-6888
-Priority: Medium
-Mikhail Denisov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7429
-Priority: Medium
-Kirill Tabelskiy
-
-RESOLVED
-
-Issue type: Task
-ERP-7508
-Priority: Medium
-Mikhail Denisov
-
-VERIFIED ON SANDBOX
-
-Issue type: Investigation
-ERP-7522
-Priority: Medium
-Ekaterina Zhulkova
-
-RESOLVED
-
-Issue type: Bug
-ERP-7533

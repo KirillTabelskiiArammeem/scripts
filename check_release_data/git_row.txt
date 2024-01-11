@@ -1,141 +1,204 @@
-@ArtemDemidovAramMeem
-ERP-7303 - tests and fixes for unhold transaction
-356b91b
-@ArtemDemidovAramMeem
-ERP-7421 - bugfix for Unhold transaction creation
-25be475
-@ArtemDemidovAramMeem
-Merge pull request #2100 from arammeem/fix/ERP-7421
-f902715
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+da05e33
+@VladyslavMykhailovskyiArammeem
+ERP-7709 aram_drivers
+67634c0
+@VladyslavMykhailovskyiArammeem
+Merge pull request #978 from arammeem/feature/ERP-7709
+0da9ed7
+@VladyslavMykhailovskyiArammeem
+ERP-7864
+b7e7d56
+@VladyslavMykhailovskyiArammeem
+Merge pull request #1005 from arammeem/feature/ERP-7709
+cd036f5
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+c7084aa
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+ce10f2c
+@EduardAlekseievArammeem
+@VladyslavMykhailovskyiArammeem
+ERP-7676 aram_helpdesk
+870b778
+@VladyslavMykhailovskyiArammeem
+Merge pull request #1004 from arammeem/feature/ERP-7676
+7ef7f1a
+@VladyslavMykhailovskyiArammeem
+ERP-7914 kafka_dp
+90cc72c
+@VladyslavMykhailovskyiArammeem
+Merge pull request #1006 from arammeem/feature/ERP-7914
+53e03d2
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+da15f3b
+@VladyslavMykhailovskyiArammeem
+ERP-7836 aram_drivers
+5439174
+@VladyslavMykhailovskyiArammeem
+Merge pull request #1007 from arammeem/feature/ERP-7836
+9efc1af
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+f519622
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+d131c0f
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+959cb1e
 @EvgeniaKotovaArammeem
-ERP-7383 subbug_ERP-7418 order | fixed error and test
-ebf957b
+ERP-7735 aram_driver | add related fields to enable filter on it
+aad744a
 @EvgeniaKotovaArammeem
-Merge pull request #2101 from arammeem/feature/ERP-7383
-c097da1
-@KirillTabelskiiArammeem
-ERP-7427 commit idle select
-487fe30
-@KirillTabelskiiArammeem
-Merge pull request #2103 from arammeem/fix/ERP-7427
-53f6063
-@KirillTabelskiiArammeem
-ERP-7429 memory consumption fix
-8c4bc3a
-@KirillTabelskiiArammeem
-Merge pull request #2104 from arammeem/feature/ERP-7429
-d8a389c
-@KirillTabelskiiArammeem
-ERP-7426 cut log string
-2227a3c
-@KirillTabelskiiArammeem
-Merge pull request #2102 from arammeem/fix/ERP-7426
-7cfd08f
+ERP-7735 pre-commit
+d987274
 @EvgeniaKotovaArammeem
-ERP-7393 order | fixed tests
-4f26b84
-@EvgeniaKotovaArammeem
-Merge pull request #2106 from arammeem/feature/ERP-7383
-b0a7080
-@EvgeniaKotovaArammeem
-ERP-7451 kafka_hd | place commit before send_success_response to kafka
-f233f75
-@EvgeniaKotovaArammeem
-Merge pull request #2109 from arammeem/fix/ERP-7451
-9ab3174
-@AgustinWiskyArammeem
-BIN-10266 feature (Dockerfile) change image to support Heimdall
-6f0cb25
-@AgustinWiskyArammeem
-Merge pull request #2110 from arammeem/feature/BIN-10266-docker-heimd…
-939dbc8
-@PavelSavastseikaArammeem
-ERP-7409 aram_helpdesk_compensation_nontime --use empty string instea…
-788e92a
-@PavelSavastseikaArammeem
-Merge pull request #2111 from arammeem/fix/ERP-7409-type-error
-602084a
-@AgustinWiskyArammeem
-BIN-10266 feature (Dockerfile) change image to support Heimdall
-96f62aa
-@AgustinWiskyArammeem
-Merge pull request #2112 from arammeem/feature/BIN-10266-docker-heimd…
-8ee3869
-@AgustinWiskyArammeem
-BIN-10266 feature (files/odoo.d) run odoo process with Heimdall support
-e5b0656
-@AgustinWiskyArammeem
-Merge pull request #2113 from arammeem/feature/BIN-10266-docker-heimd…
-86a5e64
-@PavelSavastseikaArammeem
-ERP-6759 aram_helpdesk_compensation_nontime --add unittests
-a33ac89
-@PavelSavastseikaArammeem
-Merge pull request #2114 from arammeem/feature/ERP-6759-create-unittest
-d64974d
-@KirillTabelskiiArammeem
-@OlegAgafonovArammeem
-ERP-7479 unpredictable behavior of queye_job after unexpected error
-07b0be9
-@KirillTabelskiiArammeem
-Merge pull request #2115 from arammeem/feature/ERP-7479
-7996ef3
+Merge pull request #1008 from arammeem/feature/ERP-7735
+f65f0b1
 @NikitaRyzhenkovArammeem
-@KirillTabelskiiArammeem
-ERP-6832 Added negative amount test
-661a622
-@KirillTabelskiiArammeem
-ERP-6832 fix tests
-ef880ad
-@KirillTabelskiiArammeem
-Merge pull request #2107 from arammeem/feature/ERP-6832
-01f10e7
-ArtemDemidovAramMeem and others added 17 commits last week
+ERP-7720 aram_drivers | Added Rep cohorts
+08fd4f0
+@NikitaRyzhenkovArammeem
+Merge pull request #1009 from arammeem/feature/ERP-7720
+6fec4f8
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+54ae4dd
+@NikitaRyzhenkovArammeem
+ERP-7718 aram_drivers | Added Rep cohorts in view for driver
+1a37017
+@NikitaRyzhenkovArammeem
+Merge pull request #1010 from arammeem/feature/ERP-7718
+5338ab1
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+994822b
+@NikitaRyzhenkovArammeem
+ERP-7719 aram_drivers | change attrs for rep_cohort_ids
+7db3d4a
+@NikitaRyzhenkovArammeem
+Merge pull request #1013 from arammeem/fix/ERP-7979
+3d6fb5b
+@NikitaRyzhenkovArammeem
+ERP-7720 aram_drivers | changed fields for rep.cohort
+27f9a0f
+@NikitaRyzhenkovArammeem
+Merge pull request #1015 from arammeem/fix/ERP-7720
+50cbd05
+NikitaRyzhenkovArammeem and others added 8 commits 2 weeks ago
+@NikitaRyzhenkovArammeem
+ERP-7968 web_advanced_search | added to modules
+98d8078
+@NikitaRyzhenkovArammeem
+Merge pull request #1014 from arammeem/feature/ERP-7968
+6e451cb
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+d607f28
 @ArtemDemidovAramMeem
-@KirillTabelskiiArammeem
-ERP-7387 rep_id as string
-55c7f6c
+ERP-7967 kafka_dp
+f9ff665
 @ArtemDemidovAramMeem
-Merge pull request #2086 from arammeem/fix/ERP-7387
-80d89da
-@ArtemDemidovAramMeem
-ERP-7508 - empty initiator_id fix for various tickets
-4ddea5f
-@ArtemDemidovAramMeem
-Merge pull request #2116 from arammeem/fix/ERP-7508
-b94e035
-@ArtemDemidovAramMeem
-additional fix for kafka messages empty initiator_id
-63abd8a
-@ArtemDemidovAramMeem
-Merge pull request #2117 from arammeem/fix/ERP-7508
-6247839
-@ArtemDemidovAramMeem
-ERP-7533 - updating assign_date when reassigning agent or self
-2973b20
-@ArtemDemidovAramMeem
-Merge pull request #2119 from arammeem/fix/ERP-7533
-814752c
-@DmitryPasichkoArammeem
-ERP-6338 kafka_hd | Transition from webhook to Kafka topic (for ticke…
-ac7f2f7
-@DmitryPasichkoArammeem
-Merge pull request #2073 from arammeem/feature/ERP-6338
-b97915d
+Merge pull request #1011 from arammeem/feature/ERP-7967
+7536fb9
+@NikitaRyzhenkovArammeem
+ERP-7719 aram_drivers | added update_cohorts
+739c4c6
+@NikitaRyzhenkovArammeem
+Merge pull request #1012 from arammeem/feature/ERP-7719
+4153e9a
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+5286caf
+EvgeniaKotovaArammeem and others added 30 commits last week
 @EvgeniaKotovaArammeem
-ERP-7463 delete assign ticket logic from res.users model
-0be138c
+ERP-7885 kafka_dp | Send information about Rep's cohort to topic Repp…
+70ffede
 @EvgeniaKotovaArammeem
-Merge pull request #2121 from arammeem/fix/ERP-7463
-2e7561b
-@ArtemDemidovAramMeem
-ERP-7564 - aram_helpdesk
-077f578
-@ArtemDemidovAramMeem
-Merge pull request #2122 from arammeem/feature/ERP-7564
-16ba594
+Merge pull request #1017 from arammeem/feature/ERP-7885
+908f75c
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+d28f2f4
 @EvgeniaKotovaArammeem
-ERP-7484 dont search amh.order.state if order:effectiveStatus is None
-cc17603
-@OlegAgafonovArammeem
-Merge pull request #2123 from arammeem/fix/ERP-7484
+ERP-7810 files,kafka_dp | Receive cohorts from kafka BeRepCohorts
+09ef7c2
+@EvgeniaKotovaArammeem
+Merge pull request #1021 from arammeem/feature/ERP-7810
+25e652b
+@EduardAlekseievArammeem
+ERP-8034 aram_project
+e857f63
+@EduardAlekseievArammeem
+Merge pull request #1019 from arammeem/feature/ERP-8034
+dbab915
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+04ae5cf
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+6aa5443
+@PavelSavastseikaArammeem
+ERP-7887 aram_web_ribbon move module to Commons
+d3f4f83
+@PavelSavastseikaArammeem
+Merge pull request #1022 from arammeem/feature/ERP-7887-move-aram-web…
+9b220e7
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+87a6068
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+1f46e28
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+d4d6104
+@EvgeniaKotovaArammeem
+ERP-8045 kafka_dp,aram_drivers | Stop producing to kafka topic Repres…
+479bd29
+@EvgeniaKotovaArammeem
+Merge pull request #1023 from arammeem/feature/ERP-8045
+ba460ad
+@VladyslavMykhailovskyiArammeem
+ERP-8138 aram_drivers
+576da58
+@VladyslavMykhailovskyiArammeem
+Merge pull request #1024 from arammeem/feature/ERP-8138
+cef7d8c
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+8883067
+@VladyslavMykhailovskyiArammeem
+ERP-8150 aram_drivers
+982e187
+@VladyslavMykhailovskyiArammeem
+Merge pull request #1025 from arammeem/feature/ERP-8150
+2988c6a
+@EvgeniaKotovaArammeem
+ERP-7810 subbug_ERP-8153 kafka_dp | fix cohort creating
+f235f10
+@EvgeniaKotovaArammeem
+Merge pull request #1026 from arammeem/fix/ERP-8153
+3efc98b
+@NikitaRyzhenkovArammeem
+ERP-7718 ERP-8144 aram_drivers | fixed _compute_can_edit_cohorts
+1fc8081
+@NikitaRyzhenkovArammeem
+Merge pull request #1027 from arammeem/fix/ERP-8144
+2336380
+@VladyslavMykhailovskyiArammeem
+ERP-8170 aram_driver_expiration_document
+9eb523a
+@VladyslavMykhailovskyiArammeem
+Merge pull request #1028 from arammeem/fix/ERP-8170
+dee4442
+@EduardAlekseievArammeem
+ERP-8156 kafka_dp
+33ef0bc
+@EduardAlekseievArammeem
+Merge pull request #1029 from arammeem/feature/ERP-8156
+53a0abc
