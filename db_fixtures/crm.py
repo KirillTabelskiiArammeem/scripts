@@ -8,7 +8,7 @@ from zipfile import ZipFile
 
 # fmt: off
 TABLES_TO_DROP = [
-'amh_rating', 'amc_branch', 'amc_branch_complete', 'amc_branch_res_users_rel', 'amc_digital_signature_popup', 'branch_stage_assignee',
+'amc_branch', 'amc_branch_complete', 'amc_branch_res_users_rel', 'amc_digital_signature_popup', 'branch_stage_assignee',
 'amc_paid_ad', 'amc_paid_ad_amc_promo_rel', 'amc_paid_ad_stage_assignee', 'amc_slot', 'amc_operation_area_amc_slot_rel',
 'queue_job', 'queue_job_queue_jobs_to_done_rel', 'queue_job_queue_requeue_job_rel',
 #'mail_activity', 'mail_channel_partner', 'mail_compose_message', 'mail_compose_message_ir_attachments_rel', 'mail_compose_message_res_partner_rel', 'mail_followers', 'mail_followers_mail_message_subtype_rel', 'mail_mail', 'mail_mail_res_partner_rel', 'mail_message', 'mail_message_mail_channel_rel', 'mail_message_res_partner_needaction_rel', 'mail_message_res_partner_needaction_rel_mail_resend_message_rel', 'mail_message_res_partner_rel', 'mail_message_res_partner_starred_rel', 'mail_resend_message', 'mail_resend_partner', 'mail_tracking_value', 'message_attachment_rel',
