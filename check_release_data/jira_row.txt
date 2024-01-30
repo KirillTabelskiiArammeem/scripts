@@ -1,119 +1,156 @@
 Issue type: Task
-ERP-7885
+ERP-6111
+Priority: Low
+Artem Demidov
+
+IN PROGRESS
+
+Issue type: Task
+ERP-6757
 Priority: Medium
-Oleksandr Zubenko
+Kirill Tabelskiy
 
-VERIFIED ON SANDBOX
+RESOLVED
 
-Issue type: Bug
-ERP-7979
+Issue type: Task
+ERP-8095
 Priority: Medium
 Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
-Issue type: Task
-ERP-7718
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7720
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7810
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7968
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: User Story
-ERP-8029
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7735
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7719
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7967
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7683
-Priority: Medium
-Oleksandr Zubenko
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8045
+Issue type: Investigation
+ERP-8171
 Priority: Medium
 Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
 Issue type: Bug
-ERP-7872
+ERP-8190
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-6611
 Priority: Medium
 Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
 Issue type: Task
-ERP-7741
+ERP-8086
 Priority: Medium
 Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-6613
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Incident
+ERP-8188
+Priority: High
+Iuliia Ershova
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-7922
+Priority: Medium
+Iuliia Ershova
 
 READY FOR QA
 
 Issue type: Task
-ERP-7676
+ERP-6753
 Priority: Medium
-Oleksandr Zubenko
+Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
 Issue type: Bug
-ERP-7836
+ERP-8314
 Priority: Medium
-Oleksandr Zubenko
+Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
 Issue type: Task
-ERP-8156
+ERP-8046
 Priority: Medium
-Oleksandr Zubenko
+Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
+Issue type: Task
+ERP-8179
+Priority: Low
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8389
+Priority: Medium
+Iuliia Ershova
+
+VERIFIED ON SANDBOX
+
+Issue type: Gap
+ERP-8186
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8221
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8279
+Priority: Medium
+Vladimir Sorokin
+
+QA IN PROGRESS
+
+Issue type: Bug
+ERP-8308
+Priority: High
+Iuliia Ershova
+
+VERIFIED ON SANDBOX
+
+Issue type: Investigation
+ERP-8281
+Priority: Medium
+Vladislav Shmakov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8191
+Priority: Medium
+Iuliia Ershova
+
+VERIFIED ON SANDBOX
+
+Issue type: Incident
+ERP-8312
+Priority: Medium
+Artem Demidov
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8414
