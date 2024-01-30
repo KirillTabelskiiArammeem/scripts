@@ -88,9 +88,10 @@ def thin_out_users():
     users_partners = run_query(
         "SELECT id, partner_id FROM res_users WHERE write_date <= '2023-07-01' and id not in (1, 2, 212) "
     )
-    users = set(str(item[0]) for item in users_partners)
+    print(users_partners)
+    users = set(str(item['id']) for item in users_partners)
     users = ", ".join(users) or "999999999"
-    partners = set(str(item[1]) for item in users_partners)
+    partners = set(str(item['partner_id']) for item in users_partners)
     partners = ", ".join(partners) or "999999999"
     run_query(
         f"""
@@ -111,7 +112,7 @@ def thin_out_users():
     partners = run_query(
         "SELECT id FROM res_partner WHERE id NOT IN (SELECT partner_id FROM res_users) AND id NOT IN (SELECT partner_id FROM  res_company) AND user_id IS NULL"
     )
-    partners = set(str(item[0]) for item in partners)
+    partners = set(str(item['id']) for item in partners)
     partners = ", ".join(partners) or "999999999"
     run_query(
         f"""
