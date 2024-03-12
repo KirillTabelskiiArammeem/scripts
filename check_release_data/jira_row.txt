@@ -1,156 +1,113 @@
 Issue type: Task
-ERP-6111
-Priority: Low
-Artem Demidov
+ERP-8107
+Priority: Medium
 
-IN PROGRESS
+
+REOPENED
 
 Issue type: Task
-ERP-6757
+ERP-8591
 Priority: Medium
-Kirill Tabelskiy
 
-RESOLVED
-
-Issue type: Task
-ERP-8095
-Priority: Medium
-Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
-Issue type: Investigation
-ERP-8171
+Issue type: Tech Debt
+ERP-8368
 Priority: Medium
-Vladislav Shmakov
 
-VERIFIED ON SANDBOX
-
-Issue type: Bug
-ERP-8190
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Bug
-ERP-6611
-Priority: Medium
-Vladislav Shmakov
 
 VERIFIED ON SANDBOX
 
 Issue type: Task
-ERP-8086
+ERP-8649
 Priority: Medium
-Vladislav Shmakov
 
-VERIFIED ON SANDBOX
-
-Issue type: Bug
-ERP-6613
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Incident
-ERP-8188
-Priority: High
-Iuliia Ershova
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-7922
-Priority: Medium
-Iuliia Ershova
-
-READY FOR QA
-
-Issue type: Task
-ERP-6753
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Bug
-ERP-8314
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8046
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8179
-Priority: Low
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8389
-Priority: Medium
-Iuliia Ershova
-
-VERIFIED ON SANDBOX
-
-Issue type: Gap
-ERP-8186
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8221
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8279
-Priority: Medium
-Vladimir Sorokin
 
 QA IN PROGRESS
 
-Issue type: Bug
-ERP-8308
-Priority: High
-Iuliia Ershova
-
-VERIFIED ON SANDBOX
-
-Issue type: Investigation
-ERP-8281
-Priority: Medium
-Vladislav Shmakov
-
-VERIFIED ON SANDBOX
-
 Issue type: Task
-ERP-8191
+ERP-8592
 Priority: Medium
-Iuliia Ershova
+
+
+QA IN PROGRESS
+
+Issue type: Sub-task
+ERP-8661
+Priority: Medium
+
 
 VERIFIED ON SANDBOX
 
 Issue type: Incident
-ERP-8312
+ERP-8800
 Priority: Medium
-Artem Demidov
+
 
 VERIFIED ON SANDBOX
 
 Issue type: Task
-ERP-8414
+ERP-8829
+Priority: Medium
+
+
+ON HOLD
+
+Issue type: Tech Debt
+ERP-8874
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8844
+Priority: Medium
+
+
+IN PROGRESS
+
+Issue type: Incident
+ERP-8753
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Sub-task
+ERP-8697
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Sub-task
+ERP-8779
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8819
+Priority: High
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8923
+Priority: Medium
+
+
+REJECTED
+
+is enabled by
+Issue type: Test
+ERP-8933
+Priority: Medium
+
+
+QA IN PROGRESS
+
