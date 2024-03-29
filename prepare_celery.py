@@ -4,7 +4,7 @@
 
 import odoo
 
-name = 'Test Team'
+name = 'Test Team Assign'
 limitation_number = 5
 
 ready_status = env.ref("aram_agent_status.agent_status_ready")
@@ -49,7 +49,7 @@ for i in range(number_of_users):
 team.autoassign_configs = [config.id for config in configs]
 env.cr.commit()
 
-team = env['helpdesk.team'].browse(889)
+# team = env['helpdesk.team'].browse(889)
 
 def quick_create_ticket(name, order_number):
         return env["helpdesk.ticket"].create(
@@ -67,7 +67,7 @@ def quick_create_ticket(name, order_number):
         )
 
 
-for i in range(10000, 200000):
+for i in range(10300, 11300):
     try:
         quick_create_ticket("test ticket", i)
         env.cr.commit()
