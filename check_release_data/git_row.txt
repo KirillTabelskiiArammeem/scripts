@@ -1,88 +1,202 @@
-@KirillTabelskiiArammeem
-ERP-8788 job permission fix
-d333e38
-@KirillTabelskiiArammeem
-Merge pull request #2358 from arammeem/fix/ERP-8788-hotfix-develop
-2835aee
-@ArtemDemidovAramMeem
-ERP-8784 - added styling for tkts/orders/trx tables
-c8f27f0
-@ArtemDemidovAramMeem
-Merge pull request #2359 from arammeem/fix/ERP-8784
-bfd31cf
-@NikitaRyzhenkovArammeem
-ERP-8107 ERP-8697 ERP-8777 ERP-8779 aram_helpdesk | changed copy wiza…
-6d18ed4
-@NikitaRyzhenkovArammeem
-Merge pull request #2360 from arammeem/fix/ERP-8697
-ffdb36f
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-d24fdd9
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-a253203
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-9ef1ebb
-@NikitaRyzhenkovArammeem
-ERP-8753 aram_helpdesk_compensation_nontime | replace no_penalty logic
-47a6992
-@NikitaRyzhenkovArammeem
-Merge pull request #2362 from arammeem/fix/ERP-8753
-324d83c
-@NikitaRyzhenkovArammeem
-ERP-8591 ERP-8592 ERP-8649 order | added is_premium and cohort
-8c67f69
-@NikitaRyzhenkovArammeem
-Merge pull request #2363 from arammeem/feature/ERP-8591
-ffc49b3
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-591de9c
-@NikitaRyzhenkovArammeem
-ERP-8779 aram_helpdesk | changed merchant care role
-32b80cf
-@NikitaRyzhenkovArammeem
-Merge pull request #2364 from arammeem/fix/ERP-8779
-b01c530
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-ef2a42b
+Commits on Mar 13, 2024
+ERP-6111 - test for move_ticket_to_care_center
+
 @ArtemDemidovAramMeem
 @KirillTabelskiiArammeem
-ERP-8368 - migration to BI API for tier and flag
-6c09a9f
+ArtemDemidovAramMeem authored and KirillTabelskiiArammeem committed 2 weeks ago
+Merge pull request #2370 from arammeem/feature/ERP-6111 
+
 @ArtemDemidovAramMeem
-Merge pull request #2361 from arammeem/feature/ERP-8368
-ce58630
-@NikitaRyzhenkovArammeem
-ERP-8592 order | added getting premium team_id from environment
-3dd5343
-@NikitaRyzhenkovArammeem
-Merge pull request #2367 from arammeem/fix/ERP-8592
-7fb6fa1
+ArtemDemidovAramMeem committed 2 weeks ago
+Commits on Mar 14, 2024
+Autodeploy: arammeem16/odoo_core 12.0-re 
+
 @amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-10b5a58
-@KirillTabelskiiArammeem
-ERP-8819 assignment optimization
-8caee68
-@KirillTabelskiiArammeem
-ERP-8819 assignment optimization
-21ab76c
-@KirillTabelskiiArammeem
-Merge pull request #2365 from arammeem/feature/ERP-8819-autoassign-op…
-e5f36f8
+amjx-bot committed 2 weeks ago
+Commits on Mar 15, 2024
+ERP-8938 webhook_... | added premium team for ticket
+
 @NikitaRyzhenkovArammeem
-ERP-8107 ERP-8896 ERP-8897 ERP-8898 aram_helpdesk, order | fixed copy…
-9bdad9f
+NikitaRyzhenkovArammeem committed 2 weeks ago
+Merge pull request #2372 from arammeem/fix/ERP-8938 
+
 @NikitaRyzhenkovArammeem
-Merge pull request #2368 from arammeem/fix/ERP-8107
-0006c34
+NikitaRyzhenkovArammeem committed 2 weeks ago
+Autodeploy: arammeem16/odoo_core 12.0-re 
+
+@amjx-bot
+amjx-bot committed 2 weeks ago
+Commits on Mar 19, 2024
+ERP-8844 aram_helpdesk_compensation_nontime | added closing tickets
+
 @NikitaRyzhenkovArammeem
-ERP-8592 ERP-8935 kafka_hd | added premium time for creator
-9c498ab
+NikitaRyzhenkovArammeem committed last week
+Commits on Mar 20, 2024
+Merge pull request #2375 from arammeem/fix/ERP-8844 
+
+@NikitaRyzhenkovArammeem
+NikitaRyzhenkovArammeem committed last week
+Autodeploy: arammeem16/odoo_core 12.0-re 
+
+@amjx-bot
+amjx-bot committed last week
+Autodeploy: arammeem16/odoo_core 12.0-re 
+
+@amjx-bot
+amjx-bot committed last week
+ERP-8803 order | added index on the driver_id field
+
+@NikitaRyzhenkovArammeem
+NikitaRyzhenkovArammeem committed last week
+Commits on Mar 21, 2024
+Merge pull request #2378 from arammeem/fix/ERP-8803-add-index 
+
 @KirillTabelskiiArammeem
-Merge pull request #2369 from arammeem/fix/ERP-8935
-e89d4b1
+KirillTabelskiiArammeem committed 5 days ago
+ERP-8977 aram_helpdesk_compensation_nontime | fixed js error for mobi… 
+
+@NikitaRyzhenkovArammeem
+NikitaRyzhenkovArammeem committed 5 days ago
+Merge pull request #2377 from arammeem/fix/ERP-8977 
+
+@NikitaRyzhenkovArammeem
+NikitaRyzhenkovArammeem committed 5 days ago
+Autodeploy: arammeem16/odoo_core 12.0-re 
+
+@amjx-bot
+amjx-bot committed 5 days ago
+ERP-8960 redis optimization
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 5 days ago
+ERP-8960 redis optimization pre-commit
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 5 days ago
+Merge pull request #2373 from arammeem/feature/ERP-8960-redis-optimiz… 
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 5 days ago
+Autodeploy: arammeem16/odoo_core 12.0-re 
+
+@amjx-bot
+amjx-bot committed 5 days ago
+Commits on Mar 22, 2024
+ERP-8805 ERP-8737 aram_helpdesk, order, webhook_chat_incoming, webhoo… 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed 4 days ago
+Merge pull request #2374 from arammeem/feature/ERP-8805 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed 4 days ago
+Autodeploy: arammeem16/odoo_core 12.0-re 
+
+@amjx-bot
+amjx-bot committed 4 days ago
+ERP-8805 aram_helpdesk 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed 4 days ago
+Merge pull request #2379 from arammeem/feature/ERP-8805 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed 4 days ago
+ERP-9010 delete registred function register_all_schemas_in_kafka
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 4 days ago
+Merge pull request #2380 from arammeem/feature/ERP-9010 
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 4 days ago
+Autodeploy: arammeem16/odoo_core 12.0-re 
+
+@amjx-bot
+amjx-bot committed 4 days ago
+ERP-000 test optimization
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 4 days ago
+Merge pull request #2382 from arammeem/feature/ERP-000-test-opimization 
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 4 days ago
+ERP-8760 Added declaimer for marketplace orders.
+
+@RustemIdrisovArammeem
+RustemIdrisovArammeem committed 4 days ago
+Merge pull request #2376 from arammeem/feature/ERP-8760-added-declaim… 
+
+@RustemIdrisovArammeem
+RustemIdrisovArammeem committed 4 days ago
+ERP-8872, ERP-8873 Fixed getting parent tickets
+
+@RustemIdrisovArammeem
+RustemIdrisovArammeem committed 4 days ago
+Merge pull request #2381 from arammeem/fix/ERP-8872-ERP-8873-fix-gett… 
+
+@RustemIdrisovArammeem
+RustemIdrisovArammeem committed 4 days ago
+ERP-8997 order | fixed effectiveOrderCohort
+
+@NikitaRyzhenkovArammeem
+NikitaRyzhenkovArammeem committed 4 days ago
+Merge pull request #2383 from arammeem/fix/ERP-8997 
+
+@NikitaRyzhenkovArammeem
+NikitaRyzhenkovArammeem committed 4 days ago
+Commits on Mar 25, 2024
+ERP-8805 aram_helpdesk 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed yesterday
+Merge pull request #2384 from arammeem/fix/ERP-8805
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed yesterday
+ERP-8699 aram_helpdesk, aram_helpdesk_assign_tickets 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed yesterday
+Commits on Mar 26, 2024
+Merge pull request #2385 from arammeem/feature/ERP-8699 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed 7 hours ago
+ERP-8699 aram_helpdesk_assign_tickets 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed 6 hours ago
+Merge pull request #2386 from arammeem/feature/ERP-8699 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed 5 hours ago
+Revert "ERP-8844 aram_helpdesk_compensation_nontime | added closing t… 
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 4 hours ago
+Merge pull request #2389 from arammeem/fix/ERP-8844-revert-2375 
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 4 hours ago
+ERP-9011 fix processing digital order
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 4 hours ago
+Merge pull request #2387 from arammeem/fix/ERP-9011 
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 4 hours ago
+ERP-8805 kafka_hd 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed 2 hours ago
+Merge pull request #2390 from arammeem/fix/ERP-8805-rank-kafka-ticket 
+
+@VladyslavMykhailovskyiArammeem
+VladyslavMykhailovskyiArammeem committed 2 hours ago
+Merge branch 'develop' into feature/RM-13617
+
+@KirillTabelskiiArammeem
+KirillTabelskiiArammeem committed 1 minute ago

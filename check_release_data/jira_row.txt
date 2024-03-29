@@ -1,19 +1,5 @@
 Issue type: Task
-ERP-8107
-Priority: Medium
-
-
-REOPENED
-
-Issue type: Task
-ERP-8591
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Tech Debt
-ERP-8368
+ERP-8592
 Priority: Medium
 
 
@@ -26,88 +12,115 @@ Priority: Medium
 
 QA IN PROGRESS
 
+Issue type: Bug
+ERP-8803
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
 Issue type: Task
-ERP-8592
+ERP-8760
+Priority: Medium
+
+
+READY FOR QA
+
+Issue type: Bug
+ERP-8873
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8737
 Priority: Medium
 
 
 QA IN PROGRESS
 
-Issue type: Sub-task
-ERP-8661
+Issue type: Task
+ERP-8805
+Priority: Medium
+
+
+QA IN PROGRESS
+
+Issue type: Bug
+ERP-8872
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8969
 Priority: Medium
 
 
 VERIFIED ON SANDBOX
 
 Issue type: Incident
-ERP-8800
+ERP-8977
 Priority: Medium
 
 
 VERIFIED ON SANDBOX
 
-Issue type: Task
-ERP-8829
-Priority: Medium
-
-
-ON HOLD
-
-Issue type: Tech Debt
-ERP-8874
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8844
-Priority: Medium
-
-
-IN PROGRESS
-
-Issue type: Incident
-ERP-8753
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Sub-task
-ERP-8697
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Sub-task
-ERP-8779
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8819
+Issue type: Bug
+ERP-8938
 Priority: High
 
 
 VERIFIED ON SANDBOX
 
+Issue type: Sub-bug
+ERP-8935
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
 Issue type: Task
-ERP-8923
+ERP-8960
+Priority: High
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Bug
+ERP-8997
 Priority: Medium
 
 
-REJECTED
+VERIFIED ON SANDBOX
 
-is enabled by
-Issue type: Test
-ERP-8933
+Issue type: Task
+ERP-8990
 Priority: Medium
 
 
-QA IN PROGRESS
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8978
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-9010
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-9007
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
 
