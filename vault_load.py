@@ -1,3 +1,7 @@
+import io
+import threading
+import multiprocessing
+
 import hvac
 from hvac.adapters import JSONAdapter
 import os
@@ -5,7 +9,10 @@ from collections import namedtuple
 import json
 import time
 from threading import RLock
-
+import datetime
+import cProfile
+import cProfile, pstats, io
+from pstats import SortKey
 
 
 
@@ -63,23 +70,24 @@ class JwtJsonAdapter(JSONAdapter):
     ):
         if not skip_auth:
             self.jwt_auth()
+        print(args, kwargs)
         return super().request(*args, **kwargs)
 
 
 Path = namedtuple("Path", ["application", "infrastructure", "security"])
 
-VAULT_ADDR = os.getenv("VAULT_ADDR", "http://vault:8200")
+VAULT_ADDR = os.getenv("VAULT_ADDR", "https://bss-vault.stg.toyou.amhub.org/")
 VAULT_TIMEOUT = os.getenv("VAULT_TIMEOUT", 30)
-VAULT_NAMESPACE = os.getenv("VAULT_NAMESPACE")
+VAULT_NAMESPACE = os.getenv("VAULT_NAMESPACE", 'am-mcp-12-sand')
 VAULT_MOUNT_POINT = os.getenv("VAULT_MOUNT_POINT", "bss")
 VAULT_DEFAULT_ENGINE = os.getenv("VAULT_DEFAULT_ENGINE", "kv")
 VAULT_TOKEN = os.getenv("VAULT_TOKEN")
 VAULT_JWT_LOGIN_PATH = os.getenv("VAULT_JWT_LOGIN_PATH", "v1/auth/erpdev/login")
 VAULT_JWT_TOKEN = os.getenv("VAULT_JWT_TOKEN")
 VAULT_JWT_TOKEN_FILE = os.getenv(
-    "VAULT_JWT_TOKEN_FILE", "/run/secrets/kubernetes.io/serviceaccount/token"
+    "VAULT_JWT_TOKEN_FILE", "./token"
 )
-VAULT_ROLE = os.getenv("VAULT_ROLE")
+VAULT_ROLE = os.getenv("VAULT_ROLE", 'am-mcp-12-sand')
 
 VAULT_PATH_PREFIX = VAULT_NAMESPACE or "data"
 
@@ -88,6 +96,11 @@ PATH = Path(
     infrastructure=f"{VAULT_PATH_PREFIX}/infrastructure",
     security=f"{VAULT_PATH_PREFIX}/security",
 )
+
+
+THREADS = 1
+REQUESTS = 100
+PROCESSES = 100
 
 
 def get_jwt_json_adapter(*args, **kwargs):
@@ -128,7 +141,46 @@ def get_vault():
 
 
 def get_keys(client: hvac.Client):
-    client.kv.reads_secret_cersion(PATH.application, mount_point=VAULT_MOUNT_POINT)
+    client.kv.read_secret_version(path=PATH.application, mount_point=VAULT_MOUNT_POINT, raise_on_deleted_version=False)
+
+
+def get_keys_worker(client: hvac.Client, num):
+    for i in range(num):
+        get_keys(client)
+
 
 def load_get():
     vault = get_vault()
+    get_keys_worker(vault, REQUESTS)
+    # threads = [threading.Thread(target=get_keys_worker, args=(vault, REQUESTS)) for _ in range(THREADS)]
+    # [thread.start() for thread in threads]
+    # [thread.join() for thread in threads]
+
+def main():
+    pr = cProfile.Profile()
+    pr.enable()
+    start = datetime.datetime.now()
+    print(f'''
+    Stare test
+    REQUESTS: {REQUESTS}
+    THREADS: {THREADS}
+    PROCESSES: {PROCESSES}
+    Total (REQUESTS * THREADS * PROCESSES): {REQUESTS * THREADS * PROCESSES}
+    ''')
+
+    load_get()
+    processes = [multiprocessing.Process(target=load_get) for _ in range(PROCESSES)]
+    [process.start() for process in processes]
+    [process.join() for process in processes]
+    worktime = datetime.datetime.now() - start
+    worktime_seconds = worktime.total_seconds()
+    print(f'processing time: {worktime_seconds} \nrps {REQUESTS * THREADS * PROCESSES / worktime_seconds}')
+    pr.disable()
+    s = io.StringIO()
+    sortby = SortKey.CUMULATIVE
+    ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
+    ps.print_stats()
+    print(s.getvalue())
+
+main()
+

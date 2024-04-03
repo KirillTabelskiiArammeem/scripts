@@ -1,124 +1,47 @@
-Issue type: Task
-ERP-8592
+Issue type: Bug
+ERP-9032
 Priority: Medium
 
 
 VERIFIED ON SANDBOX
 
 Issue type: Task
-ERP-8649
+ERP-9054
 Priority: Medium
 
 
-QA IN PROGRESS
+VERIFIED ON SANDBOX
 
 Issue type: Bug
-ERP-8803
+ERP-9027
 Priority: Medium
 
 
 VERIFIED ON SANDBOX
 
 Issue type: Task
-ERP-8760
+ERP-9070
 Priority: Medium
 
 
-READY FOR QA
+VERIFIED ON SANDBOX
 
 Issue type: Bug
-ERP-8873
+ERP-9058
 Priority: Medium
 
 
 VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8737
-Priority: Medium
-
-
-QA IN PROGRESS
 
 Issue type: Task
 ERP-8805
 Priority: Medium
 
 
-QA IN PROGRESS
-
-Issue type: Bug
-ERP-8872
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
+RESOLVED
 
 Issue type: Task
-ERP-8969
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Incident
-ERP-8977
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Bug
-ERP-8938
-Priority: High
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Sub-bug
-ERP-8935
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8960
-Priority: High
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Bug
-ERP-8997
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8990
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-8978
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-9010
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-9007
+ERP-9022
 Priority: Medium
 
 
