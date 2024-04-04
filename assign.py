@@ -1,64 +1,60 @@
-import os
+import atexit
 import datetime
+import logging
+import os
 
+from cachetools import cached
+from confluent_kafka import DeserializingConsumer, KafkaError, SerializingProducer
+from confluent_kafka.schema_registry import Schema, SchemaRegistryClient
+from confluent_kafka.schema_registry.avro import AvroDeserializer, AvroSerializer
+from confluent_kafka.schema_registry.error import SchemaRegistryError
+from confluent_kafka.serialization import StringDeserializer, StringSerializer
 
-def logger(path):
-    def __logger(old_function):
-        def new_function(*args, **kwargs):
-            with open(path, 'a', encoding='utf-8') as f:
-                res = f'''Дата и время запуска программы: {datetime.datetime.now()}
-        Имя функции: {old_function.__name__}
-        Аргументы: {args} и {kwargs}
-        Возвращаемое значение: {old_function(*args, **kwargs)}\n'''
-                f.writelines(res)
-            return old_function(*args, **kwargs)
+from odoo import api, models
 
-        return new_function
+from odoo.addons.aram_kafka.models.exceptions import SchemaNotFoundException
+from odoo.addons.aram_utils.models.exceptions import ToggleDisabledException
+from odoo.addons.aram_utils.utils import check_toggle, with_attempts
 
-    return __logger
+user = self
+self = self.env['aram.kafka']
+logger = logging.getLogger("Kafka")
 
-
-def test_2():
-    paths = ('log_1.log', 'log_2.log', 'log_3.log')
-
-    for path in paths:
-        if os.path.exists(path):
-            os.remove(path)
-
-        @logger(path)
-        def hello_world():
-            return 'Hello World'
-
-        @logger(path)
-        def summator(a, b=0):
-            return a + b
-
-        @logger(path)
-        def div(a, b):
-            return a / b
-
-        assert 'Hello World' == hello_world(), "Функция возвращает 'Hello World'"
-        result = summator(2, 2)
-        assert isinstance(result, int), 'Должно вернуться целое число'
-        assert result == 4, '2 + 2 = 4'
-        result = div(6, 2)
-        assert result == 3, '6 / 2 = 3'
-        summator(4.3, b=2.2)
-
-    for path in paths:
-
-        assert os.path.exists(path), f'файл {path} должен существовать'
-
-        with open(path, encoding='utf-8') as log_file:
-            log_file_content = log_file.read()
-
-        assert 'summator' in log_file_content, 'должно записаться имя функции'
-
-        for item in (4.3, 2.2, 6.5):
-            assert str(item) in log_file_content, f'{item} должен быть записан в файл'
-
-
-if __name__ == '__main__':
-    test_2()
-
-
+REQUEST_TIMEOUT_MS = int(os.getenv("KAFKA_REQUEST_TIMEOUT_MS", 30000))
+bootstrap_servers = os.getenv("INTEGRATION_KAFKA_BOOTSTRAP_SERVERS", "broker:29092")
+schema_registry = os.getenv(
+    "INTEGRATION_KAFKA_SCHEMA_REGISTRY", "http://schema-registry:8081"
+)
+schema_registry_client = SchemaRegistryClient({"url": schema_registry})
+message_max_bytes = os.getenv(
+    "INTEGRATION_KAFKA_PRODUCER_MESSAGE_MAX_BYTES",
+    1000012,
+)
+topic = 'HelpdeskUpdateUserStatus'
+schema = self.get_schema_by_topic_name(topic)
+avro_serializer = AvroSerializer(
+            self.schema_registry_client,
+            schema.schema,
+            conf={
+                "auto.register.schemas": False,
+            },
+        )
+producer_conf = {
+            "bootstrap.servers": self.bootstrap_servers,
+            "key.serializer": StringSerializer("utf_8"),
+            "value.serializer": avro_serializer,
+            "message.max.bytes": int(self.message_max_bytes),
+            "request.timeout.ms": REQUEST_TIMEOUT_MS,
+            "socket.keepalive.enable": True,
+            "socket.timeout.ms": REQUEST_TIMEOUT_MS,
+            "logger": logger,
+        }
+producer = SerializingProducer(producer_conf)
+producer.poll(0)
+producer.produce(
+            topic=topic,
+            key='1',
+            value={'user_id': 1, 'online': True, 'status_work': 1, 'update_user_time_online': False, 'update_average_rating': False},
+            on_delivery=self.delivery_report,
+        )
+producer.flush()
