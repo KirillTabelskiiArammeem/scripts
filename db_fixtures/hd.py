@@ -101,7 +101,7 @@ def thin_out_users():
     DELETE FROM aram_autoassign_config WHERE agent IN ({users});
     DELETE FROM res_users WHERE id IN ({users});
     DELETE FROM res_partner WHERE id in ({partners});
-    DELETE FROM ir_model_data WHERE res_id  IN ({users}) AND model = 'res.users';
+    DELETE FROM ir_model_data WHERE res_id  IN ({users}) AND model = 'res.users' and name != 'public_user';
     DELETE FROM ir_model_data WHERE res_id  IN ({partners}) AND model = 'res.partner';
     """
     )
@@ -125,7 +125,7 @@ def thin_out_users():
 def backup(path="fixture.sql"):
     os.environ["PGPASSWORD"] = "odoo"
     check_call(
-        f"pg_dump --file '{path}' --host '127.0.0.1' --port '5432' --username 'odoo' --format=p 'helpdesk'",
+        f"pg_dump --file '{path}' --host '127.0.0.1' --port '5432' --username 'odoo' --format=p 'helpdesk_test'",
         shell=True,
     )
     with ZipFile(
@@ -136,11 +136,11 @@ def backup(path="fixture.sql"):
 
 
 def main():
-    clean_tables()
-    thin_out_ir_model_data()
-    thin_out_ir_attachments()
-    thin_out_users()
-    thin_out_ir_translation()
+    # clean_tables()
+    # thin_out_ir_model_data()
+    # thin_out_ir_attachments()
+    # thin_out_users()
+    # thin_out_ir_translation()
     backup()
 
 

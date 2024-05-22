@@ -1,49 +1,315 @@
 Issue type: Bug
-ERP-9032
+OPS-208
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-9054
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
+READY FOR RELEASE
 
 Issue type: Bug
-ERP-9027
+OPS-216
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
+READY FOR RELEASE
 
 Issue type: Task
-ERP-9070
+OPS-244
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
+READY FOR RELEASE
+
+Issue type: Task
+OPS-243
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-222
+Priority: Medium
+
+
+READY FOR RELEASE
 
 Issue type: Bug
-ERP-9058
+OPS-267
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
+READY FOR RELEASE
+
+Issue type: Bug
+OPS-296
+Priority: Medium
+
+
+READY FOR RELEASE
 
 Issue type: Task
-ERP-8805
+OPS-223
 Priority: Medium
 
 
-RESOLVED
+READY FOR RELEASE
 
 Issue type: Task
-ERP-9022
+OPS-260
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
+READY FOR RELEASE
 
+Issue type: Bug
+OPS-192
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-316
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-356
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Bug
+OPS-333
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-357
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Bug
+OPS-359
+Priority: Medium
+
+READY FOR RELEASE
+
+Issue type: Bug
+OPS-407
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Story
+OPS-408
+Priority: Medium
+
+IN UAT
+
+Issue type: Bug
+OPS-494
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-406
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-395
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-495
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-497
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Bug
+OPS-517
+Priority: Low
+
+
+READY FOR RELEASE
+
+Issue type: Sub-task
+OPS-438
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-519
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-bug
+OPS-503
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-bug
+OPS-548
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-bug
+OPS-547
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-bug
+OPS-544
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-bug
+OPS-549
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-590
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-591
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-bug
+OPS-600
+Priority: Low
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-607
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Bug
+OPS-612
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-bug
+OPS-609
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-599
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-bug
+OPS-617
+Priority: Low
+
+
+READY FOR RELEASE
+
+Issue type: Sub-task
+OPS-610
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-614
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Story
+OPS-602
+Priority: High
+
+
+READY FOR UAT
+
+Issue type: Bug
+OPS-723
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-720
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-task
+OPS-662
+Priority: Medium
+
+
+TODO
+
+Issue type: Sub-task
+OPS-661
+Priority: Medium
+
+
+TODO
+
+Issue type: Task
+OPS-753
