@@ -1,315 +1,180 @@
-Issue type: Bug
-OPS-208
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Bug
-OPS-216
+Issue type: Task
+OPS-412
 Priority: Medium
 
 
 READY FOR RELEASE
 
 Issue type: Task
-OPS-244
+OPS-437
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-496
 Priority: Medium
 
 
 READY FOR RELEASE
 
 Issue type: Task
-OPS-243
+OPS-324
 Priority: Medium
 
 
-READY FOR RELEASE
-
-Issue type: Task
-OPS-222
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Bug
-OPS-267
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Bug
-OPS-296
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-223
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-260
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Bug
-OPS-192
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-316
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-356
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Bug
-OPS-333
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-357
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Bug
-OPS-359
-Priority: Medium
-
-READY FOR RELEASE
-
-Issue type: Bug
-OPS-407
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Story
-OPS-408
-Priority: Medium
-
-IN UAT
-
-Issue type: Bug
-OPS-494
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-406
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-395
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-495
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-497
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Bug
-OPS-517
-Priority: Low
-
-
-READY FOR RELEASE
+QA ACCEPTED
 
 Issue type: Sub-task
-OPS-438
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-519
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Sub-bug
-OPS-503
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Sub-bug
-OPS-548
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Sub-bug
-OPS-547
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Sub-bug
-OPS-544
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Sub-bug
-OPS-549
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-590
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-591
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Sub-bug
-OPS-600
-Priority: Low
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-607
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Bug
-OPS-612
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Sub-bug
-OPS-609
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-599
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Sub-bug
-OPS-617
-Priority: Low
-
-
-READY FOR RELEASE
-
-Issue type: Sub-task
-OPS-610
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-614
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Story
-OPS-602
-Priority: High
-
-
-READY FOR UAT
-
-Issue type: Bug
-OPS-723
-Priority: Medium
-
-
-READY FOR RELEASE
-
-Issue type: Task
-OPS-720
+OPS-747
 Priority: Medium
 
 
 READY FOR RELEASE
 
 Issue type: Sub-task
-OPS-662
+OPS-796
 Priority: Medium
 
 
-TODO
+QA ACCEPTED
+
+Issue type: Bug
+OPS-820
+Priority: Medium
+
+
+QA ACCEPTED
 
 Issue type: Sub-task
-OPS-661
+OPS-749
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Sub-task
+OPS-745
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Bug
+OPS-897
+Priority: Medium
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-1126
+Priority: Medium
+
+
+READY FOR QA
+
+Issue type: Task
+OPS-1091
 Priority: Medium
 
 
 TODO
 
 Issue type: Task
-OPS-753
+OPS-1065
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-1040
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-task
+OPS-1114
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-890
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-858
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-1142
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-1151
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-1154
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-1167
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-1246
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-1231
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-1289
+Priority: Medium
+
+
+IN QA
+
+Issue type: Bug
+OPS-1245
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-1264
+Priority: Medium
+
+READY FOR RELEASE
+

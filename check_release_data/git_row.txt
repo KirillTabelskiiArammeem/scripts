@@ -1,383 +1,161 @@
-amjx-bot and others added 30 commits last month
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-8ba123b
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-433dddf
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-eb86757
+EvgeniaKotovaArammeem and others added 30 commits 2 weeks ago
 @EvgeniaKotovaArammeem
-OPS-347 kafka_hd,aram_helpdesk_compensation_nontime | fix unittests
-05e9f78
+OPS-747 kafka_hd | processing messages from Kafka topic RedHelpDeskTi… 
+a8edde6
 @EvgeniaKotovaArammeem
-Merge pull request #2432 from arammeem/fix/OPS-347
-af4831b
+Merge pull request #2530 from arammeem/feature/OPS-747 
+5800672
 @EvgeniaKotovaArammeem
-OPS-333 order,aram_helpdesk_representative_data_overview | change age…
-9415c4d
+OPS-966 order | fix log message
+69d7f51
 @EvgeniaKotovaArammeem
-Merge pull request #2431 from arammeem/fix/OPS-333
-015f612
-@KirillTabelskiiArammeem
-OPS-350 fix kafka for local deployment
-9ca20a5
-@KirillTabelskiiArammeem
-Merge pull request #2433 from arammeem/feature/OPS-350
-946d065
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-d6da932
+Merge pull request #2524 from arammeem/fix/OPS-966 
+879b1c5
+@EvgeniaKotovaArammeem
+OPS-890 aram_helpdesk,kafka_hd 
+01e88e6
+@EvgeniaKotovaArammeem
+Merge pull request #2516 from arammeem/feature/OPS-890 
+d2bf71d
 @NikitaRyzhenkovArammeem
-OPS-346 deleted tracking for o2m field
-1f34009
+OPS-749 added people_transportation product_type
+d0d03fb
 @NikitaRyzhenkovArammeem
-Merge pull request #2435 from arammeem/fix/OPS-346
-a2302c3
-@VladyslavMykhailovskyiArammeem
-OPS-222
-603be9d
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2434 from arammeem/feature/OPS-222
-2c83924
-@EvgeniaKotovaArammeem
-OPS-216 order,aram_helpdesk,aram_digital_product
-eb57434
-@EvgeniaKotovaArammeem
-Merge pull request #2436 from arammeem/fix/OPS-216
-fdd726a
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-2cda2af
-@VladyslavMykhailovskyiArammeem
-OPS-316
-2b5eaff
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2439 from arammeem/feature/OPS-316
-a99549d
-@VladyslavMykhailovskyiArammeem
-OPS-406
-09df671
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2440 from arammeem/feature/OPS-406
-ff4cc63
-@EvgeniaKotovaArammeem
-OPS-407 aram_helpdesk,aram_digital_product
-54d8086
-@EvgeniaKotovaArammeem
-Merge pull request #2441 from arammeem/fix/OPS-407
-854ab51
-@EvgeniaKotovaArammeem
-Revert "ERP-5106 order | Ticket is not enriched when the one was init…
-74ae307
-@EvgeniaKotovaArammeem
-OPS-357 aram_digital_product, order
-28ba69a
-@EvgeniaKotovaArammeem
-Merge pull request #2442 from arammeem/feature/OPS-357
-a886841
-@VladyslavMykhailovskyiArammeem
-OPS-223
-4de0884
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2438 from arammeem/feature/OPS-223
-509ee5f
-@EvgeniaKotovaArammeem
-OPS-438 aram_helpdesk
-3c380a0
-@EvgeniaKotovaArammeem
-Merge pull request #2444 from arammeem/fix/OPS-438
-930c497
-amjx-bot and others added 60 commits 3 weeks ago
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-af5ab81
+Merge pull request #2511 from arammeem/feature/OPS-749 
+369f830
 @RustemIdrisovArammeem
-OPS-243, OPS-244 Added attachments to hd with s3
-7a51674
+OPS-412 Removed team supervisor search for parent tickets.
+920cec5
 @RustemIdrisovArammeem
-Merge pull request #2445 from arammeem/feature/OPS-243_OPS-244_added_…
-9279d54
-@VladyslavMykhailovskyiArammeem
-OPS-494 aram_helpdesk
-81008a7
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2446 from arammeem/fix/OPS-494
-8b97c29
+Merge pull request #2537 from arammeem/feature/OPS-412-removed-team-s… 
+c22376c
+@EvgeniaKotovaArammeem
+OPS-437 aram_helpdesk,order,WCI,WCCR 
+824d1d2
+@EvgeniaKotovaArammeem
+OPS-437 aram_helpdesk,order,WCI,WCCR 
+2de0e10
+@EvgeniaKotovaArammeem
+Merge pull request #2515 from arammeem/feature/OPS-437 
+0393bd5
 @RustemIdrisovArammeem
-OPS-243 Removed widget from ticket description
-963d55f
+OPS-858 Hided attachment button on a description field.
+6908a13
 @RustemIdrisovArammeem
-Merge pull request #2449 from arammeem/feature/OPS-243-removed-widget…
-d8ddaf6
+Merge pull request #2532 from arammeem/feature/OPS-858-hide-attachmen… 
+335a93c
+@EvgeniaKotovaArammeem
+OPS-1065 aram_helpdesk,kafka_hd 
+4e776e2
+@EvgeniaKotovaArammeem
+Merge pull request #2538 from arammeem/feature/OPS-1065 
+39a9d9a
+@EvgeniaKotovaArammeem
+OPS-1114 aram_helpdesk | remove direct link from team_id field
+443eba5
+@EvgeniaKotovaArammeem
+Merge pull request #2539 from arammeem/feature/OPS-1114 
+042e5ce
+@RustemIdrisovArammeem
+OPS-496 Added new field to helpdesk ticket
+fe30467
+@RustemIdrisovArammeem
+Merge pull request #2533 from arammeem/feature/OPS-496-added-new-fiel… 
+32820cd
+@RustemIdrisovArammeem
+OPS-1142 Fixed quick create ticket in case of PT.
+035d495
+@RustemIdrisovArammeem
+Merge pull request #2541 from arammeem/fix/OPS-1142-fixed-pt-ticket-q… 
+958bcbf
 @NikitaRyzhenkovArammeem
-OPS-405 aram_helpdesk_compensation_nontime | added update selected trx
-1921473
+OPS-1167 aram_helpdesk | fixed write_date in sending state
+edc6881
 @NikitaRyzhenkovArammeem
-Merge pull request #2451 from arammeem/fix/OPS-405
-c048b6f
-@EvgeniaKotovaArammeem
-OPS-543 WCI,kafka_hd,aram_helpdesk | record in a ticket chatbot cance…
-d5853c6
-@EvgeniaKotovaArammeem
-Merge pull request #2452 from arammeem/fix/OPS-543
-3693eea
-@EvgeniaKotovaArammeem
-OPS-543 kafka_hd | unit tests
-1af76af
-@EvgeniaKotovaArammeem
-Merge pull request #2455 from arammeem/fix/OPS-543
-8a8f83c
-@RustemIdrisovArammeem
-OPS-192 Added context for visibility all the parent tickets.
-8bcbc27
-@RustemIdrisovArammeem
-Merge pull request #2454 from arammeem/fix/OPS-192-list-of-parents-do…
-97fa1be
-@RustemIdrisovArammeem
-OPS-408 Added domain for an agent ticket reason.
-52a8737
-@KirillTabelskiiArammeem
-Merge pull request #2459 from arammeem/feature/OPS-408-added-domain-f…
-4b68591
-@VladyslavMykhailovskyiArammeem
-OPS-495 aram_helpdesk
-702c028
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2457 from arammeem/feature/OPS-495
-ec4fadd
-@VladyslavMykhailovskyiArammeem
-OPS-548 aram_helpdesk
-1acc12d
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2460 from arammeem/fix/OPS-548
-9904c12
-@RustemIdrisovArammeem
-ERP-9185 Changed minio image.
-90bb7b2
-@RustemIdrisovArammeem
-Merge pull request #2448 from arammeem/fix/ERP-9185-changed-minio-image
-6796a14
+Merge pull request #2542 from arammeem/fix/OPS-1167 
+44a01ea
+@NikitaRyzhenkovArammeem
+OPS-1151 kafka_hd | fixed getting last order_number for PT
+3eef64c
+@NikitaRyzhenkovArammeem
+Merge pull request #2543 from arammeem/fix/OPS-1151 
+77564a3
 @amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-1464602
-@VladyslavMykhailovskyiArammeem
-OPS-591 aram_helpdesk
-fa30b5c
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2458 from arammeem/feature/OPS-591
-a7f41a3
-@VladyslavMykhailovskyiArammeem
-OPS-549 aram_helpdesk
-20d8d89
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2467 from arammeem/fix/OPS-549
-667957c
-@VladyslavMykhailovskyiArammeem
-OPS-544 aram_helpdesk
-a70ab37
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2466 from arammeem/fix/OPS-544
-1ec169a
-@VladyslavMykhailovskyiArammeem
-OPS-607 aram_helpdesk
-c6f07ae
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2465 from arammeem/feature/OPS-607
-4ae03cb
-@VladyslavMykhailovskyiArammeem
-OPS-609 aram_helpdesk
-8c9821d
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2463 from arammeem/fix/OPS-609
-82f63bf
-@VladyslavMykhailovskyiArammeem
-OPS-599 aram_helpdesk
-6839c67
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2462 from arammeem/feature/OPS-599
-fd41a0e
-@VladyslavMykhailovskyiArammeem
-OPS-600 aram_helpdesk
-405d310
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2461 from arammeem/fix/OPS-600
-7752cf4
-@VladyslavMykhailovskyiArammeem
-OPS-602 aram_helpdesk_assign_tickets
-3a40964
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2468 from arammeem/feature/OPS-602
-9052a36
-@VladyslavMykhailovskyiArammeem
-OPS-503 aram_helpdesk
-18fd147
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2450 from arammeem/fix/OPS-503
-ba441e0
-@RustemIdrisovArammeem
-OPS-614 html widget was removed from ticket description.
-5d374f7
-@RustemIdrisovArammeem
-Merge pull request #2469 from arammeem/feature/OPS-614-hide-html-icon…
-8c780e5
-@VladyslavMykhailovskyiArammeem
-OPS-617 aram_helpdesk
-03ff2e7
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2472 from arammeem/fix/OPS-617
-333eb3b
-@EvgeniaKotovaArammeem
-OPS-395 webhook_cc_request | IVR - hide view
-202282c
-@EvgeniaKotovaArammeem
-Merge pull request #2471 from arammeem/feature/OPS-395
-31ba85a
+Autodeploy: arammeem16/odoo_core 12.0-re 
+1ead5f0
 @KirillTabelskiiArammeem
-OPS-605 OPS-624 additional logging on http error
-b60ea44
+OPS-1231 Merchant initiated tickets from Aramco OA should be assigned… 
+e81ddbd
 @KirillTabelskiiArammeem
-Merge pull request #2470 from arammeem/feature/OPS-624
-c22be00
-@RustemIdrisovArammeem
-OPS-517 Fixed getting team for quick create ticket.
-3ca28d6
-@RustemIdrisovArammeem
-Merge pull request #2464 from arammeem/fix/OPS-517-fixed-team-for-qui…
-174ccf1
-@EvgeniaKotovaArammeem
-OPS-517 aram_helpdesk, aram_digital_product | refactor onchange team_id
-c287425
-@EvgeniaKotovaArammeem
-Merge pull request #2475 from arammeem/fix/OPS-517
-8706c11
-@VladyslavMykhailovskyiArammeem
-OPS-544 aram_helpdesk
-b3076e1
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2473 from arammeem/fix/OPS-544
-578e352
+OPS-1231 pre-commit
+d392b25
+KirillTabelskiiArammeem and others added 23 commits 5 days ago
+@KirillTabelskiiArammeem
+Merge pull request #2546 from arammeem/feature/OPS-1231 
+b24bed7
 @amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-2a017c0
+Autodeploy: arammeem16/odoo_core 12.0-re 
+def7db4
+@NikitaRyzhenkovArammeem
+OPS-1154 aram_digital_product | fixed getting order_number in quick c… 
+a662027
+@NikitaRyzhenkovArammeem
+Merge pull request #2544 from arammeem/fix/OPS-1154 
+0597aa2
+@NikitaRyzhenkovArammeem
+OPS-1151 fixed get_order_number_by_initiator
+0e03ccf
+@NikitaRyzhenkovArammeem
+Merge pull request #2551 from arammeem/fix/OPS-1151-fix 
+03d1d78
+@NikitaRyzhenkovArammeem
+OPS-1245 aram_digital_product | fixed order_number field in view
+509e796
+@NikitaRyzhenkovArammeem
+Merge pull request #2553 from arammeem/fix/OPS-1245 
+3c4aa12
+@NikitaRyzhenkovArammeem
+OPS-1246 order | fixed getting order_type from order
+eb061b4
+@NikitaRyzhenkovArammeem
+Merge pull request #2554 from arammeem/fix/OPS-1246 
+3a9037c
+@NikitaRyzhenkovArammeem
+OPS-1154 fixed _onchange_set_last_order
+901f866
+@NikitaRyzhenkovArammeem
+Merge pull request #2552 from arammeem/fix/OPS-1154-fix 
+28da210
 @KirillTabelskiiArammeem
-OPS-605 OPS-624 additional logging
-a1a538e
+OPS-1264 Add ticket id in ticket_example column in aram_idle_agents view
+7f82df8
 @KirillTabelskiiArammeem
-Merge pull request #2479 from arammeem/fix/OPS-624
-a99c6fd
+Merge pull request #2548 from arammeem/feature/OPS-1264-add-field-to-… 
+3f54344
 @RustemIdrisovArammeem
-OPS-243 Fixed multiloading files.
-13fedf4
-RustemIdrisovArammeem and others added 7 commits last week
+OPS-496 Sending rank at ticket when it was calculated.
+a584ad6
 @RustemIdrisovArammeem
-Merge pull request #2480 from arammeem/feature/OPS-243-fix-multiloading
-68b2407
-@VladyslavMykhailovskyiArammeem
-OPS-617 aram_helpdesk
-d38cece
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2478 from arammeem/fix/OPS-617-creation_ticket_as…
-127608f
-@RustemIdrisovArammeem
-OPS-208 Allow to edit digital_order_number at HD ticket and added tra…
-52eac62
-@RustemIdrisovArammeem
-Merge pull request #2481 from arammeem/fix/OPS-208-allow-to-edit-digi…
-1d35568
-@ArtemDemidovAramMeem
-OPS-267 - aram_digital_product
-5506b60
-@ArtemDemidovAramMeem
-Merge pull request #2474 from arammeem/fix/OPS-267
-b8905a1
-ArtemDemidovAramMeem and others added 30 commits last week
-@ArtemDemidovAramMeem
-OPS-260 - aram_helpdesk, webhook_cc_request, webhook_chat_incoming
-7e60e1c
-@ArtemDemidovAramMeem
-Merge pull request #2483 from arammeem/feature/OPS-260
-101e9a4
-@VladyslavMykhailovskyiArammeem
-OPS-544 aram_helpdesk
-09b3741
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2477 from arammeem/fix/OPS-599
-debec04
-@VladyslavMykhailovskyiArammeem
-OPS-599 aram_helpdesk
-9d379f2
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2484 from arammeem/fix/OPS-599
-dfe8256
-@amjx-bot
-Autodeploy: arammeem16/odoo_core 12.0-re
-10f56ec
-@VladyslavMykhailovskyiArammeem
-OPS-544 aram_helpdesk
-afa5ebf
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2485 from arammeem/fix/OPS-544-skip-invalid-rule
-0df4e08
-@RustemIdrisovArammeem
-OPS-519 Delete attachments when cancel a ticket.
-60d35a8
-@RustemIdrisovArammeem
-Merge pull request #2486 from arammeem/feature/OPS-519-delete-attachm…
-2b3c46b
+Merge pull request #2547 from arammeem/feature/OPS-496-sending-rank-a… 
+0a00938
 @EvgeniaKotovaArammeem
-@KirillTabelskiiArammeem
-OPS-607 aram_helpdesk | Don't allow to change/delete Parameter from Rule
-1a8852b
-@KirillTabelskiiArammeem
-OPS-607 validation rule for an inactive records
-666cf52
-@KirillTabelskiiArammeem
-Merge pull request #2476 from arammeem/fix/OPS-607
-f6248e9
-@RustemIdrisovArammeem
-OPS-716 Always show attachments for hd.
-fe1e6e0
-@RustemIdrisovArammeem
-Merge pull request #2488 from arammeem/feature/OPS-716-always-show-at…
-0910c48
-@KirillTabelskiiArammeem
-OPS-720 route a ticket to Customer Support Unit if an order from Aram…
-9657574
-@KirillTabelskiiArammeem
-OPS-720 pre-commit
-8fae70b
-@KirillTabelskiiArammeem
-Merge pull request #2489 from arammeem/feature/OPS-720
-87dd84b
-@RustemIdrisovArammeem
-OPS-723 Added order validation.
-4c9710c
-@RustemIdrisovArammeem
-Merge pull request #2487 from arammeem/fix/OPS-723-added-order-valida…
-c68a5a7
-@VladyslavMykhailovskyiArammeem
-OPS-741 aram_helpdesk
-80443b5
-@VladyslavMykhailovskyiArammeem
-Merge pull request #2490 from arammeem/fix/OPS-741
-24ba4a1
-@RustemIdrisovArammeem
-@KirillTabelskiiArammeem
-OPS-763 Return html widget for description.
-b86369f
-@RustemIdrisovArammeem
-Merge pull request #2492 from arammeem/fix/OPS-763-return-html-widget…
-b31ef8f
-@RustemIdrisovArammeem
-OPS-763 Fixed the return html widget for description.
-243203f
-@RustemIdrisovArammeem
-Merge pull request #2494 from arammeem/fix/OPS-763-returned-html-widg…
-a1bd2cc
+OPS-1272 kafka_hd,aram_helpdesk | initiator name is not set if initia… 
+e383a2f
 @EvgeniaKotovaArammeem
-OPS-740 kafka_hd | fix missing options in refund trx
-c05270c
+Merge pull request #2556 from arammeem/fix/OPS-1272 
+8724a4a
 @EvgeniaKotovaArammeem
-Merge pull request #2491 from arammeem/fix/OPS-740
+OPS-1297 webhook_chat_incoming | ID of user type is displayed instead… 
+0f32ba8
+@EvgeniaKotovaArammeem
+Merge pull request #2557 from arammeem/fix/OPS-1297 
+25f2d13
+@NikitaRyzhenkovArammeem
+OPS-1289 aram_digital_product | fixed prefilled order
+61469b3
+@NikitaRyzhenkovArammeem
+Merge pull request #2559 from arammeem/fix/OPS-1289 
+ee70aa7
+@KirillTabelskiiArammeem
+Merge branch 'develop' into feature/RM-14522
+c7748ca
