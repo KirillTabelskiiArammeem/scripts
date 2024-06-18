@@ -1,146 +1,49 @@
-Issue type: Task
-OPS-195
+Issue type: Bug
+ERP-9032
 Priority: Medium
 
 
-READY FOR DEPLOYMENT
+VERIFIED ON SANDBOX
 
 Issue type: Task
-OPS-196
+ERP-9054
 Priority: Medium
 
 
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-200
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-198
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-204
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-197
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-194
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-199
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-205
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-201
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-202
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Task
-OPS-203
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
+VERIFIED ON SANDBOX
 
 Issue type: Bug
-OPS-211
+ERP-9027
 Priority: Medium
 
 
-READY FOR DEPLOYMENT
-
-Issue type: Bug
-OPS-213
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Bug
-OPS-214
-Priority: High
-
-READY FOR DEPLOYMENT
-
-Issue type: Bug
-OPS-215
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Bug
-OPS-217
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
-
-Issue type: Bug
-OPS-295
-Priority: Medium
-
-
-READY FOR DEPLOYMENT
+VERIFIED ON SANDBOX
 
 Issue type: Task
-OPS-258
-Priority: Medium
-
-READY FOR DEPLOYMENT
-
-has to be done before
-Issue type: Config
-RM-13398
+ERP-9070
 Priority: Medium
 
 
-APPROVED
+VERIFIED ON SANDBOX
 
-Issue type: Config
-RM-13395
+Issue type: Bug
+ERP-9058
 Priority: Medium
 
 
-APPROVED
+VERIFIED ON SANDBOX
+
+Issue type: Task
+ERP-8805
+Priority: Medium
+
+
+RESOLVED
+
+Issue type: Task
+ERP-9022
+Priority: Medium
+
+
+VERIFIED ON SANDBOX
 
