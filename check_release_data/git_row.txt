@@ -1,88 +1,227 @@
-@KirillTabelskiiArammeem
-ERP-8788 job permission fix
-d333e38
-@KirillTabelskiiArammeem
-Merge pull request #2358 from arammeem/fix/ERP-8788-hotfix-develop
-2835aee
-@ArtemDemidovAramMeem
-ERP-8784 - added styling for tkts/orders/trx tables
-c8f27f0
-@ArtemDemidovAramMeem
-Merge pull request #2359 from arammeem/fix/ERP-8784
-bfd31cf
-@NikitaRyzhenkovArammeem
-ERP-8107 ERP-8697 ERP-8777 ERP-8779 aram_helpdesk | changed copy wiza…
-6d18ed4
-@NikitaRyzhenkovArammeem
-Merge pull request #2360 from arammeem/fix/ERP-8697
-ffdb36f
+@VladyslavMykhailovskyiArammeem
+ERP-8805 aram_helpdesk
+97585b6
+@VladyslavMykhailovskyiArammeem
+Merge pull request #2391 from arammeem/fix/ERP-8805-rank-kafka-ticket
+94bbd3e
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re
-d24fdd9
+ff8f681
+@RustemIdrisovArammeem
+ERP-8463 Fixed function naming conflict at onchange_order_number
+e28ef3a
+@RustemIdrisovArammeem
+Merge pull request #2394 from arammeem/fix/ERP-8463-fields-doesnt-upd…
+6664801
+@SergeiBaidakovArammeem
+BIN-10175 chore (hd,unit-tests) added postgres healthcheck
+f27a26a
+@SergeiBaidakovArammeem
+Merge pull request #2396 from arammeem/chore/BIN-10175-postgres-depen…
+5e456e2
+@RustemIdrisovArammeem
+ERP-8497 Fields order and digital order are blocked at bottom tab hel…
+515f132
+@RustemIdrisovArammeem
+Merge pull request #2397 from arammeem/feature/ERP-8497
+963118a
+@NikitaRyzhenkovArammeem
+ERP-8844 aram_helpdesk_compensation_nontime | close tickets for charity
+41bc500
+@NikitaRyzhenkovArammeem
+Merge pull request #2395 from arammeem/feature/ERP-8844
+7ac8090
+@VladyslavMykhailovskyiArammeem
+ERP-9054 aram_helpdesk
+d429ce6
+@VladyslavMykhailovskyiArammeem
+Merge pull request #2399 from arammeem/feature/ERP-9054
+c5e0293
+@NikitaRyzhenkovArammeem
+ERP-9058 order | added getting effective_order_cohort and premium fro…
+065084c
+@NikitaRyzhenkovArammeem
+Merge pull request #2400 from arammeem/fix/ERP-9058
+091b8a8
+@VladyslavMykhailovskyiArammeem
+ERP-9032 aram_helpdesk
+787a222
+@VladyslavMykhailovskyiArammeem
+Merge pull request #2398 from arammeem/fix/ERP-9032
+d15d4df
+@NikitaRyzhenkovArammeem
+ERP-9022 order | fixed getting initiator chat
+d463879
+@NikitaRyzhenkovArammeem
+Merge pull request #2401 from arammeem/fix/ERP-9022
+cf547ea
+@NikitaRyzhenkovArammeem
+ERP-9058 order | fixed mapping keys
+b672d84
+@NikitaRyzhenkovArammeem
+Merge pull request #2402 from arammeem/fix/ERP-9058-fixed-keys
+532ac15
+@KirillTabelskiiArammeem
+ERP-9070 An assign job should run for user's team on a ticket closing
+f6edee3
+@KirillTabelskiiArammeem
+ERP-9070 An assign job should run for user's team on a ticket closing
+d0721c5
+@KirillTabelskiiArammeem
+Merge pull request #2403 from arammeem/feature/ERP-9070
+9d30ecf
+@NikitaRyzhenkovArammeem
+ERP-9091 temporary fix for premium team
+bffd23b
+@NikitaRyzhenkovArammeem
+Merge pull request #2404 from arammeem/fix/ERP-9091
+198088f
+@KirillTabelskiiArammeem
+ERP-9091 rank hotfix
+2daf150
+@KirillTabelskiiArammeem
+Merge pull request #2411 from arammeem/fix/ERP-9091-develop-rank-calk
+83caa9d
+@KirillTabelskiiArammeem
+ERP-9091 premium hotfix
+271f25f
+@KirillTabelskiiArammeem
+Merge pull request #2409 from arammeem/fix/ERP-9091-develop
+7320174
+VladyslavMykhailovskyiArammeem and others added 15 commits 2 weeks ago
+@VladyslavMykhailovskyiArammeem
+ERP-9097 kafka_hd
+e5ffdc6
+@VladyslavMykhailovskyiArammeem
+Merge pull request #2412 from arammeem/feature/ERP-9097
+65e1307
+@NikitaRyzhenkovArammeem
+ERP-8484 Added merchant form
+e65fcce
+@NikitaRyzhenkovArammeem
+Merge pull request #2413 from arammeem/feature/ERP-8484
+f0dd73d
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re
-a253203
+3917cce
+@NikitaRyzhenkovArammeem
+ERP-8485 Added merchant info tab for ticket view
+afeb78c
+@NikitaRyzhenkovArammeem
+Merge pull request #2414 from arammeem/feature/ERP-8485
+f6abb2f
+@KirillTabelskiiArammeem
+ERP-8944 experimental kafka messaging
+2d97bd9
+@KirillTabelskiiArammeem
+ERP-8944 experimental kafka messaging lint
+dbdb3a3
+@KirillTabelskiiArammeem
+Merge pull request #2415 from arammeem/fix/ERP-8944
+ff6f619
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re
-9ef1ebb
+8842d54
+@VladyslavMykhailovskyiArammeem
+ERP-9110 aram_helpdesk_assign_tickets
+ad2be3f
+@VladyslavMykhailovskyiArammeem
+Merge pull request #2416 from arammeem/feature/ERP-9110
+ba766b5
 @NikitaRyzhenkovArammeem
-ERP-8753 aram_helpdesk_compensation_nontime | replace no_penalty logic
-47a6992
+ERP-8487 aram_helpdesk, order | added consume for BeMerchantProfile t…
+29994bc
 @NikitaRyzhenkovArammeem
-Merge pull request #2362 from arammeem/fix/ERP-8753
-324d83c
-@NikitaRyzhenkovArammeem
-ERP-8591 ERP-8592 ERP-8649 order | added is_premium and cohort
-8c67f69
-@NikitaRyzhenkovArammeem
-Merge pull request #2363 from arammeem/feature/ERP-8591
-ffc49b3
+Merge pull request #2417 from arammeem/feature/ERP-8487
+d582a95
+amjx-bot and others added 30 commits last week
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re
-591de9c
-@NikitaRyzhenkovArammeem
-ERP-8779 aram_helpdesk | changed merchant care role
-32b80cf
-@NikitaRyzhenkovArammeem
-Merge pull request #2364 from arammeem/fix/ERP-8779
-b01c530
+c7d2981
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re
-ef2a42b
-@ArtemDemidovAramMeem
-@KirillTabelskiiArammeem
-ERP-8368 - migration to BI API for tier and flag
-6c09a9f
-@ArtemDemidovAramMeem
-Merge pull request #2361 from arammeem/feature/ERP-8368
-ce58630
-@NikitaRyzhenkovArammeem
-ERP-8592 order | added getting premium team_id from environment
-3dd5343
-@NikitaRyzhenkovArammeem
-Merge pull request #2367 from arammeem/fix/ERP-8592
-7fb6fa1
+63c05d2
+@VladyslavMykhailovskyiArammeem
+ERP-9136 kafka_hd, webhook_chat_incoming
+19e00ad
+@VladyslavMykhailovskyiArammeem
+Merge pull request #2418 from arammeem/feature/ERP-9136
+5fd468d
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re
-10b5a58
-@KirillTabelskiiArammeem
-ERP-8819 assignment optimization
-8caee68
-@KirillTabelskiiArammeem
-ERP-8819 assignment optimization
-21ab76c
-@KirillTabelskiiArammeem
-Merge pull request #2365 from arammeem/feature/ERP-8819-autoassign-op…
-e5f36f8
+9e2fe92
 @NikitaRyzhenkovArammeem
-ERP-8107 ERP-8896 ERP-8897 ERP-8898 aram_helpdesk, order | fixed copy…
-9bdad9f
+ERP-9141 deleted cohort_rule for merchants
+c609386
 @NikitaRyzhenkovArammeem
-Merge pull request #2368 from arammeem/fix/ERP-8107
-0006c34
+Merge pull request #2420 from arammeem/feature/ERP-9141
+ac081f4
 @NikitaRyzhenkovArammeem
-ERP-8592 ERP-8935 kafka_hd | added premium time for creator
-9c498ab
+ERP-8486 order | show link instead of name in merchant info
+f299ae4
+@NikitaRyzhenkovArammeem
+Merge pull request #2421 from arammeem/fix/ERP-8486
+dae3140
 @KirillTabelskiiArammeem
-Merge pull request #2369 from arammeem/fix/ERP-8935
-e89d4b1
+ERP-9105 stop recreating view on module update
+d77a6cd
+@KirillTabelskiiArammeem
+ERP-9105 pre-commit lint
+f8d224b
+@KirillTabelskiiArammeem
+Merge pull request #2419 from arammeem/fix/ERP-9105
+f722569
+@NikitaRyzhenkovArammeem
+ERP-9141 deleted cohort_rule for merchants
+a472307
+@NikitaRyzhenkovArammeem
+Merge pull request #2423 from arammeem/feature/OPS-258
+7e51a1c
+@NikitaRyzhenkovArammeem
+OPS-258 order | commented cohorts field
+264e933
+@NikitaRyzhenkovArammeem
+Merge pull request #2424 from arammeem/fix/OPS-258
+fce6c88
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+b011de9
+@RustemIdrisovArammeem
+OPS-217 OPS-219 OPS-221 OPS-220 Make order at ticket changable.
+ab79c82
+@KirillTabelskiiArammeem
+Merge pull request #2427 from arammeem/fix/OPS-217_OPS-219_OPS-221_OP…
+2ac338c
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+f2e5138
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re
+153751b
+@EvgeniaKotovaArammeem
+OPS-213 aram_helpdesk | quick create - don't search and update parent…
+a3d0775
+@EvgeniaKotovaArammeem
+Merge pull request #2422 from arammeem/fix/OPS-213
+2264688
+@RustemIdrisovArammeem
+ERP-9106 Fix warning
+dda23e6
+@RustemIdrisovArammeem
+Merge pull request #2428 from arammeem/fix/ERP-9106-fix-warning
+35bb737
+@NikitaRyzhenkovArammeem
+OPS-258 order | commented cohorts field
+e3b4d93
+@NikitaRyzhenkovArammeem
+Merge pull request #2425 from arammeem/fix/OPS-215
+d10e820
+@EduardAlekseievArammeem
+OPS-116 odoo_kafka_consumer
+b929558
+@EduardAlekseievArammeem
+Merge pull request #2429 from arammeem/fix/OPS-116
+4716e53
+@tabelskii
+Merge remote-tracking branch 'origin/develop' into feature/RM-13843
+6206b08

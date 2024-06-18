@@ -1,113 +1,146 @@
 Issue type: Task
-ERP-8107
+OPS-195
 Priority: Medium
 
 
-REOPENED
+READY FOR DEPLOYMENT
 
 Issue type: Task
-ERP-8591
+OPS-196
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
-
-Issue type: Tech Debt
-ERP-8368
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
+READY FOR DEPLOYMENT
 
 Issue type: Task
-ERP-8649
+OPS-200
 Priority: Medium
 
 
-QA IN PROGRESS
+READY FOR DEPLOYMENT
 
 Issue type: Task
-ERP-8592
+OPS-198
 Priority: Medium
 
 
-QA IN PROGRESS
-
-Issue type: Sub-task
-ERP-8661
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Incident
-ERP-8800
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
+READY FOR DEPLOYMENT
 
 Issue type: Task
-ERP-8829
+OPS-204
 Priority: Medium
 
 
-ON HOLD
-
-Issue type: Tech Debt
-ERP-8874
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
+READY FOR DEPLOYMENT
 
 Issue type: Task
-ERP-8844
+OPS-197
 Priority: Medium
 
 
-IN PROGRESS
-
-Issue type: Incident
-ERP-8753
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Sub-task
-ERP-8697
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
-
-Issue type: Sub-task
-ERP-8779
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
+READY FOR DEPLOYMENT
 
 Issue type: Task
-ERP-8819
+OPS-194
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Task
+OPS-199
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Task
+OPS-205
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Task
+OPS-201
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Task
+OPS-202
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Task
+OPS-203
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Bug
+OPS-211
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Bug
+OPS-213
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Bug
+OPS-214
 Priority: High
 
+READY FOR DEPLOYMENT
 
-VERIFIED ON SANDBOX
+Issue type: Bug
+OPS-215
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Bug
+OPS-217
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
+
+Issue type: Bug
+OPS-295
+Priority: Medium
+
+
+READY FOR DEPLOYMENT
 
 Issue type: Task
-ERP-8923
+OPS-258
+Priority: Medium
+
+READY FOR DEPLOYMENT
+
+has to be done before
+Issue type: Config
+RM-13398
 Priority: Medium
 
 
-REJECTED
+APPROVED
 
-is enabled by
-Issue type: Test
-ERP-8933
+Issue type: Config
+RM-13395
 Priority: Medium
 
 
-QA IN PROGRESS
+APPROVED
 
