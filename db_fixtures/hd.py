@@ -136,11 +136,11 @@ def backup(path="fixture.sql"):
 
 
 def main():
-    clean_tables()
-    thin_out_ir_model_data()
-    thin_out_ir_attachments()
-    thin_out_users()
-    thin_out_ir_translation()
+    # clean_tables()
+    # thin_out_ir_model_data()
+    # thin_out_ir_attachments()
+    # thin_out_users()
+    # thin_out_ir_translation()
     backup()
 
 
