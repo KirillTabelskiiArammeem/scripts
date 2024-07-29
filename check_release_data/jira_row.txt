@@ -1,180 +1,258 @@
+contains implementation
 Issue type: Task
-OPS-412
+OPS-597
 Priority: Medium
 
 
 READY FOR RELEASE
 
 Issue type: Task
-OPS-437
+OPS-842
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-373
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-1152
 Priority: Medium
 
 
 QA ACCEPTED
 
 Issue type: Task
-OPS-496
+OPS-372
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-375
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-1641
+Priority: Medium
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-374
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-394
+Priority: Medium
+
+
+DONE
+
+Issue type: Task
+OPS-891
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-1492
 Priority: Medium
 
 
 READY FOR RELEASE
 
 Issue type: Task
-OPS-324
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Sub-task
-OPS-747
+OPS-1603
 Priority: Medium
 
 
 READY FOR RELEASE
 
-Issue type: Sub-task
-OPS-796
+Issue type: Bug
+OPS-1123
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-1426
+Priority: Medium
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-1363
+Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Task
+OPS-1748
 Priority: Medium
 
 
 QA ACCEPTED
 
 Issue type: Bug
-OPS-820
+OPS-1753
 Priority: Medium
 
 
 QA ACCEPTED
 
-Issue type: Sub-task
-OPS-749
+Issue type: Task
+OPS-1751
 Priority: Medium
 
 
 QA ACCEPTED
 
-Issue type: Sub-task
-OPS-745
+Issue type: Sub-bug
+OPS-1714
 Priority: Medium
 
 
-READY FOR RELEASE
+QA ACCEPTED
+
+Issue type: Task
+OPS-1750
+Priority: Medium
+
+
+QA ACCEPTED
 
 Issue type: Bug
-OPS-897
+OPS-1811
 Priority: Medium
+
+
+READY FOR RELEASE
+
+Issue type: Sub-bug
+OPS-1797
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Task
+OPS-1769
+Priority: Medium
+
 
 READY FOR RELEASE
 
 Issue type: Task
-OPS-1126
+OPS-1752
 Priority: Medium
 
 
-READY FOR QA
+QA ACCEPTED
+
+Issue type: Sub-bug
+OPS-1701
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-1810
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Sub-bug
+OPS-1737
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Sub-bug
+OPS-1682
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Sub-task
+OPS-1712
+Priority: Medium
+
+
+QA ACCEPTED
 
 Issue type: Task
-OPS-1091
+OPS-1644
 Priority: Medium
 
 
 TODO
 
 Issue type: Task
-OPS-1065
+OPS-1756
 Priority: Medium
 
 
 QA ACCEPTED
 
 Issue type: Task
-OPS-1040
+OPS-1893
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-1929
+Priority: Medium
+
+READY FOR RELEASE
+
+Issue type: Bug
+OPS-1974
+Priority: Medium
+
+READY FOR RELEASE
+
+Issue type: Bug
+OPS-2020
+Priority: Medium
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-2052
+Priority: Highest
+
+
+QA ACCEPTED
+
+Issue type: Bug
+OPS-1856
 Priority: Medium
 
 
 READY FOR RELEASE
 
-Issue type: Sub-task
-OPS-1114
-Priority: Medium
-
-
-QA ACCEPTED
-
 Issue type: Task
-OPS-890
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Task
-OPS-858
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Bug
-OPS-1142
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Bug
-OPS-1151
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Bug
-OPS-1154
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Bug
-OPS-1167
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Bug
-OPS-1246
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Task
-OPS-1231
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Bug
-OPS-1289
-Priority: Medium
-
-
-IN QA
-
-Issue type: Bug
-OPS-1245
-Priority: Medium
-
-
-QA ACCEPTED
-
-Issue type: Task
-OPS-1264
-Priority: Medium
-
-READY FOR RELEASE
-
+OPS-1907

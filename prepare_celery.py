@@ -86,3 +86,4 @@ while True:
         for ticket in user_tickets:
             ticket.write({'stage_id': closed_stage.id})
             env.cr.commit()
+

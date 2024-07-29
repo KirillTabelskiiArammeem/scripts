@@ -1,161 +1,294 @@
-EvgeniaKotovaArammeem and others added 30 commits 2 weeks ago
+@ArtemDemidovAramMeem
+OPS-1603 - webhook_chat_incoming 
+a224227
+@ArtemDemidovAramMeem
+Merge pull request #2613 from arammeem/fix/OPS-1603 
+baf4685
 @EvgeniaKotovaArammeem
-OPS-747 kafka_hd | processing messages from Kafka topic RedHelpDeskTi… 
-a8edde6
-@EvgeniaKotovaArammeem
-Merge pull request #2530 from arammeem/feature/OPS-747 
-5800672
-@EvgeniaKotovaArammeem
-OPS-966 order | fix log message
-69d7f51
-@EvgeniaKotovaArammeem
-Merge pull request #2524 from arammeem/fix/OPS-966 
-879b1c5
-@EvgeniaKotovaArammeem
-OPS-890 aram_helpdesk,kafka_hd 
-01e88e6
-@EvgeniaKotovaArammeem
-Merge pull request #2516 from arammeem/feature/OPS-890 
-d2bf71d
-@NikitaRyzhenkovArammeem
-OPS-749 added people_transportation product_type
-d0d03fb
-@NikitaRyzhenkovArammeem
-Merge pull request #2511 from arammeem/feature/OPS-749 
-369f830
+@VladyslavMykhailovskyiArammeem
+OPS-891 move team routing logic to new router 
+c610d11
+@VladyslavMykhailovskyiArammeem
+Merge pull request #2617 from arammeem/feature/OPS-891-restore 
+83879fc
 @RustemIdrisovArammeem
-OPS-412 Removed team supervisor search for parent tickets.
-920cec5
+OPS-189 OPS-597 OPS-372 OPS-373 OPS-374 OPS-394 OPS-842 OPS-1363 OPS-… 
+13a3ed0
 @RustemIdrisovArammeem
-Merge pull request #2537 from arammeem/feature/OPS-412-removed-team-s… 
-c22376c
-@EvgeniaKotovaArammeem
-OPS-437 aram_helpdesk,order,WCI,WCCR 
-824d1d2
-@EvgeniaKotovaArammeem
-OPS-437 aram_helpdesk,order,WCI,WCCR 
-2de0e10
-@EvgeniaKotovaArammeem
-Merge pull request #2515 from arammeem/feature/OPS-437 
-0393bd5
+Merge pull request #2616 from arammeem/feature/OPS-189-regroup-metada… 
+4ead257
 @RustemIdrisovArammeem
-OPS-858 Hided attachment button on a description field.
-6908a13
+OPS-1750, OPS-1752, OPS-1769 Ticket redesign New requirements
+f3f6c1d
 @RustemIdrisovArammeem
-Merge pull request #2532 from arammeem/feature/OPS-858-hide-attachmen… 
-335a93c
-@EvgeniaKotovaArammeem
-OPS-1065 aram_helpdesk,kafka_hd 
-4e776e2
-@EvgeniaKotovaArammeem
-Merge pull request #2538 from arammeem/feature/OPS-1065 
-39a9d9a
-@EvgeniaKotovaArammeem
-OPS-1114 aram_helpdesk | remove direct link from team_id field
-443eba5
-@EvgeniaKotovaArammeem
-Merge pull request #2539 from arammeem/feature/OPS-1114 
-042e5ce
-@RustemIdrisovArammeem
-OPS-496 Added new field to helpdesk ticket
-fe30467
-@RustemIdrisovArammeem
-Merge pull request #2533 from arammeem/feature/OPS-496-added-new-fiel… 
-32820cd
-@RustemIdrisovArammeem
-OPS-1142 Fixed quick create ticket in case of PT.
-035d495
-@RustemIdrisovArammeem
-Merge pull request #2541 from arammeem/fix/OPS-1142-fixed-pt-ticket-q… 
-958bcbf
-@NikitaRyzhenkovArammeem
-OPS-1167 aram_helpdesk | fixed write_date in sending state
-edc6881
-@NikitaRyzhenkovArammeem
-Merge pull request #2542 from arammeem/fix/OPS-1167 
-44a01ea
-@NikitaRyzhenkovArammeem
-OPS-1151 kafka_hd | fixed getting last order_number for PT
-3eef64c
-@NikitaRyzhenkovArammeem
-Merge pull request #2543 from arammeem/fix/OPS-1151 
-77564a3
+Merge pull request #2619 from arammeem/feature/OPS-1750_OPS-1752_OPS-… 
+d593dcd
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re 
-1ead5f0
-@KirillTabelskiiArammeem
-OPS-1231 Merchant initiated tickets from Aramco OA should be assigned… 
-e81ddbd
-@KirillTabelskiiArammeem
-OPS-1231 pre-commit
-d392b25
-KirillTabelskiiArammeem and others added 23 commits 5 days ago
-@KirillTabelskiiArammeem
-Merge pull request #2546 from arammeem/feature/OPS-1231 
-b24bed7
+1243759
+@VladyslavMykhailovskyiArammeem
+OPS-1641 kafka_hd 
+15d0c70
+@VladyslavMykhailovskyiArammeem
+Merge pull request #2614 from arammeem/feature/OPS-1641 
+3df7cf2
+@ArtemDemidovAramMeem
+OPS-1737 - aram_helpdesk_compensations 
+2af8889
+@ArtemDemidovAramMeem
+Merge pull request #2618 from arammeem/fix/OPS-1737 
+512b569
+@ArtemDemidovAramMeem
+OPS-1682 - aram_helpdesk_compensations 
+4b4dddf
+@ArtemDemidovAramMeem
+Merge pull request #2615 from arammeem/fix/OPS-1682 
+acb1dbf
+@NikitaRyzhenkovArammeem
+OPS-1497 Added representative disciplinary
+6267688
+@NikitaRyzhenkovArammeem
+Merge pull request #2598 from arammeem/feature/OPS-1497 
+bbd4054
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re 
-def7db4
-@NikitaRyzhenkovArammeem
-OPS-1154 aram_digital_product | fixed getting order_number in quick c… 
-a662027
-@NikitaRyzhenkovArammeem
-Merge pull request #2544 from arammeem/fix/OPS-1154 
-0597aa2
-@NikitaRyzhenkovArammeem
-OPS-1151 fixed get_order_number_by_initiator
-0e03ccf
-@NikitaRyzhenkovArammeem
-Merge pull request #2551 from arammeem/fix/OPS-1151-fix 
-03d1d78
-@NikitaRyzhenkovArammeem
-OPS-1245 aram_digital_product | fixed order_number field in view
-509e796
-@NikitaRyzhenkovArammeem
-Merge pull request #2553 from arammeem/fix/OPS-1245 
-3c4aa12
-@NikitaRyzhenkovArammeem
-OPS-1246 order | fixed getting order_type from order
-eb061b4
-@NikitaRyzhenkovArammeem
-Merge pull request #2554 from arammeem/fix/OPS-1246 
-3a9037c
-@NikitaRyzhenkovArammeem
-OPS-1154 fixed _onchange_set_last_order
-901f866
-@NikitaRyzhenkovArammeem
-Merge pull request #2552 from arammeem/fix/OPS-1154-fix 
-28da210
-@KirillTabelskiiArammeem
-OPS-1264 Add ticket id in ticket_example column in aram_idle_agents view
-7f82df8
-@KirillTabelskiiArammeem
-Merge pull request #2548 from arammeem/feature/OPS-1264-add-field-to-… 
-3f54344
+2d6b7b6
 @RustemIdrisovArammeem
-OPS-496 Sending rank at ticket when it was calculated.
-a584ad6
+OPS-1748 OPS-1152 OPS-1751 New changes for ticket redesign.
+07d5b4e
 @RustemIdrisovArammeem
-Merge pull request #2547 from arammeem/feature/OPS-496-sending-rank-a… 
-0a00938
-@EvgeniaKotovaArammeem
-OPS-1272 kafka_hd,aram_helpdesk | initiator name is not set if initia… 
-e383a2f
-@EvgeniaKotovaArammeem
-Merge pull request #2556 from arammeem/fix/OPS-1272 
-8724a4a
-@EvgeniaKotovaArammeem
-OPS-1297 webhook_chat_incoming | ID of user type is displayed instead… 
-0f32ba8
-@EvgeniaKotovaArammeem
-Merge pull request #2557 from arammeem/fix/OPS-1297 
-25f2d13
+Merge pull request #2623 from arammeem/feature/OPS-1748_OPS-1152_OPS-… 
+695d3ef
+@RustemIdrisovArammeem
+OPS-1753 Fixed access to quality reason.
+aeba586
+@RustemIdrisovArammeem
+Merge pull request #2625 from arammeem/fix/OPS-1753-fixed-access-to-q… 
+d057356
+@RustemIdrisovArammeem
+OPS-1752 Add group texts for missing items.
+8144989
+@RustemIdrisovArammeem
+Merge pull request #2626 from arammeem/feature/OPS-1752-add-group-tex… 
+ef5c021
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+8578a0f
+@ArtemDemidovAramMeem
+OPS-1714 - aram_helpdesk_compensations 
+e0ad2e1
+@ArtemDemidovAramMeem
+Merge pull request #2622 from arammeem/fix/OPS-1714 
+b176a2e
+@ArtemDemidovAramMeem
+OPS-1712 - aram_helpdesk_compensations 
+1011fc1
+@ArtemDemidovAramMeem
+Merge pull request #2624 from arammeem/fix/OPS-1712 
+1d09961
+@ArtemDemidovAramMeem
+OPS-1701 - aram_helpdesk,aram_helpdesk_compensations 
+47b2d25
+ArtemDemidovAramMeem and others added 38 commits 2 weeks ago
+@ArtemDemidovAramMeem
+Merge pull request #2620 from arammeem/fix/OPS-1701 
+72c13ae
+@RustemIdrisovArammeem
+OPS-1810 Added sub-reasons on ui
+ea32c39
+@RustemIdrisovArammeem
+Merge pull request #2627 from arammeem/fix/OPS-1810-added-sub-reasons… 
+0e5402c
+@RustemIdrisovArammeem
+OPS-374 Added customer be key to ui and optimised customer values cal… 
+74e257d
+@RustemIdrisovArammeem
+Merge pull request #2628 from arammeem/feature/OPS-374-added-customer… 
+f8fd09b
 @NikitaRyzhenkovArammeem
-OPS-1289 aram_digital_product | fixed prefilled order
-61469b3
+OPS-1545 order | changed rep_type in representative model
+21fdaf8
 @NikitaRyzhenkovArammeem
-Merge pull request #2559 from arammeem/fix/OPS-1289 
-ee70aa7
+Merge pull request #2621 from arammeem/feature/OPS-1545 
+7271c32
+@NikitaRyzhenkovArammeem
+OPS-1545 aram_helpdesk_ui | changed rep_type
+b4ad42a
+@NikitaRyzhenkovArammeem
+Merge pull request #2629 from arammeem/feature/OPS-1545 
+97356a7
+@RustemIdrisovArammeem
+OPS-1753 Changed access to quality reason.
+402cfe8
+@RustemIdrisovArammeem
+Merge pull request #2630 from arammeem/feature/OPS-1753-changed-acces… 
+15dec5f
+@ArtemDemidovAramMeem
+OPS-1701- aram_helpdesk_compensations 
+fe6f520
+@ArtemDemidovAramMeem
+Merge pull request #2632 from arammeem/fix/OPS-1701-fix 
+05af7d9
+@RustemIdrisovArammeem
+OPS-597 Added cancellation reason
+de796a4
+@RustemIdrisovArammeem
+Merge pull request #2631 from arammeem/feature/OPS-597-added-cancella… 
+f218ca4
 @KirillTabelskiiArammeem
-Merge branch 'develop' into feature/RM-14522
-c7748ca
+OPS-1907
+d4ce7db
+@KirillTabelskiiArammeem
+Merge pull request #2637 from arammeem/feature/OPS-1907 
+b03d1a3
+@KirillTabelskiiArammeem
+Revert "Revert "OPS-1426""
+7baf927
+@KirillTabelskiiArammeem
+Merge pull request #2636 from arammeem/feature/OPS-1426-revert-of-revert 
+0526bfb
+@KirillTabelskiiArammeem
+OPS-1856 Team auto-assign is not working correctly
+7f25952
+@KirillTabelskiiArammeem
+Merge pull request #2633 from arammeem/feature/OPS-1856 
+f330e78
+@RustemIdrisovArammeem
+OPS-1152 Added additional domain condition for order number.
+3708cbc
+@RustemIdrisovArammeem
+Merge pull request #2638 from arammeem/feature/OPS-1152-added-additio… 
+f01d98c
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+b5832f1
+@ArtemDemidovAramMeem
+OPS-1797 - aram_helpdesk_compensations 
+62ac82f
+@ArtemDemidovAramMeem
+Merge pull request #2639 from arammeem/fix/OPS-1797-fix-write 
+f1ebff3
+@KirillTabelskiiArammeem
+OPS-1928 If ticket initiator = Merchant, creator is set to 'Chat pre-… 
+2de6427
+@KirillTabelskiiArammeem
+Merge pull request #2640 from arammeem/feature/OPS-1928 
+cb7561b
+@RustemIdrisovArammeem
+OPS-1123 Change initiator data after changing initiator phone.
+ac9d4c7
+@RustemIdrisovArammeem
+Merge pull request #2594 from arammeem/fix/OPS-1123-change-initiator-… 
+3243535
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+d30956f
+@KirillTabelskiiArammeem
+OPS-1929 Wrong team in kafka: 'HelpdelskTicket' topic -> ticket snaps… 
+198c57b
+@KirillTabelskiiArammeem
+Merge pull request #2642 from arammeem/fix/OPS-1929 
+a695940
+@RustemIdrisovArammeem
+OPS-1561 Get ticket merchant from different sources
+124e857
+@RustemIdrisovArammeem
+Merge pull request #2641 from arammeem/fix/OPS-1561-get-ticket-mercha… 
+66ae629
+@KirillTabelskiiArammeem
+OPS-1974 Wrong 'creator_name' for tickets created via kafka
+873ce85
+@KirillTabelskiiArammeem
+Merge pull request #2643 from arammeem/fix/OPS-1974 
+7290a82
+@RustemIdrisovArammeem
+OPS-1749 Make bottom order fields readonly.
+a3fd524
+RustemIdrisovArammeem and others added 30 commits last week
+@RustemIdrisovArammeem
+Merge pull request #2644 from arammeem/fix/OPS-1749-make-bottom-order… 
+8c8a018
+@RustemIdrisovArammeem
+OPS-1123 Fixed initiator fields.
+997bc28
+@RustemIdrisovArammeem
+Merge pull request #2645 from arammeem/fix/OPS-1123-fixed-initiator-f… 
+0f48c04
+@RustemIdrisovArammeem
+OPS-1152 Fixed order domain.
+437d208
+@RustemIdrisovArammeem
+Merge pull request #2646 from arammeem/feature/OPS-1152-fixed-order-d… 
+2452aec
+@NikitaRyzhenkovArammeem
+Revert "OPS-1545 aram_helpdesk_ui | changed rep_type" 
+a15e0a2
+@NikitaRyzhenkovArammeem
+Revert "OPS-1545 order | changed rep_type in representative model" 
+5be8af3
+@NikitaRyzhenkovArammeem
+Merge pull request #2649 from arammeem/feature/OPS-1545-revert 
+dfda2ea
+@RustemIdrisovArammeem
+OPS-2020 Make initiator readonly
+970c36a
+@RustemIdrisovArammeem
+Merge pull request #2650 from arammeem/fix/OPS-2020-make-initiator-re… 
+32a1de2
+@EduardAlekseievArammeem
+OPS-1769 aram_helpdesk_ui 
+9da0f82
+@EduardAlekseievArammeem
+Merge pull request #2648 from arammeem/feature/OPS-1769 
+2d34ed9
+@RustemIdrisovArammeem
+OPS-1123 Additional improvements for tickets if changes initiator phone.
+a904e45
+@RustemIdrisovArammeem
+Merge pull request #2651 from arammeem/fix/OPS-1123-additional-improv… 
+af5c96a
+@EduardAlekseievArammeem
+OPS-1769 aram_helpdesk_ui 
+00b9464
+@EduardAlekseievArammeem
+Merge pull request #2652 from arammeem/feature/OPS-1769 
+832a889
+@RustemIdrisovArammeem
+OPS-2052 Fixed not editable digital order.
+78531fa
+@RustemIdrisovArammeem
+Merge pull request #2653 from arammeem/fix/OPS-2052-fix-not-editable-… 
+ebb3a41
+@RustemIdrisovArammeem
+OPS-1123 Fixed ticket logic
+0110dc1
+@RustemIdrisovArammeem
+Merge pull request #2654 from arammeem/fix/OPS-1123-fixed-logic 
+b234181
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+e6c25c5
+@RustemIdrisovArammeem
+OPS-2050 Fixed product type changeability and not emptying order_numb… 
+96ae61d
+@RustemIdrisovArammeem
+Merge pull request #2656 from arammeem/fix/OPS-2050-change-product-ty… 
+bff639d
+@RustemIdrisovArammeem
+OPS-2060 Fixed setting rep to not existing value
+e203756
+@RustemIdrisovArammeem
+Merge pull request #2657 from arammeem/fix/OPS-2060-fixed-set-rep-to-… 
+2b19f85
+@RustemIdrisovArammeem
+OPS-2062 Fixed order domain
+d771e96
+@RustemIdrisovArammeem
+Merge pull request #2659 from arammeem/fix/OPS-2062-fixed-order-domain 
+f4ef3f6
+@RustemIdrisovArammeem
+OPS-2062 Fixed order domain for PT
+b0ccfce
+@RustemIdrisovArammeem
+Merge pull request #2660 from arammeem/fix/OPS-2062-fixed-order-domai… 
+a3bcb20
