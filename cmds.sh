@@ -31,3 +31,5 @@ vault kv patch -mount="bss" "${VAULT_NAMESPACE}/applications" web.base_url.freez
 
 
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -i aram_orm  --stop-after-init --no-http
+
+self.env['ir.module.module'].search([('name','=','aram_vault')]).button_immediate_uninstall()
