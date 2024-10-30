@@ -1,0 +1,6 @@
+project,count_commits,count_lines_first,count_lines_last,lines_diff,count_tests_first,count_tests_last,tests_diff
+helpdesk,754,860350,812288,-48062,86,268,182
+crm,558,396759,359343,-37416,84,170,86
+dp,402,238798,276333,37535,94,211,117
+mcp,212,162487,110895,-51592,23,19,-4
+fcp,56,421446,374723,-46723,31,15,-16
