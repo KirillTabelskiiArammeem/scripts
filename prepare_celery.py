@@ -67,13 +67,13 @@ def quick_create_ticket(name, order_number):
 
 # 1 window
 
-for i in range(10300, 11300):
+for i in range(10958, 11958):
     try:
         quick_create_ticket("test ticket", i)
         env.cr.commit()
     except Exception as er:
         print(er)
-
+quick_create_ticket("test ticket", 10957); env.cr.commit()
 # 2  window
 
 users = env['res.users'].search([('login', 'like', f'%_team_{team.id}')])
@@ -86,3 +86,4 @@ while True:
         for ticket in user_tickets:
             ticket.write({'stage_id': closed_stage.id})
             env.cr.commit()
+

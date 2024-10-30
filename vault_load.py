@@ -15,7 +15,6 @@ import cProfile, pstats, io
 from pstats import SortKey
 
 
-
 class JwtJsonAdapter(JSONAdapter):
     def __init__(
         self,
@@ -155,6 +154,7 @@ def load_get():
     # threads = [threading.Thread(target=get_keys_worker, args=(vault, REQUESTS)) for _ in range(THREADS)]
     # [thread.start() for thread in threads]
     # [thread.join() for thread in threads]
+
 
 def main():
     pr = cProfile.Profile()

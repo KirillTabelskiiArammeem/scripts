@@ -1,33 +1,258 @@
-@VladyslavMykhailovskyiArammeem
+
 @KirillTabelskiiArammeem
-ERP-8805 aram_helpdesk 
-6c51e69
-@VladyslavMykhailovskyiArammeem
+Merge pull request #2788 from arammeem/feature/RM-15614-coypright-fix 
+eedafa3
+@NikitaRyzhenkovArammeem
+OPS-3034 aram_helpdesk_compensation_nontime | disciplinary rep_type_i… 
+e019020
+@NikitaRyzhenkovArammeem
+Merge pull request #2792 from arammeem/fix/OPS-3034 
+8369569
+@NikitaRyzhenkovArammeem
+OPS-3126 aram_helpdesk_compensation_nontime | added track_visibility … 
+a44d813
+@NikitaRyzhenkovArammeem
+Merge pull request #2790 from arammeem/fix/OPS-3126 
+939fb3b
+@NikitaRyzhenkovArammeem
+OPS-3133 aram_helpdesk_ui | fixed typo
+6e268e8
+@NikitaRyzhenkovArammeem
+Merge pull request #2789 from arammeem/fix/OPS-3133 
+f48d63a
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+3fb1909
+@EvgeniaKotovaArammeem
+OPS-2520 rename context parameter 
+50be499
+@EvgeniaKotovaArammeem
+OPS-2520 refactor compute_context method in ticket creator
+5f7fd08
+@EvgeniaKotovaArammeem
+OPS-2520 fix err Ticket are created wrong 'NoneType' object has no at… 
+73e4b61
+@EvgeniaKotovaArammeem
+Merge pull request #2794 from arammeem/feature/OPS-2520 
+7938c13
+@RustemIdrisovArammeem
+OPS-3130 OPS-3131 Fixed sending data to kafka
+10c36b2
+@RustemIdrisovArammeem
+Merge pull request #2791 from arammeem/fix/OPS-3130-OPS-3131-fixed-se… 
+b5b85a0
+@tabelskii
 @KirillTabelskiiArammeem
-ERP-9054 aram_helpdesk 
-977ef80
+OPS-2250 hide password in datadog
+c731a25
+@KirillTabelskiiArammeem
+Merge pull request #2780 from arammeem/feature/OPS-2250 
+966b517
 @NikitaRyzhenkovArammeem
 @KirillTabelskiiArammeem
-ERP-9058 order | added getting effective_order_cohort and premium fro… 
-5b83716
-@VladyslavMykhailovskyiArammeem
+OPS-3033 aram_helpdesk_compensation_nontime | added support violation… 
+6075d5e
 @KirillTabelskiiArammeem
-ERP-9032 aram_helpdesk 
-ca723b3
+OPS-3033 added tests. fix timezone. fix search domain. pre-commit
+5dc50e7
+@KirillTabelskiiArammeem
+Merge pull request #2795 from arammeem/fix/OPS-3033 
+077628b
+@ArtemDemidovAramMeem
+OPS-2016 - aram_helpdesk 
+6618774
+@ArtemDemidovAramMeem
+Merge pull request #2797 from arammeem/fix/OPS-2016 
+4acedfb
+@EvgeniaKotovaArammeem
+OPS-3185 fix incorrect domain assignment
+2bfb736
+@EvgeniaKotovaArammeem
+Merge pull request #2796 from arammeem/fix/OPS-3185 
+ee7d45d
+@KirillTabelskiiArammeem
+OPS-2250 orders fix
+2b819c4
+@KirillTabelskiiArammeem
+Merge pull request #2798 from arammeem/feature/OPS-2250 
+1531e67
+@RustemIdrisovArammeem
+OPS-1562 Fixed initiator name when create a ticket via kafka
+9f29bbf
+@RustemIdrisovArammeem
+Merge pull request #2793 from arammeem/fix/OPS-1562-empty-initiator-name 
+0000ea0
+@RustemIdrisovArammeem
+OPS-3131 Fixed sending penalties info
+d8f8397
+@RustemIdrisovArammeem
+Merge pull request #2799 from arammeem/fix/OPS-3131-fixed-sending-pen… 
+61d5fe7
+@KirillTabelskiiArammeem
+OPS-2490 fix deleting disciplinary item. 
+60275f5
+KirillTabelskiiArammeem and others added 5 commits last week
+@KirillTabelskiiArammeem
+OPS-2490 fix and precommit order test
+9dd4fb4
+@KirillTabelskiiArammeem
+Merge pull request #2800 from arammeem/fix/OPS-2490 
+510cbe7
+@tabelskii
+@KirillTabelskiiArammeem
+OPS-2111 fix no description warning
+b8b5f43
+@KirillTabelskiiArammeem
+Merge pull request #2782 from arammeem/feature/OPS-2111 
+cd9d9cc
+@KirillTabelskiiArammeem
+OPS-3003 fix sending transactions without order
+e4d91af
+KirillTabelskiiArammeem and others added 30 commits last week
+@KirillTabelskiiArammeem
+Merge pull request #2801 from arammeem/fix/OPS-3033 
+f185847
+@RustemIdrisovArammeem
+OPS-3240 Extended description for transactions
+8d033a8
+@RustemIdrisovArammeem
+Merge pull request #2802 from arammeem/feature/OPS-3240-extended-desc… 
+a9b2f7c
+@KirillTabelskiiArammeem
+OPS-1616 extend log if order is not created
+1d69a51
+@KirillTabelskiiArammeem
+Merge pull request #2803 from arammeem/feature/OPS-1616 
+a535f92
+@KirillTabelskiiArammeem
+OPS-3397 move error log "Digital order cancellation reason warning" t… 
+88f559a
+@KirillTabelskiiArammeem
+Merge pull request #2805 from arammeem/feature/OPS-3397 
+29f36c5
+@KirillTabelskiiArammeem
+OPS-1617 remove redundant logs
+4295d64
+@KirillTabelskiiArammeem
+Merge pull request #2807 from arammeem/feature/OPS-1617 
+0b24c7a
+@KirillTabelskiiArammeem
+OPS-3398 move error logs to warnings
+59bfc34
+@KirillTabelskiiArammeem
+Merge pull request #2806 from arammeem/feature/OPS-3398 
+cbd3062
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+1ebe5d9
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+1a5929f
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+9d69944
+@KirillTabelskiiArammeem
+OPS-3412 fix multiple violations
+dd4087d
+@KirillTabelskiiArammeem
+Merge pull request #2809 from arammeem/fix/OPS-3412 
+3fd1642
+@RustemIdrisovArammeem
+OPS-3414 Removed order uuid from the description
+cb0fef3
+@RustemIdrisovArammeem
+Merge pull request #2810 from arammeem/fix/OPS-3414-remove-order-uuid… 
+f0e2685
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+0051076
+@KirillTabelskiiArammeem
+OPS-3033 None for order_id and order_date ChatBulkOutEvents
+86f8e26
+@KirillTabelskiiArammeem
+Merge pull request #2808 from arammeem/fix/OPS-3033 
+690b395
+@KirillTabelskiiArammeem
+OPS-3033 send transaction without order
+0e1962a
+@KirillTabelskiiArammeem
+Merge pull request #2812 from arammeem/fix/OPS-3033 
+768f32f
+@RustemIdrisovArammeem
+OPS-1562 Added method to get initiator_name by initiator_id.
+c886abf
+@RustemIdrisovArammeem
+Merge pull request #2811 from arammeem/fix/OPS-1562-added-method-to-g… 
+e6d2501
+@KirillTabelskiiArammeem
+OPS-3121 new Social Media Platforms
+c06ea63
+@KirillTabelskiiArammeem
+Merge pull request #2813 from arammeem/feature/OPS-3121 
+9167f26
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+1ce5f44
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+4e6c020
+@KirillTabelskiiArammeem
+Merge branch 'develop' into feature/RM-15911
+ce294aa
+Merge state
+Review required
+At least 1 approving review is required by reviewers with write access. 
+Some checks haven’t completed yet
+1 expected check
+continuous-integration/jenkins/branch Expected — Waiting for status to be reported
+Required
+Merging is blocked
+Merging can be performed automatically with 1 approving review.
+ or view .
+@KirillTabelskiiArammeem
+
+
+Add a comment
+Comment
+ 
+Add your comment here...
+ 
+Remember, contributions to this repository should follow our GitHub Community Guidelines.
+ ProTip! Add comments to specific lines under Files changed.
+Reviewers
+Suggestions
+
 @NikitaRyzhenkovArammeem
+NikitaRyzhenkovArammeem
+@EvgeniaKotovaArammeem
+EvgeniaKotovaArammeem
+@RustemIdrisovArammeem
+RustemIdrisovArammeem
+At least 1 approving review is required to merge this pull request.
+
+Still in progress?
+Assignees
+No one—
+Labels
+None yet
+Projects
+None yet
+Milestone
+No milestone
+Development
+Successfully merging this pull request may close these issues.
+
+None yet
+
+
+Notifications
+Customize
+You’re receiving notifications because you authored the thread.
+6 participants
 @KirillTabelskiiArammeem
-ERP-9022 order | fixed getting initiator chat
-b27917c
 @NikitaRyzhenkovArammeem
-@KirillTabelskiiArammeem
-ERP-9058 order | fixed mapping keys
-fa8aea7
-@KirillTabelskiiArammeem
-ERP-9070 An assign job should run for user's team on a ticket closing
-556a3fc
-@KirillTabelskiiArammeem
-ERP-9070 An assign job should run for user's team on a ticket closing
-71c9691
-@NikitaRyzhenkovArammeem
-@KirillTabelskiiArammeem
-ERP-9091 temporary fix for premium team
+@amjx-bot
+@EvgeniaKotovaArammeem
+@RustemIdrisovArammeem
+@ArtemDemidovAramMeem
+Footer

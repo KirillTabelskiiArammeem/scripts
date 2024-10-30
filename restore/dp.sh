@@ -1,5 +1,5 @@
 
-path=( $ls /home/kirill/Downloads/odoo_am_dp_12_sand*)
+path=( $ls /home/${USER}/Downloads/odoo_am_dp_12_sand*)
 
 path=${path[-1]}
 

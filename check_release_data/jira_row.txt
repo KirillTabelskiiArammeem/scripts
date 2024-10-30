@@ -1,49 +1,63 @@
 Issue type: Bug
-ERP-9032
+OPS-2490
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-9054
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
+QA Accepted
 
 Issue type: Bug
-ERP-9027
+OPS-2520
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
-
-Issue type: Task
-ERP-9070
-Priority: Medium
-
-
-VERIFIED ON SANDBOX
+QA Accepted
 
 Issue type: Bug
-ERP-9058
+OPS-3034
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
+QA Accepted
 
-Issue type: Task
-ERP-8805
+Issue type: Bug
+OPS-3130
 Priority: Medium
 
 
-RESOLVED
+QA Accepted
 
-Issue type: Task
-ERP-9022
+Issue type: Bug
+OPS-3131
 Priority: Medium
 
 
-VERIFIED ON SANDBOX
+QA Accepted
+
+Issue type: Bug
+OPS-3185
+Priority: Medium
+
+
+QA Accepted
+
+Issue type: Bug
+OPS-3350
+Priority: Medium
+
+
+QA Accepted
+
+Issue type: Bug
+OPS-3133
+Priority: Medium
+
+
+QA Accepted
+
+Issue type: Bug
+OPS-3126
+Priority: Low
+
+
+QA Accepted
 
