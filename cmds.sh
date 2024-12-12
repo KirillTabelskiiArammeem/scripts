@@ -7,7 +7,8 @@ odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -i aram_attachment_s3 --no-http --stop-after-init
 supervisorctl stop all
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}
-
+odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -u aram_base --stop-after-init --no-http
+odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -u web --stop-after-init --no-http
 su odoo --preserve-environment --shell /bin/bash -c "odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD} --db-filter ${ODOO_CONF_DB_FILTER}"
 
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD} -u webhook_chat_incoming --stop-after-init --no-http
@@ -31,3 +32,5 @@ vault kv patch -mount="bss" "${VAULT_NAMESPACE}/applications" web.base_url.freez
 
 
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -i aram_orm  --stop-after-init --no-http
+
+odoo -c /etc/odoo/odoo.conf -u aram_base,aram_sip -i aram_callback,aram_attachment_s3,base_fileurl_field,base_fileurl_field_aram --stop-after-init --no-http

@@ -181,6 +181,7 @@ def main():
     model = GoModel("Ticket", fields).dump()
     conv = ConverterModelToReply("Ticket", fields, "GetTicketReply").dump()
     query = SelectById("helpdesk_ticket", fields).dump()
+    print(query)
 #     print(f"""
 # #####################################################################
 #     PROTO:
