@@ -2,7 +2,7 @@ odoo  shell --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASS
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -u aram_base  -i aram_vault,aram_celery --stop-after-init --no-http
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  --no-http --stop-after-init -u aram_api_client_backend
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  --no-http --stop-after-init -u aram_agent_status
-odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  --no-http --stop-after-init -u aram_base
+odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  --no-http --stop-after-init -u aram_base,aram_sip
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}   --no-http --stop-after-init -i aram_ops_orm
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -i aram_attachment_s3 --no-http --stop-after-init
 supervisorctl stop all
