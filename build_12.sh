@@ -11,7 +11,7 @@ cd ~/aram/devops/docker-image-sources
 git pull --rebase
 cd ./odoo.12.base
 make build_latest
-docker pull arammeem16/odoo_base:12.0-rel-20221012-0.0.1-85a8e26
+#docker pull arammeem16/odoo_base:12.0-rel-20221012-0.0.1-85a8e26
 
 cd ~/aram/common/odoo-modules-common-12
 git pull --rebase
