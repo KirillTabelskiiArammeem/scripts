@@ -1,4 +1,4 @@
-odoo  shell --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  --no-http
+odoo  shell --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER}  --no-http -c /etc/odoo/odoo.conf
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -u aram_base  -i aram_vault,aram_celery --stop-after-init --no-http
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  --no-http --stop-after-init -u aram_api_client_backend
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  --no-http --stop-after-init -u aram_agent_status
@@ -7,7 +7,7 @@ odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -i aram_attachment_s3 --no-http --stop-after-init
 supervisorctl stop all
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}
-
+odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}   --no-http --stop-after-init -u mail
 su odoo --preserve-environment --shell /bin/bash -c "odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD} --db-filter ${ODOO_CONF_DB_FILTER}"
 
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD} -u webhook_chat_incoming --stop-after-init --no-http
@@ -31,3 +31,5 @@ vault kv patch -mount="bss" "${VAULT_NAMESPACE}/applications" web.base_url.freez
 
 
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  -i aram_orm  --stop-after-init --no-http
+
+ALTER TABLE tbl_name ALTER COLUMN col_name TYPE integer USING (NULLIF(col_name, '')::integer);
