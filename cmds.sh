@@ -12,7 +12,7 @@ su odoo --preserve-environment --shell /bin/bash -c "odoo --db_host ${DB_HOST} -
 
 odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD} -u webhook_chat_incoming --stop-after-init --no-http
 
-
+odoo --db_host ${DB_HOST} -d ${DB_NAME} --db_user ${DB_USER} -w ${DB_PASSWORD}  --stop-after-init --no-http -u aram_favicon arammeem_web_debranding,social_media_support,aram_favicon
 vault login -method=token $(vault write -field=token auth/mcpprod1/login role=${VAULT_ROLE} jwt=$(cat /run/secrets/kubernetes.io/serviceaccount/token))
 vault kv patch -mount="bss" "${VAULT_NAMESPACE}/applications" deploy.modules_to_update="aram_base"
 vault kv patch -mount="bss" "${VAULT_NAMESPACE}/applications" deploy.toggle.update.app=False

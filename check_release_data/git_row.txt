@@ -1,235 +1,71 @@
-amjx-bot
-amjx-bot
-committed
-last week
-·
-OPS-4202 delete css and js attachments with delay
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-committed
-last week
-·
-Merge pull request #2915 from arammeem/feature/OPS-4202-delete-attachment-callback
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-authored
-last week
-·
-Verified
-Commits on Nov 13, 2024
-OPS-3782 - aram_helpdesk,aram_helpdesk_representative_data_overview
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-last week
-·
-Merge pull request #2895 from arammeem/feature/OPS-3782
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-last week
-·
-Verified
-OPS-3721 Added merchant name for penalty notifications
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-last week
-·
-Merge pull request #2902 from arammeem/feature/OPS-3721-added-merchant-name-for-penalty-notifications
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-last week
-·
-Verified
-OPS-4142 Added violations to Rep profile
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-last week
-·
-Merge pull request #2899 from arammeem/feature/OPS-4142-added-violations-to-rep-profile
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-last week
-·
-Verified
-OPS-4143 Added violation info from other tickets.
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-last week
-·
-Merge pull request #2912 from arammeem/feature/OPS-4143-added-violation-info-from-other-tickets
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-last week
-·
-Verified
-OPS-4202 delete css and js attachments with delay. Don't delete already deleted
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-committed
-last week
-·
-Merge pull request #2920 from arammeem/fix/OPS-4202
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-authored
-last week
-·
-Verified
-Commits on Nov 14, 2024
-Autodeploy: arammeem16/odoo_core 12.0-re
-amjx-bot
-amjx-bot
-committed
-5 days ago
-·
-Commits on Nov 15, 2024
-OPS-3984 - aram_helpdesk,aram_sip
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-4 days ago
-·
-Merge pull request #2923 from arammeem/fix/OPS-3984
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-4 days ago
-·
-Verified
-OPS-4186 - aram_helpdesk_cancel_order
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-4 days ago
-·
-Merge pull request #2926 from arammeem/fix/OPS-4186
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-4 days ago
-·
-Verified
-OPS-4354 Changed corrected amount logic
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-4 days ago
-·
-Merge pull request #2921 from arammeem/feature/OPS-4354-changed-corrected-amount-logic
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-4 days ago
-·
-Verified
-Autodeploy: arammeem16/odoo_core 12.0-re
-amjx-bot
-amjx-bot
-committed
-4 days ago
-·
-OPS-4142 Changed showing ticket at violation tree
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-4 days ago
-·
-Merge pull request #2928 from arammeem/feature/OPS-4142-changed-showing-tickets-at-violation-tree
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-4 days ago
-·
-Verified
-OPS-4202 delete css and js attachments with delay. Don't delete already deleted
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-committed
-4 days ago
-·
-Commits on Nov 18, 2024
-Merge pull request #2927 from arammeem/fix/OPS-4202
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-authored
-yesterday
-·
-Verified
-OPS-4116 aram_helpdesk | add S3 link to the Call
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-yesterday
-·
-Merge pull request #2925 from arammeem/feature/OPS-4116
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-yesterday
-·
-Verified
-Autodeploy: arammeem16/odoo_core 12.0-re
-amjx-bot
-amjx-bot
-committed
-yesterday
-·
-OPS-4443 Added preventing the case when saving status together with violations
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-yesterday
-·
-Merge pull request #2931 from arammeem/feature/ops-4443-prevent-saving-status-with-violations
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-yesterday
-·
-Verified
-OPS-4142 Changed ticket form field for other tickets violations
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-yesterday
-·
-Merge pull request #2932 from arammeem/feature/OPS-4142-changed-ticket-form-field-for-other-tickets-violations
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-yesterday
-·
-Verified
-Commits on Nov 19, 2024
-OPS-4080 kafka_hd,aram_helpdesk | receive AsteriskToHelpDesk kafka message and process batch
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-5 hours ago
-·
-Merge pull request #2929 from arammeem/feature/OPS-4080
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-5 hours ago
-·
-Verified
-OPS-3782 - aram_helpdesk,aram_helpdesk_ui,order,aram_digital_product
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-3 hours ago
-·
-Merge pull request #2934 from arammeem/fix/OPS-3782-call-recording-field
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-3 hours ago
-·
+@RustemIdrisovArammeem
+OPS-3945 Added postprocessing logic for final order state
+3e20fde
+@RustemIdrisovArammeem
+Merge pull request #3030 from arammeem/feature/OPS-3945-added-logic-f… 
+eaf3c1f
+@RustemIdrisovArammeem
+OPS-1503 Added a new report for disciplinary violations
+faf4262
+@RustemIdrisovArammeem
+Merge pull request #3029 from arammeem/feature/OPS-1503-added-new-rep… 
+6451b07
+@ArtemDemidovAramMeem
+OPS-5469 - order 
+d0ad0ed
+@ArtemDemidovAramMeem
+Merge pull request #3031 from arammeem/fix/OPS-5469 
+f902453
+@ArtemDemidovAramMeem
+OPS-5142 - multiple modules 
+e4c4cc1
+@ArtemDemidovAramMeem
+Merge pull request #3028 from arammeem/feature/OPS-5142 
+3961b6c
+@NikitaRyzhenkovArammeem
+OPS-4546 aram_helpdesk | added audio_url_widget
+20b9ca8
+@NikitaRyzhenkovArammeem
+Merge pull request #3032 from arammeem/feature/OPS-4546 
+69d84b6
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+326d9a3
+@ArtemDemidovAramMeem
+OPS-5560 - order 
+91d01ed
+@ArtemDemidovAramMeem
+Merge pull request #3033 from arammeem/fix/OPS-5560 
+9978cc7
+@EvgeniaKotovaArammeem
+OPS-902 kafka_hd,order,aram_dital_product | Handle is_order_related p… 
+28030a5
+@EvgeniaKotovaArammeem
+Merge pull request #3035 from arammeem/feature/OPS-902 
+2358006
+@RustemIdrisovArammeem
+OPS-5545 Remake building state history to avoid creating records with… 
+6aa9277
+@RustemIdrisovArammeem
+Merge pull request #3034 from arammeem/feature/OPS-5545-remake-buildi… 
+a328d86
+@RustemIdrisovArammeem
+OPS-1503 Changes at the report form
+14b3fa0
+@RustemIdrisovArammeem
+Merge pull request #3036 from arammeem/feature/OPS-1503-changes-in-th… 
+7687166
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+b6840ff
+@RustemIdrisovArammeem
+OPS-5552 Fixed digital orders history
+b71b654
+@RustemIdrisovArammeem
+Merge pull request #3037 from arammeem/feature/OPS-5552-fixed-digital… 
+f859e03
+@ArtemDemidovAramMeem
+OPS-5579 - arammeem_web_debranding,social_media_support 
+dc8e184
+@ArtemDemidovAramMeem
+Merge pull request #3039 from arammeem/feature/OPS-5579 
