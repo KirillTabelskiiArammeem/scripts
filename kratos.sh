@@ -8,3 +8,7 @@ kratos proto client api/application/error_reason.proto
 
 kratos proto server api/application/helpdesk.proto -t internal/service
 
+
+kratos proto client api/application/record.proto
+kratos proto server api/application/record.proto -t internal/service
+

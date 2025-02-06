@@ -17,5 +17,5 @@ cd ~/aram/common/odoo-modules-common-12
 git pull --rebase
 cd ./odoo.12.core
 docker build . --build-arg=VERSION_BASE=latest -t arammeem16/odoo_core:12.0-latest
-docker build -f ./Dockerfile.bookworm.python3.11 .  --build-arg=VERSION_BASE=bookworm-latest -t arammeem16/odoo_core:12.0-bookworm-latest
-docker build . --build-arg=VERSION_BASE=12.0-rel-20221012-0.0.1-85a8e26 -t arammeem16/odoo_core:12.0-latest
+#docker build -f ./Dockerfile.bookworm.python3.11 .  --build-arg=VERSION_BASE=bookworm-latest -t arammeem16/odoo_core:12.0-bookworm-latest
+#docker build . --build-arg=VERSION_BASE=12.0-rel-20221012-0.0.1-85a8e26 -t arammeem16/odoo_core:12.0-latest
