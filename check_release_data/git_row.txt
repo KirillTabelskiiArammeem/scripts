@@ -1,538 +1,71 @@
-Commits on Oct 23, 2024
-OPS-3222 - aram_helpdesk,aram_helpdesk_ui
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-3 weeks ago
-·
-Merge pull request #2858 from arammeem/feature/OPS-3222
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-3 weeks ago
-·
-Verified
-RM-16260 - prod hotfix backport for sandbox
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-3 weeks ago
-·
-Merge pull request #2873 from arammeem/feature/RM-16260-hotfix-backport
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-3 weeks ago
-·
-Verified
-OPS-3932 aram_helpdesk_compensation_nontime | add logs and force commit
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-3 weeks ago
-·
-Merge pull request #2871 from arammeem/fix/OPS-3932
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-3 weeks ago
-·
-Verified
-OPS-3951 Fixed order status validation
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-3 weeks ago
-·
-Merge pull request #2874 from arammeem/feature/OPS-3951-fixed-order-status-validation
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-3 weeks ago
-·
-Verified
-Commits on Oct 24, 2024
-OPS-3944 Make reporting team storable
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-3 weeks ago
-·
-Commits on Oct 25, 2024
-Merge pull request #2880 from arammeem/feature/OPS-3944-make-reporting-team-storable
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-2 weeks ago
-·
-Verified
-OPS-3224 - added Call History tab to Order view
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-2 weeks ago
-·
-Merge pull request #2875 from arammeem/feature/OPS-3224
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-2 weeks ago
-·
-Verified
-Autodeploy: arammeem16/odoo_core 12.0-re
-amjx-bot
-amjx-bot
-committed
-2 weeks ago
-·
-OPS-3934 Added changing corrected amount via ticket
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2878 from arammeem/fix/OPS-3934-added-changing-corrected-amount-via-ticket
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-2 weeks ago
-·
-Verified
-OPS-3703 ignore updates of admin user
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2860 from arammeem/feature/OPS-3847
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-authored
-2 weeks ago
-·
-Verified
-OPS-3998 aram_helpdesk_compensation_nontime | create violation by sudo
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2879 from arammeem/fix/OPS-3998
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-2 weeks ago
-·
-Verified
-Commits on Oct 28, 2024
-OPS-3893 aram_helpdesk_ui,aram_helpdesk_representative_data_overview
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2883 from arammeem/feature/OPS-3893
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-2 weeks ago
-·
-Verified
-Commits on Oct 29, 2024
-OPS-3934 Added logging
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2882 from arammeem/fix/OPS-3934-added-violation-logging
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-2 weeks ago
-·
-Verified
-OPS-3944 Added onchange for user_id
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2886 from arammeem/feature/OPS-3944-added-on-change-for-user-id
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-2 weeks ago
-·
-Verified
-OPS-3629 Added migration and field visibility for aggregator_name
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2881 from arammeem/feature/OPS-3629-added-migration-and-field-visibility
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-2 weeks ago
-·
-Verified
-OPS-3934 Fixed bug for changing corrected_amount
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2885 from arammeem/fix/OPS-3934-added-case-for-transactions
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-2 weeks ago
-·
-Verified
-Autodeploy: arammeem16/odoo_core 12.0-re
-amjx-bot
-amjx-bot
-committed
-2 weeks ago
-·
-OPS-3893 aram_sip | fix regexp .test returns different result for the same str
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2887 from arammeem/feature/OPS-3893
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-2 weeks ago
-·
-Verified
-Commits on Oct 30, 2024
-OPS-4095 queue job multipod fix
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2891 from arammeem/feature/OPS-4095
-KirillTabelskiiArammeem
-KirillTabelskiiArammeem
-authored
-2 weeks ago
-·
-Verified
-Commits on Oct 31, 2024
-OPS-4022 aram_helpdesk,order,aram_digital_product | rename columns
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-2 weeks ago
-·
-OPS-4022 aram_helpdesk | update proxy class instead of vals dict
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-2 weeks ago
-·
-Merge pull request #2892 from arammeem/feature/OPS-4022
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-2 weeks ago
-·
-Verified
-OPS-3226 - aram_helpdesk_representative_data_overview
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-2 weeks ago
-·
-Merge pull request #2889 from arammeem/feature/OPS-3226
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-2 weeks ago
-·
-Verified
-OPS-3225 - aram_helpdesk_customer_data_overview
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-2 weeks ago
-·
-Merge pull request #2884 from arammeem/feature/OPS-3225
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-2 weeks ago
-·
-Verified
-Commits on Nov 1, 2024
-OPS-3227 - aram_helpdesk
-ArtemDemidovAramMeemKirillTabelskiiArammeem
-ArtemDemidovAramMeem
-authored and
-KirillTabelskiiArammeem
-committed
-last week
-·
-Merge pull request #2890 from arammeem/feature/OPS-3227
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-last week
-·
-Verified
-OPS-2339 - kafka_hd,aram_helpdesk_cancel_order
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-last week
-·
-Merge pull request #2842 from arammeem/feature/OPS-2339-restore
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-last week
-·
-Verified
-OPS-3997 Setup initial data for rep equipment
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-last week
-·
-Merge pull request #2893 from arammeem/feature/OPS-3997-setup-initial-data-for-rep-equipment
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-last week
-·
-Verified
-OPS-4098 Added reporting team for autoassign tickets
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-last week
-·
-Merge pull request #2894 from arammeem/fix/OPS-4098-added-reporting-teams-for-autoassign
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-last week
-·
-Verified
-Commits on Nov 4, 2024
-OPS-4098 Added log notes for reporting team
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-last week
-·
-Merge pull request #2898 from arammeem/fix/OPS-4098-added-log-notes-for-reporting-team
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-last week
-·
-Verified
-Commits on Nov 5, 2024
-OPS-4079 aram_helpdesk | add call_key unique identifier for call record
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-last week
-·
-Merge pull request #2896 from arammeem/feature/OPS-4079
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-last week
-·
-Verified
-OPS-4098 Fixed write assign to
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-committed
-last week
-·
-Merge pull request #2900 from arammeem/fix/OPS-4098-fixed-write-assign-to
-RustemIdrisovArammeem
-RustemIdrisovArammeem
-authored
-last week
-·
-Verified
-OPS-4129 aram_helpdesk | Incorrect respondent_id,respondent_type if initiator is Merchant
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-last week
-·
-Merge pull request #2901 from arammeem/fix/OPS-4129
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-last week
-·
-Verified
-OPS-3225 - aram_helpdesk_customer_data_overview
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-last week
-·
-Merge pull request #2897 from arammeem/fix/OPS-3225
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-last week
-·
-Verified
-Revert "OPS-3227 - aram_helpdesk"
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-last week
-·
-Merge pull request #2903 from arammeem/feature/OPS-3227
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-last week
-·
-Verified
-Commits on Nov 6, 2024
-OPS-3225 - aram_helpdesk,aram_helpdesk_customer_data_overview
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-5 days ago
-·
-Merge pull request #2907 from arammeem/fix/OPS-3225-customer-domain
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-5 days ago
-·
-Verified
-OPS-3226 - aram_helpdesk_representative_data_overview
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-5 days ago
-·
-Merge pull request #2908 from arammeem/fix/OPS-3226
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-5 days ago
-·
-Verified
-OPS-3227 aram_helpdesk | record respondent_id for Merchant
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-5 days ago
-·
-Merge pull request #2909 from arammeem/feature/OPS-3227
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-5 days ago
-·
-Verified
-Commits on Nov 7, 2024
-Autodeploy: arammeem16/odoo_core 12.0-re
-amjx-bot
-amjx-bot
-committed
-4 days ago
-·
-OPS-2339 - aram_helpdesk_cancel_order
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-4 days ago
-·
-Merge pull request #2906 from arammeem/fix/OPS-2339-kafka-message-fix
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-4 days ago
-·
-Verified
-OPS-3222 - aram_helpdesk_ui
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-4 days ago
-·
-Merge pull request #2910 from arammeem/fix/OPS-3222
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-4 days ago
-·
-Verified
-Autodeploy: arammeem16/odoo_core 12.0-re
-amjx-bot
-amjx-bot
-committed
-4 days ago
-·
-OPS-4146 aram_sip | filter input number with regex and store it in a DB
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-4 days ago
-·
-Merge pull request #2911 from arammeem/fix/OPS-4146
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-4 days ago
-·
-Verified
-OPS-3224 - order,aram_digital_product
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-4 days ago
-·
-Merge pull request #2913 from arammeem/fix/OPS-3224
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-4 days ago
-·
-Verified
-Commits on Nov 8, 2024
-OPS-4113 order | add representative in an order if MULTISTOP_ACCEPTED orderFlowEvent get details
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-committed
-3 days ago
-·
-Merge pull request #2914 from arammeem/feature/OPS-4113
-EvgeniaKotovaArammeem
-EvgeniaKotovaArammeem
-authored
-3 days ago
-·
-Verified
-OPS-3226 - aram_helpdesk_representative_data_overview
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-committed
-3 days ago
-·
-Merge pull request #2916 from arammeem/fix/OPS-3226-lookup-fix
-ArtemDemidovAramMeem
-ArtemDemidovAramMeem
-authored
-3 days ago
-·
+@RustemIdrisovArammeem
+OPS-3945 Added postprocessing logic for final order state
+3e20fde
+@RustemIdrisovArammeem
+Merge pull request #3030 from arammeem/feature/OPS-3945-added-logic-f… 
+eaf3c1f
+@RustemIdrisovArammeem
+OPS-1503 Added a new report for disciplinary violations
+faf4262
+@RustemIdrisovArammeem
+Merge pull request #3029 from arammeem/feature/OPS-1503-added-new-rep… 
+6451b07
+@ArtemDemidovAramMeem
+OPS-5469 - order 
+d0ad0ed
+@ArtemDemidovAramMeem
+Merge pull request #3031 from arammeem/fix/OPS-5469 
+f902453
+@ArtemDemidovAramMeem
+OPS-5142 - multiple modules 
+e4c4cc1
+@ArtemDemidovAramMeem
+Merge pull request #3028 from arammeem/feature/OPS-5142 
+3961b6c
+@NikitaRyzhenkovArammeem
+OPS-4546 aram_helpdesk | added audio_url_widget
+20b9ca8
+@NikitaRyzhenkovArammeem
+Merge pull request #3032 from arammeem/feature/OPS-4546 
+69d84b6
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+326d9a3
+@ArtemDemidovAramMeem
+OPS-5560 - order 
+91d01ed
+@ArtemDemidovAramMeem
+Merge pull request #3033 from arammeem/fix/OPS-5560 
+9978cc7
+@EvgeniaKotovaArammeem
+OPS-902 kafka_hd,order,aram_dital_product | Handle is_order_related p… 
+28030a5
+@EvgeniaKotovaArammeem
+Merge pull request #3035 from arammeem/feature/OPS-902 
+2358006
+@RustemIdrisovArammeem
+OPS-5545 Remake building state history to avoid creating records with… 
+6aa9277
+@RustemIdrisovArammeem
+Merge pull request #3034 from arammeem/feature/OPS-5545-remake-buildi… 
+a328d86
+@RustemIdrisovArammeem
+OPS-1503 Changes at the report form
+14b3fa0
+@RustemIdrisovArammeem
+Merge pull request #3036 from arammeem/feature/OPS-1503-changes-in-th… 
+7687166
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+b6840ff
+@RustemIdrisovArammeem
+OPS-5552 Fixed digital orders history
+b71b654
+@RustemIdrisovArammeem
+Merge pull request #3037 from arammeem/feature/OPS-5552-fixed-digital… 
+f859e03
+@ArtemDemidovAramMeem
+OPS-5579 - arammeem_web_debranding,social_media_support 
+dc8e184
+@ArtemDemidovAramMeem
+Merge pull request #3039 from arammeem/feature/OPS-5579 

@@ -1,86 +1,79 @@
-Issue type: Sub-task
-OPS-4079
-Priority: Medium
+Issue type: Task
+OPS-5142
+Priority: Low
 
 
 QA Accepted
 
 Issue type: Task
-OPS-2339
-Priority: Medium
-
-
-QA Accepted
-
-Issue type: Task
-OPS-4022
-Priority: High
-
-
-QA Accepted
-
-Issue type: Task
-OPS-3893
+OPS-1503
 Priority: Medium
 
 
 QA Accepted
 
 Issue type: Sub-task
-OPS-3224
-Priority: Medium
-
-
-Ready for Review
-
-Issue type: Task
-OPS-3997
-Priority: Medium
+OPS-5552
+Priority: Low
 
 
 QA Accepted
 
 Issue type: Bug
-OPS-4129
+OPS-5469
+Priority: Medium
+
+
+QA Accepted
+
+Issue type: Task
+OPS-5595
+Priority: Medium
+
+
+QA Accepted
+
+Issue type: Task
+OPS-5671
+Priority: Medium
+
+
+QA Accepted
+
+Issue type: Task
+OPS-3945
 Priority: Medium
 
 
 QA Accepted
 
 Issue type: Sub-task
-OPS-3227
+OPS-5545
 Priority: Medium
 
 
 QA Accepted
 
 Issue type: Sub-task
-OPS-4116
+OPS-5639
 Priority: Medium
 
 
-In Development
+Done
 
 Issue type: Sub-task
-OPS-3222
+OPS-5579
 Priority: Medium
 
 
 QA Accepted
 
 Issue type: Sub-task
-OPS-3225
+OPS-5580
 Priority: Medium
 
 
-ToDo
+QA Accepted
 
-Issue type: Sub-task
-OPS-3226
-Priority: Medium
-
-
-ToDo
-
-Issue type: Bug
-OPS-4146
+Issue type: Task
+OPS-902
