@@ -1,71 +1,77 @@
-@RustemIdrisovArammeem
-OPS-3945 Added postprocessing logic for final order state
-3e20fde
-@RustemIdrisovArammeem
-Merge pull request #3030 from arammeem/feature/OPS-3945-added-logic-f… 
-eaf3c1f
-@RustemIdrisovArammeem
-OPS-1503 Added a new report for disciplinary violations
-faf4262
-@RustemIdrisovArammeem
-Merge pull request #3029 from arammeem/feature/OPS-1503-added-new-rep… 
-6451b07
-@ArtemDemidovAramMeem
-OPS-5469 - order 
-d0ad0ed
-@ArtemDemidovAramMeem
-Merge pull request #3031 from arammeem/fix/OPS-5469 
-f902453
-@ArtemDemidovAramMeem
-OPS-5142 - multiple modules 
-e4c4cc1
-@ArtemDemidovAramMeem
-Merge pull request #3028 from arammeem/feature/OPS-5142 
-3961b6c
-@NikitaRyzhenkovArammeem
-OPS-4546 aram_helpdesk | added audio_url_widget
-20b9ca8
-@NikitaRyzhenkovArammeem
-Merge pull request #3032 from arammeem/feature/OPS-4546 
-69d84b6
+
+OPS-6535 order,aram_helpdesk_compensations 
+912be76
+@EvgeniaKotovaArammeem
+Merge pull request #3117 from arammeem/fix/OPS-6535 
+8a6878a
+@KirillTabelskiiArammeem
+OPS-6570
+ed50f9a
+@KirillTabelskiiArammeem
+Merge pull request #3104 from arammeem/feature/OPS-6570 
+8877eb4
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re 
-326d9a3
-@ArtemDemidovAramMeem
-OPS-5560 - order 
-91d01ed
-@ArtemDemidovAramMeem
-Merge pull request #3033 from arammeem/fix/OPS-5560 
-9978cc7
-@EvgeniaKotovaArammeem
-OPS-902 kafka_hd,order,aram_dital_product | Handle is_order_related p… 
-28030a5
-@EvgeniaKotovaArammeem
-Merge pull request #3035 from arammeem/feature/OPS-902 
-2358006
-@RustemIdrisovArammeem
-OPS-5545 Remake building state history to avoid creating records with… 
-6aa9277
-@RustemIdrisovArammeem
-Merge pull request #3034 from arammeem/feature/OPS-5545-remake-buildi… 
-a328d86
-@RustemIdrisovArammeem
-OPS-1503 Changes at the report form
-14b3fa0
-@RustemIdrisovArammeem
-Merge pull request #3036 from arammeem/feature/OPS-1503-changes-in-th… 
-7687166
+9430139
+@KirillTabelskiiArammeem
+OPS-6725 implement slow hist
+b055444
+@KirillTabelskiiArammeem
+Merge pull request #3129 from arammeem/feature/OPS-6725 
+0758acc
+@KirillTabelskiiArammeem
+OPS-6720 OPS-6718 bugs fixed: 
+3d28bb2
+@KirillTabelskiiArammeem
+OPS-6720 OPS-6718 refactoring
+e250110
+@KirillTabelskiiArammeem
+OPS-6720 OPS-6718 allow to edit initiator if it is not set
+ecb2fd7
+@KirillTabelskiiArammeem
+OPS-6720 OPS-6718 precommit
+2e77e3d
+@KirillTabelskiiArammeem
+Merge pull request #3128 from arammeem/feature/OPS-6720-OPS-6718 
+deadb21
 @amjx-bot
 Autodeploy: arammeem16/odoo_core 12.0-re 
-b6840ff
-@RustemIdrisovArammeem
-OPS-5552 Fixed digital orders history
-b71b654
-@RustemIdrisovArammeem
-Merge pull request #3037 from arammeem/feature/OPS-5552-fixed-digital… 
-f859e03
-@ArtemDemidovAramMeem
-OPS-5579 - arammeem_web_debranding,social_media_support 
-dc8e184
-@ArtemDemidovAramMeem
-Merge pull request #3039 from arammeem/feature/OPS-5579 
+0edef03
+@KirillTabelskiiArammeem
+OPS-6786
+b5f37e2
+@KirillTabelskiiArammeem
+Merge pull request #3130 from arammeem/feature/OPS-6786 
+20b3d12
+@KirillTabelskiiArammeem
+OPS-6570 caching fix
+b166d42
+@KirillTabelskiiArammeem
+Merge pull request #3131 from arammeem/feature/OPS-6570 
+b87bd45
+@KirillTabelskiiArammeem
+OPS-6802 metrics optimization
+4ec1cf6
+@KirillTabelskiiArammeem
+Merge pull request #3133 from arammeem/feature/OPS-6802 
+4ad626c
+@KirillTabelskiiArammeem
+OPS-6818 fix for custom filters
+cd05058
+@KirillTabelskiiArammeem
+Merge pull request #3134 from arammeem/feature/OPS-6818 
+4dfd086
+@KirillTabelskiiArammeem
+OPS-6583
+ecbf86a
+@KirillTabelskiiArammeem
+Merge pull request #3136 from arammeem/feature/OPS-6835 
+9d84aa6
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+27c17d3
+@amjx-bot
+Autodeploy: arammeem16/odoo_core 12.0-re 
+f8485b6
+@KirillTabelskiiArammeem
+Merge branch 'develop' into feature/RM-18402 

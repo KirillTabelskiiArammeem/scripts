@@ -1,79 +1,30 @@
-Issue type: Task
-OPS-5142
-Priority: Low
 
-
-QA Accepted
-
-Issue type: Task
-OPS-1503
+OPS-6535
 Priority: Medium
 
-
-QA Accepted
+Ready for Release
 
 Issue type: Sub-task
-OPS-5552
-Priority: Low
+OPS-6570
+Priority: Medium
 
+Ready for Release
 
-QA Accepted
+Issue type: Task
+OPS-6835
+Priority: Medium
+
+Ready for Release
 
 Issue type: Bug
-OPS-5469
+OPS-6718
 Priority: Medium
 
+Ready for Release
 
-QA Accepted
+Issue type: Bug
+OPS-6720
+Priority: High
 
-Issue type: Task
-OPS-5595
-Priority: Medium
+Ready for Release
 
-
-QA Accepted
-
-Issue type: Task
-OPS-5671
-Priority: Medium
-
-
-QA Accepted
-
-Issue type: Task
-OPS-3945
-Priority: Medium
-
-
-QA Accepted
-
-Issue type: Sub-task
-OPS-5545
-Priority: Medium
-
-
-QA Accepted
-
-Issue type: Sub-task
-OPS-5639
-Priority: Medium
-
-
-Done
-
-Issue type: Sub-task
-OPS-5579
-Priority: Medium
-
-
-QA Accepted
-
-Issue type: Sub-task
-OPS-5580
-Priority: Medium
-
-
-QA Accepted
-
-Issue type: Task
-OPS-902

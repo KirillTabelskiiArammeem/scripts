@@ -1,36 +1,36 @@
 proc = '''
-root           1  0.8  0.3 769748 250192 ?       Ssl  Jan30   4:00 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root          67  1.3  0.3 999880 224076 ?       Sl   Jan30   6:29 /usr/bin/python3 /usr/bin/odoo gevent --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root          68  0.1  0.2 896736 185656 ?       SNl  Jan30   0:47 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root          70  0.1  0.2 900320 186284 ?       SNl  Jan30   0:39 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root          72  0.1  0.2 898784 184092 ?       SNl  Jan30   0:54 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root        5665  0.0  0.0   2392   768 pts/0    Ss   Jan30   0:00 sh -c clear; (bash || ash || sh)
-root        5672  0.0  0.0   2392   104 pts/0    S    Jan30   0:00 sh -c clear; (bash || ash || sh)
-root        5673  0.0  0.0   5756  3556 pts/0    S    Jan30   0:00 bash
-root        5798  0.1  0.3 823744 198040 pts/0   Sl+  Jan30   0:26 /usr/bin/python3 /usr/bin/odoo shell --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org -d odoo_am_helpdesk_12_prod --db_user odoo_am_helpdesk_12_prod --no-http -c /etc/odoo/odoo.conf
-root       22374  1.9  0.7 3969980 499064 ?      Sl   Jan30   5:21 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       22645  2.0  0.6 5011136 432744 ?      Sl   Jan30   5:45 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       22652  1.9  0.6 4437464 436944 ?      Sl   Jan30   5:26 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       23184  1.8  0.6 3932300 402440 ?      Sl   Jan30   4:52 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       23207  1.8  0.6 5005424 401088 ?      Sl   Jan30   5:04 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       23271  1.7  0.6 3371936 404568 ?      Sl   Jan30   4:42 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       23533  2.1  0.6 5528288 415404 ?      Sl   Jan30   5:40 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       24390  1.7  0.6 4440280 395992 ?      Sl   00:05   4:30 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       24506  1.5  0.6 3399024 405884 ?      Sl   00:07   3:53 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       24845  1.6  0.5 4437128 377836 ?      Sl   00:15   3:57 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       26903  1.4  0.6 3340988 400252 ?      Sl   01:15   2:35 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       29207  1.3  0.5 3198400 347520 ?      Sl   03:44   0:27 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --database odoo_am_helpdesk_12_prod --db-filter ^odoo_am_helpdesk_12_prod$
-root       29753  0.0  0.0   2392   772 pts/1    Ss   04:18   0:00 sh -c clear; (bash || ash || sh)
-root       29760  0.0  0.0   2392   108 pts/1    S    04:18   0:00 sh -c clear; (bash || ash || sh)
-root       29761  0.0  0.0   5756  3592 pts/1    S    04:18   0:00 bash
-root       29779  0.0  0.0   9396  3144 pts/1    R+   04:18   0:00 ps aux
-root      4953  0.0  0.0   4984  2108 pts/1    S+   14:32   0:00 grep /usr/bin/python3 /usr/bin/odoo --db_host
+root           1  6.0  1.1 1044752 364436 ?      Ssl  Apr29  83:06 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root          69  1.9  0.7 1005492 229884 ?      Sl   Apr29  26:02 /usr/bin/python3 /usr/bin/odoo gevent --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_pro
+root        3479  0.0  0.0   2392   768 pts/0    Ss   Apr29   0:00 sh -c clear; (bash || ash || sh)
+root        3486  0.0  0.0   2392   104 pts/0    S    Apr29   0:00 sh -c clear; (bash || ash || sh)
+root        3487  0.0  0.0   5756  3644 pts/0    S+   Apr29   0:00 bash
+root        3526  0.2  0.9 1020736 296952 ?      SNl  Apr29   3:33 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root        3527  0.1  0.7 946780 233192 ?       SNl  Apr29   2:27 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root        3529  0.1  0.7 945948 232416 ?       SNl  Apr29   2:10 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       78548  2.2  1.1 2967820 372236 ?      Sl   05:34   1:37 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       79365  2.0  1.1 2824660 375016 ?      Sl   05:57   1:00 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       79488  2.0  1.1 2802124 372820 ?      Sl   06:00   0:56 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       79726  2.2  1.1 2803660 372164 ?      Sl   06:06   0:51 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       79744  2.0  1.1 2821332 363860 ?      Sl   06:07   0:46 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       79754  2.0  1.1 2966028 366116 ?      Sl   06:07   0:48 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       80248  2.0  1.1 2876136 370288 ?      Sl   06:20   0:31 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       80428  1.9  1.1 2072980 364800 ?      Sl   06:25   0:24 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       80551  2.1  1.1 2800844 356716 ?      Sl   06:29   0:21 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       81082  1.6  1.0 1690240 343780 ?      Sl   06:40   0:04 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       81153  1.8  1.0 2070548 342384 ?      Sl   06:42   0:03 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       81236  1.8  1.0 1044624 335632 ?      Sl   06:45   0:00 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
+root       81238  0.0  0.0   2392   768 pts/1    Ss   06:45   0:00 sh -c clear; (bash || ash || sh)
+root       81245  0.0  0.0   2392   104 pts/1    S    06:45   0:00 sh -c clear; (bash || ash || sh)
+root       81246  0.0  0.0   5760  3608 pts/1    S    06:45   0:00 bash
+root       81264  0.0  0.0   9396  3108 pts/1    R+   06:46   0:00 ps aux
 '''
 # ps aux | grep "/usr/bin/python3 /usr/bin/odoo -"
 import re
 numbers = re.compile('\d+')
 
-lines = [numbers.findall(line)[0] for line in proc.splitlines() if line.strip()]
-cmd = f'kill {" ".join(lines[1:])}'
+lines = [numbers.findall(line) for line in proc.splitlines() if line.strip() if "gevent" not in line and "odoo" in line]
+pids = [line[0] for line in lines if line and line[0] != "1"]
+
+cmd = f'kill {" ".join(pids)}'
 
 print(cmd)
