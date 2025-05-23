@@ -1,28 +1,26 @@
 proc = '''
-root           1  6.0  1.1 1044752 364436 ?      Ssl  Apr29  83:06 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root          69  1.9  0.7 1005492 229884 ?      Sl   Apr29  26:02 /usr/bin/python3 /usr/bin/odoo gevent --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_pro
-root        3479  0.0  0.0   2392   768 pts/0    Ss   Apr29   0:00 sh -c clear; (bash || ash || sh)
-root        3486  0.0  0.0   2392   104 pts/0    S    Apr29   0:00 sh -c clear; (bash || ash || sh)
-root        3487  0.0  0.0   5756  3644 pts/0    S+   Apr29   0:00 bash
-root        3526  0.2  0.9 1020736 296952 ?      SNl  Apr29   3:33 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root        3527  0.1  0.7 946780 233192 ?       SNl  Apr29   2:27 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root        3529  0.1  0.7 945948 232416 ?       SNl  Apr29   2:10 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       78548  2.2  1.1 2967820 372236 ?      Sl   05:34   1:37 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       79365  2.0  1.1 2824660 375016 ?      Sl   05:57   1:00 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       79488  2.0  1.1 2802124 372820 ?      Sl   06:00   0:56 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       79726  2.2  1.1 2803660 372164 ?      Sl   06:06   0:51 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       79744  2.0  1.1 2821332 363860 ?      Sl   06:07   0:46 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       79754  2.0  1.1 2966028 366116 ?      Sl   06:07   0:48 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       80248  2.0  1.1 2876136 370288 ?      Sl   06:20   0:31 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       80428  1.9  1.1 2072980 364800 ?      Sl   06:25   0:24 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       80551  2.1  1.1 2800844 356716 ?      Sl   06:29   0:21 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       81082  1.6  1.0 1690240 343780 ?      Sl   06:40   0:04 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       81153  1.8  1.0 2070548 342384 ?      Sl   06:42   0:03 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       81236  1.8  1.0 1044624 335632 ?      Sl   06:45   0:00 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org --db_port 5432 --db_user odoo_am_helpdesk_12_prod --dat
-root       81238  0.0  0.0   2392   768 pts/1    Ss   06:45   0:00 sh -c clear; (bash || ash || sh)
-root       81245  0.0  0.0   2392   104 pts/1    S    06:45   0:00 sh -c clear; (bash || ash || sh)
-root       81246  0.0  0.0   5760  3608 pts/1    S    06:45   0:00 bash
-root       81264  0.0  0.0   9396  3108 pts/1    R+   06:46   0:00 ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  1.7  0.8 854284 263536 ?       Ssl  10:42   0:24 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          46  3.8  0.6 2790368 224496 ?      Sl   10:42   0:53 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          48  3.9  0.7 2751436 248504 ?      Sl   10:42   0:54 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          50  4.1  0.7 2869244 240348 ?      Sl   10:42   0:56 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          52  3.9  0.7 2887428 232376 ?      Sl   10:42   0:54 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          54  4.2  0.7 2885892 234664 ?      Sl   10:42   0:58 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          56  3.9  0.7 2940952 240656 ?      Sl   10:42   0:53 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          58  3.9  0.7 2744780 236044 ?      Sl   10:42   0:53 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          60  4.2  0.7 2745804 241392 ?      Sl   10:42   0:58 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          62  4.4  0.7 2880260 231472 ?      Sl   10:42   1:00 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          64  3.9  0.7 2741708 232704 ?      Sl   10:42   0:53 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          66  3.9  0.7 2743244 245756 ?      Sl   10:42   0:54 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          67  3.9  0.7 2745292 237052 ?      Sl   10:42   0:54 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          69  2.3  0.7 1078688 227080 ?      Sl   10:42   0:32 /usr/bin/python3 /usr/bin/odoo gevent --db_host postgres.helpdesk12.erp.sa.toyou.am
+root          71  0.1  0.5 588804 163676 ?       SNl  10:42   0:01 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          73  0.0  0.5 588804 163664 ?       SNl  10:42   0:01 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root          75  0.0  0.5 588804 163680 ?       SNl  10:42   0:01 /usr/bin/python3 /usr/bin/odoo --db_host postgres.helpdesk12.erp.sa.toyou.amhub.org
+root        2055  0.0  0.0   2392   704 pts/0    Ss   11:04   0:00 sh -c clear; (bash || ash || sh)
+root        2062  0.0  0.0   2392   104 pts/0    S    11:04   0:00 sh -c clear; (bash || ash || sh)
+root        2063  0.0  0.0   5756  3624 pts/0    S    11:04   0:00 bash
+root        2068  0.0  0.0   9396  3184 pts/0    R+   11:04   0:00 ps aux
 '''
 # ps aux | grep "/usr/bin/python3 /usr/bin/odoo -"
 import re
