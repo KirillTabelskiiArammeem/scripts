@@ -4,6 +4,7 @@ import argparse
 import getpass
 import socket
 import subprocess
+import uuid
 from os import makedirs, path
 
 from Crypto.Cipher import DES
@@ -49,7 +50,7 @@ def is_credentials_set():
 
 
 def get_k():
-    k = socket.gethostname()
+    k = hex(uuid.getnode())[2:10]
     if len(k) < 8:
         k = pad(k)
     elif len(k) == 8:
@@ -86,9 +87,10 @@ def main():
         set_c()
         print("It was set, restart script")
         return
+
+    a, b = get_c()
     if not args.otp:
         args.otp = input("otp: ")
-    a, b = get_c()
 
     proc = subprocess.Popen(
         ["sso-auth", "--U", a, "--P", b, "--p", args.otp], stdout=subprocess.PIPE
